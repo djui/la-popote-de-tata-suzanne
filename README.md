@@ -47,7 +47,7 @@ cd fastlane && fastlane beta
 
 ## Website
 
-The companion site (landing page, privacy policy, support) lives in `docs/` and is served by GitHub Pages.
+The companion site (landing page, privacy policy, support) lives in `docs/` and is served by GitHub Pages at <https://uwe.social/la-popote-de-tata-suzanne/>.
 
 ## License
 

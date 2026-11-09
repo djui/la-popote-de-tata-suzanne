@@ -98,6 +98,36 @@ platform :ios do
     end
   end
 
+  desc "Give an existing team member access to La Popote (needed before adding them as internal tester). EMAIL=…"
+  lane :grant_access do |options|
+    api_key
+    require "spaceship"
+    email = options[:email] || ENV["EMAIL"]
+    app = Spaceship::ConnectAPI::App.find("net.dauernheim.popote")
+    user = Spaceship::ConnectAPI::User.all.find { |u| u.username.to_s.casecmp?(email) }
+    UI.user_error!("#{email} is not a team member") unless user
+    UI.message("roles=#{user.roles.inspect} all_apps_visible=#{user.all_apps_visible}")
+    visible = (user.get_visible_apps rescue []).map(&:bundle_id)
+    UI.message("visible apps: #{visible.inspect}")
+    if user.all_apps_visible || visible.include?("net.dauernheim.popote")
+      UI.message("#{email} already has access")
+    else
+      Spaceship::ConnectAPI.add_user_visible_apps(user_id: user.id, app_ids: [app.id])
+      UI.success("Gave #{email} access to La Popote")
+    end
+  end
+
+  desc "Revoke a pending App Store Connect invitation. EMAIL=…"
+  lane :revoke_invite do |options|
+    api_key
+    require "spaceship"
+    email = options[:email] || ENV["EMAIL"]
+    invites = Spaceship::ConnectAPI::UserInvitation.find(email: email)
+    UI.user_error!("No pending invitation for #{email}") if invites.empty?
+    invites.each(&:delete!)
+    UI.success("Revoked invitation for #{email}")
+  end
+
   desc "Build and upload a TestFlight build (internal testers)"
   lane :beta do
     key = api_key

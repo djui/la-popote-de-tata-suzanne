@@ -47,6 +47,22 @@ Create the internal TestFlight group and add the given team members (EMAILS=a@x,
 
 Invite someone to App Store Connect (Marketing role, La Popote only) so they can be an internal tester. EMAIL=… FIRST=… LAST=…
 
+### ios grant_access
+
+```sh
+[bundle exec] fastlane ios grant_access
+```
+
+Give an existing team member access to La Popote (needed before adding them as internal tester). EMAIL=…
+
+### ios revoke_invite
+
+```sh
+[bundle exec] fastlane ios revoke_invite
+```
+
+Revoke a pending App Store Connect invitation. EMAIL=…
+
 ### ios beta
 
 ```sh

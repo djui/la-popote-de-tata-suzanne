@@ -105,10 +105,11 @@ enum CookTimerParser {
         func has(_ p: String) -> Bool { stepText.range(of: p, options: [.regularExpression, .caseInsensitive]) != nil }
         if language == .en {
             // The website's English labeller (separate rules, "<Label> — <ingredient>").
-            let kind: String? = has("four|enfourn|oven|bake") ? "Oven"
+            // Same priority as the French labeller (cooking words first), so "cuire … Réservez" is cooking, not rest.
+            let kind: String? = has("cui(re|sson|ssez|s|t)|mijot|bouill|frire|frit|rôti|dorer|cook|simmer|boil|fry") ? "Cooking"
+                : has("four|enfourn|oven|bake") ? "Oven"
                 : has("repos|reposer|réserv|lever|pousser|refroidir|rest|cool") ? "Rest"
-                : has("marin") ? "Marinade"
-                : has("cui|mijot|bouill|frire|dorer|cook|simmer|boil|fry") ? "Cooking" : nil
+                : has("marin") ? "Marinade" : nil
             guard let kind else { return "Step \(stepIndex + 1)" }
             if kind == "Rest" { return kind }
             if let name = matchedIngredient?.trimmingCharacters(in: .whitespaces), !name.isEmpty { return "\(kind) — \(name)" }

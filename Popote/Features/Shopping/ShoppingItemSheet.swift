@@ -154,7 +154,7 @@ struct AislePickerSheet: View {
         guard let ingredientId = item.ingredientId else { return }
         saving = true
         Task {
-            struct Params: Encodable { let _ingredient: UUID; let _category: UUID }
+            struct Params: Encodable { let _ingredient: UUID; let _category: String }
             do {
                 try await store.client.rpc("set_ingredient_category", params: Params(_ingredient: ingredientId, _category: aisle.id)).execute()
                 store.ingredientOverrides.removeAll { $0.ingredientId == ingredientId }

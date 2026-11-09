@@ -127,7 +127,7 @@ extension AppStore {
         }
         struct Row: Encodable {
             let household_id: UUID?
-            let category_id: UUID
+            let category_id: String
             let sort_order: Int
         }
         do {

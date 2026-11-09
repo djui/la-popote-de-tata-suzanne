@@ -31,6 +31,22 @@ Register the bundle IDs and app group in the developer portal
 
 Create/refresh the distribution certificate and App Store provisioning profiles
 
+### ios testers
+
+```sh
+[bundle exec] fastlane ios testers
+```
+
+Create the internal TestFlight group and add the given team members (EMAILS=a@x,b@y; default: you)
+
+### ios invite
+
+```sh
+[bundle exec] fastlane ios invite
+```
+
+Invite someone to App Store Connect (Marketing role, La Popote only) so they can be an internal tester. EMAIL=… FIRST=… LAST=…
+
 ### ios beta
 
 ```sh

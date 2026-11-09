@@ -232,12 +232,12 @@ struct ShoppingTests {
     // MARK: Grouping and sharing
 
     @Test func groupsByAisleWithOtherLast() {
-        let fruits = UUID(), cremerie = UUID(), autre = UUID()
+        let fruits = "fruits", cremerie = "cremerie", autre = "autre"
         let aisles = [(id: cremerie, name: "Crèmerie"), (id: autre, name: "Autre"), (id: fruits, name: "Fruits & légumes")]
         var pommes = item("pommes", key: nil, source: "manuel"); pommes.ingredientId = UUID()
         var lait = item("lait", key: nil, source: "manuel"); lait.ingredientId = UUID()
         let mystery = item("truc", key: nil, source: "manuel")
-        let map: [UUID: UUID] = [pommes.ingredientId!: fruits, lait.ingredientId!: cremerie]
+        let map: [UUID: String] = [pommes.ingredientId!: fruits, lait.ingredientId!: cremerie]
         let sections = B.group([pommes, mystery, lait], aisles: aisles, otherName: "Autre") { $0.ingredientId.flatMap { map[$0] } }
         #expect(sections.map(\.name) == ["Crèmerie", "Fruits & légumes", "Autre"])
         #expect(sections.last?.id == autre)

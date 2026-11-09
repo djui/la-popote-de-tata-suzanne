@@ -1309,6 +1309,16 @@
         }
       }
     },
+    "Cuisiner": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cooking mode"
+          }
+        }
+      }
+    },
     "Cuisson %lld min": {
       "localizations": {
         "en": {
@@ -5253,16 +5263,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "👤 Added by me"
-          }
-        }
-      }
-    },
-    "👩‍🍳 Cuisiner": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "👩‍🍳 Cooking mode"
           }
         }
       }

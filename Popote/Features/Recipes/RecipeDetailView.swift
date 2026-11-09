@@ -220,7 +220,7 @@ private struct RecipeDetailContent: View {
     private var actions: some View {
         VStack(spacing: 10) {
             Button { showCook = true } label: {
-                Label("👩‍🍳 Cuisiner", systemImage: "frying.pan")
+                Label("Cuisiner", systemImage: "frying.pan")
             }
             .buttonStyle(.popotePrimary)
             Button { showAddToMenu = true } label: {
@@ -287,7 +287,7 @@ private struct RecipeDetailContent: View {
     @ViewBuilder private var stepsSection: some View {
         if !steps.isEmpty {
             VStack(alignment: .leading, spacing: 16) {
-                Text("Préparation").font(AppFont.display(22, relativeTo: .title2)).accessibilityAddTraits(.isHeader)
+                Text(verbatim: AppLanguage.current == .en ? "Method" : "Préparation").font(AppFont.display(22, relativeTo: .title2)).accessibilityAddTraits(.isHeader)
                 ForEach(Array(steps.enumerated()), id: \.element.id) { i, step in
                     HStack(alignment: .top, spacing: 12) {
                         Text(verbatim: "\(i + 1)")

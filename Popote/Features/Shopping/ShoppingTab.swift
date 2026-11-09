@@ -41,7 +41,7 @@ struct ShoppingTab: View {
                                   otherName: String(localized: "Autre")) { store.aisleId(for: $0.ingredientId) }
     }
 
-    private var aislesById: [UUID: IngredientCategory] {
+    private var aislesById: [String: IngredientCategory] {
         Dictionary(store.aisles.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
     }
 

@@ -1,5 +1,6 @@
 import Foundation
 import Network
+import OSLog
 import Observation
 import Supabase
 
@@ -11,6 +12,7 @@ import Supabase
 @MainActor
 @Observable
 final class AppStore {
+    nonisolated static let log = Logger(subsystem: "net.dauernheim.popote", category: "sync")
     // MARK: Session
     enum AuthState: Equatable { case loading, signedOut, signedIn }
     var authState: AuthState = .loading
@@ -152,15 +154,18 @@ final class AppStore {
         defer { isSyncing = false }
         await flushOutbox()
         do {
+            lastError = nil
             try await pullAll()
             lastSync = .now
-            lastError = nil
             saveSnapshot()
             WidgetBridge.publish(from: self)
             SpotlightIndexer.index(recipes: recipes, store: self)
             Task { await self.downloadPhotos() }
         } catch {
-            if !Self.isCancellation(error) { lastError = error.localizedDescription }
+            if !Self.isCancellation(error) {
+                lastError = error.localizedDescription
+                Self.log.error("sync failed: \(String(describing: error), privacy: .public)")
+            }
         }
     }
 
@@ -202,38 +207,49 @@ final class AppStore {
         async let termsReq: [TermsRow] = db.from("terms_acceptances")
             .select("accepted_at").eq("user_id", value: uid).eq("terms_version", value: "1.0").limit(1).execute().value
 
+        // Recipes are essential: if they fail, the whole sync fails. Every other table is best-effort, so one
+        // failing query (a renamed column, a policy change…) never blocks the rest.
         let rows = try await recipesReq
         recipes = rows.map(\.recipe)
         ingredientsByRecipe = Dictionary(uniqueKeysWithValues: rows.map { ($0.recipe.id, ($0.recipeIngredients ?? []).sorted { $0.position < $1.position }) })
         stepsByRecipe = Dictionary(uniqueKeysWithValues: rows.map { ($0.recipe.id, ($0.recipeSteps ?? []).sorted { $0.position < $1.position }) })
         authorNames = Dictionary(rows.compactMap { r in r.recipe.createdBy.flatMap { id in r.author?.firstName.map { (id, $0) } } }, uniquingKeysWith: { a, _ in a })
 
-        ingredients = try await ingredientsReq
-        aisles = try await aislesReq.sorted { ($0.sortOrder ?? 0) < ($1.sortOrder ?? 0) }
-        household = try await householdReq.first
-        members = try await membersReq
-        if let hid = household?.id {
-            categoryOrders = try await ordersReq.map { HouseholdCategoryOrder(householdId: hid, categoryId: $0.category_id, sortOrder: $0.sort_order) }
-        } else {
-            _ = try await ordersReq
-            categoryOrders = []
+        var failures: [String] = []
+        func note(_ table: String, _ error: Error) {
+            failures.append(table)
+            Self.log.error("sync \(table, privacy: .public) failed: \(String(describing: error), privacy: .public)")
         }
-        ingredientOverrides = try await overridesReq
-        mealPlan = mergePending(try await mealReq)
-        shoppingItems = mergePendingShopping(try await shoppingReq)
-        favorites = Dictionary(try await favoritesReq.map { ($0.recipe_id, $0.created_at ?? .distantPast) }, uniquingKeysWith: { a, _ in a })
-        myRatings = Dictionary(try await ratingsReq.map { ($0.recipe_id, $0.stars) }, uniquingKeysWith: { a, _ in a })
-        profile = try await profileReq.first
-        adoptProfileLanguage()
-        isAdmin = try await rolesReq.contains { $0.role == "admin" }
-        termsAccepted = !(try await termsReq).isEmpty
+
+        do { ingredients = try await ingredientsReq } catch { note("ingredients", error) }
+        do { aisles = try await aislesReq.sorted { ($0.sortOrder ?? 0) < ($1.sortOrder ?? 0) } } catch { note("ingredient_categories", error) }
+        do { household = try await householdReq.first } catch { note("households", error) }
+        do { members = try await membersReq } catch { note("household_members", error) }
+        do {
+            let orders = try await ordersReq
+            categoryOrders = household.map { h in orders.map { HouseholdCategoryOrder(householdId: h.id, categoryId: $0.category_id, sortOrder: $0.sort_order) } } ?? []
+        } catch { note("household_category_orders", error) }
+        do { ingredientOverrides = try await overridesReq } catch { note("household_ingredient_overrides", error) }
+        do { mealPlan = mergePending(try await mealReq) } catch { note("meal_plan_entries", error) }
+        do { shoppingItems = mergePendingShopping(try await shoppingReq) } catch { note("shopping_list_items", error) }
+        do { favorites = Dictionary(try await favoritesReq.map { ($0.recipe_id, $0.created_at ?? .distantPast) }, uniquingKeysWith: { a, _ in a }) } catch { note("recipe_favorites", error) }
+        do { myRatings = Dictionary(try await ratingsReq.map { ($0.recipe_id, $0.stars) }, uniquingKeysWith: { a, _ in a }) } catch { note("recipe_ratings", error) }
+        do {
+            profile = try await profileReq.first
+            adoptProfileLanguage()
+        } catch { note("profiles", error) }
+        do { isAdmin = try await rolesReq.contains { $0.role == "admin" } } catch { note("user_roles", error) }
+        do { termsAccepted = !(try await termsReq).isEmpty } catch { note("terms_acceptances", error) }
 
         let memberIds = members.map(\.userId)
         if !memberIds.isEmpty {
-            let names: [Profile] = try await db.from("profiles").select("id,first_name")
-                .in("id", values: memberIds.map(\.uuidString)).execute().value
-            memberNames = Dictionary(names.compactMap { p in p.id.flatMap { id in p.firstName.map { (id, $0) } } }, uniquingKeysWith: { a, _ in a })
+            do {
+                let names: [Profile] = try await db.from("profiles").select("id,first_name")
+                    .in("id", values: memberIds.map { $0.uuidString.lowercased() }).execute().value
+                memberNames = Dictionary(names.compactMap { p in p.id.flatMap { id in p.firstName.map { (id, $0) } } }, uniquingKeysWith: { a, _ in a })
+            } catch { note("profiles (members)", error) }
         }
+        if !failures.isEmpty { lastError = String(localized: "Synchronisation partielle : \(failures.joined(separator: ", "))") }
     }
 
     /// Like the website: a language picked on this device wins and is pushed to the profile;
@@ -409,7 +425,7 @@ struct RecipeWithChildren: Decodable {
     }
 }
 
-struct CategoryOrderRow: Decodable { let category_id: UUID; let sort_order: Int }
+struct CategoryOrderRow: Decodable { let category_id: String; let sort_order: Int }
 struct FavoriteRow: Decodable { let recipe_id: UUID; let created_at: Date? }
 struct RatingRow: Decodable { let recipe_id: UUID; let stars: Int }
 struct RoleRow: Decodable { let role: String }

@@ -382,7 +382,7 @@ struct CookModeView: View {
                     }
                     .accessibilityLabel(t.isPaused ? Text("Reprendre") : Text("Pause"))
                     Button { timers.addMinute(t.id) } label: {
-                        Text(verbatim: "+1 min").font(AppFont.body(13, weight: .heavy)).frame(height: 30)
+                        Text(verbatim: "+1 min").font(AppFont.body(13, weight: .heavy)).lineLimit(1).fixedSize().frame(height: 30)
                     }
                     .accessibilityLabel(Text("Ajouter une minute"))
                     Spacer(minLength: 0)

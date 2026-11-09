@@ -258,7 +258,7 @@ extension AppStore {
     }
 
     /// Aisle for an ingredient, honouring the household's overrides.
-    func aisleId(for ingredientId: UUID?) -> UUID? {
+    func aisleId(for ingredientId: UUID?) -> String? {
         guard let ingredientId else { return nil }
         if let o = ingredientOverrides.first(where: { $0.ingredientId == ingredientId }) { return o.categoryId }
         return ingredient(ingredientId)?.categoryId

@@ -92,7 +92,7 @@ struct Ingredient: Codable, Identifiable, Hashable, Sendable {
     var displayName: String?
     var pluralName: String?
     var aliases: [String]?
-    var categoryId: UUID?
+    var categoryId: String?
     var seasons: [String]?
     var verified: Bool?
     var source: String?
@@ -108,7 +108,7 @@ struct Ingredient: Codable, Identifiable, Hashable, Sendable {
 }
 
 struct IngredientCategory: Codable, Identifiable, Hashable, Sendable {
-    var id: UUID
+    var id: String
     var name: String
     /// English label (website column `name_en`); falls back to `name`.
     var nameEn: String?
@@ -172,7 +172,7 @@ struct HouseholdInvitation: Codable, Identifiable, Hashable, Sendable {
 
 struct HouseholdCategoryOrder: Codable, Hashable, Sendable {
     var householdId: UUID
-    var categoryId: UUID
+    var categoryId: String
     var sortOrder: Int
 
     enum CodingKeys: String, CodingKey {
@@ -184,7 +184,7 @@ struct HouseholdCategoryOrder: Codable, Hashable, Sendable {
 
 struct HouseholdIngredientOverride: Codable, Hashable, Sendable {
     var ingredientId: UUID
-    var categoryId: UUID
+    var categoryId: String
 
     enum CodingKeys: String, CodingKey {
         case ingredientId = "ingredient_id"

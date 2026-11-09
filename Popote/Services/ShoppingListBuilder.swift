@@ -305,18 +305,18 @@ enum ShoppingListBuilder {
     // MARK: - Grouping and sharing
 
     struct AisleSection: Identifiable {
-        var id: UUID?
+        var id: String?
         var name: String
         var items: [ShoppingListItem]
     }
 
     /// Groups items by aisle in the given order. Items without a known aisle go to the last section
     /// (`otherName`), merged with an aisle of the same name if the household has one. Empty aisles are hidden.
-    static func group(_ items: [ShoppingListItem], aisles: [(id: UUID, name: String)], otherName: String,
-                      aisleOf: (ShoppingListItem) -> UUID?) -> [AisleSection] {
+    static func group(_ items: [ShoppingListItem], aisles: [(id: String, name: String)], otherName: String,
+                      aisleOf: (ShoppingListItem) -> String?) -> [AisleSection] {
         let known = Set(aisles.map(\.id))
         let otherAisle = aisles.first { fold($0.name) == fold(otherName) }?.id
-        var buckets: [UUID?: [ShoppingListItem]] = [:]
+        var buckets: [String?: [ShoppingListItem]] = [:]
         for item in items {
             var aisle = aisleOf(item)
             if let a = aisle, !known.contains(a) { aisle = nil }

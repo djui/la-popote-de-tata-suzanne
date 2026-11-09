@@ -48,6 +48,56 @@ platform :ios do
     end
   end
 
+  desc "Create the internal TestFlight group and add the given team members (EMAILS=a@x,b@y; default: you)"
+  lane :testers do |options|
+    api_key
+    require "spaceship"
+    app = Spaceship::ConnectAPI::App.find("net.dauernheim.popote")
+    group = app.get_beta_groups.find { |g| g.name == "Famille" } ||
+            app.create_beta_group(group_name: "Famille", is_internal_group: true, has_access_to_all_builds: true, public_link_enabled: nil, public_link_limit: nil, public_link_limit_enabled: nil)
+    emails = (options[:emails] || ENV["EMAILS"] || "uwe@dauernheim.net").split(",").map(&:strip)
+    users = Spaceship::ConnectAPI::User.all
+    emails.each do |email|
+      user = users.find { |u| u.username.to_s.casecmp?(email) }
+      unless user
+        UI.important("#{email} is not an App Store Connect team member yet (pending invitation?); skipped")
+        next
+      end
+      begin
+        Spaceship::ConnectAPI.post_beta_tester_assignment(
+          beta_group_ids: [group.id],
+          attributes: { email: user.username, firstName: user.first_name, lastName: user.last_name }
+        )
+        UI.success("Added #{email} to #{group.name}")
+      rescue => e
+        UI.message("#{email}: #{e.message.lines.first.to_s.strip}")
+      end
+    end
+  end
+
+  desc "Invite someone to App Store Connect (Marketing role, La Popote only) so they can be an internal tester. EMAIL=… FIRST=… LAST=…"
+  lane :invite do |options|
+    api_key
+    require "spaceship"
+    email = options[:email] || ENV["EMAIL"]
+    UI.user_error!("Pass email:") unless email
+    app = Spaceship::ConnectAPI::App.find("net.dauernheim.popote")
+    if Spaceship::ConnectAPI::User.all.any? { |u| u.username.to_s.casecmp?(email) }
+      UI.message("#{email} is already a team member")
+    else
+      Spaceship::ConnectAPI::UserInvitation.create(
+        email: email,
+        first_name: options[:first] || ENV["FIRST"] || email.split("@").first,
+        last_name: options[:last] || ENV["LAST"] || "-",
+        roles: ["MARKETING"],
+        provisioning_allowed: false,
+        all_apps_visible: false,
+        visible_app_ids: [app.id]
+      )
+      UI.success("Invitation sent to #{email}")
+    end
+  end
+
   desc "Build and upload a TestFlight build (internal testers)"
   lane :beta do
     key = api_key

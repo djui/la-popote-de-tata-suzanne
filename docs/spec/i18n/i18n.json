@@ -1,0 +1,2330 @@
+{
+  "admin:text_1cec1db91d": {
+    "en": "Also:",
+    "fr": "Aussi :"
+  },
+  "admin:text_1f5ef01746": {
+    "en": "awaiting AI",
+    "fr": "en attente de l'IA"
+  },
+  "admin:text_232311c12d": {
+    "en": "Reports — La Popote de Tata Suzanne",
+    "fr": "Signalements — La Popote de Tata Suzanne"
+  },
+  "admin:text_3c3c1b5eb3": {
+    "en": "View recipe",
+    "fr": "Voir la recette"
+  },
+  "admin:text_4d1c64f489": {
+    "en": "Added by AI or by hand, awaiting review (",
+    "fr": "Ajoutés par l'IA ou à la main, pas encore validés ("
+  },
+  "admin:text_4f8a724aed": {
+    "en": "Review, correct and merge automatically added ingredients.",
+    "fr": "Valider, corriger et fusionner les ingrédients ajoutés automatiquement."
+  },
+  "admin:text_5c9142cc08": {
+    "en": "Could not merge",
+    "fr": "Fusion impossible"
+  },
+  "admin:text_601544b5a2": {
+    "en": "added by hand",
+    "fr": "ajouté à la main"
+  },
+  "admin:text_624d565fd4": {
+    "en": "Ingredients to review — La Popote de Tata Suzanne",
+    "fr": "Ingrédients à vérifier — La Popote de Tata Suzanne"
+  },
+  "admin:text_653b0598d5": {
+    "en": "Mark as resolved",
+    "fr": "Marquer comme traité"
+  },
+  "admin:text_777b5d014c": {
+    "en": "Review content reported by the community.",
+    "fr": "Examiner les contenus signalés par la tablée."
+  },
+  "admin:text_7ff20370c8": {
+    "en": "Name",
+    "fr": "Nom"
+  },
+  "admin:text_8aaae7bed1": {
+    "en": "No reports.",
+    "fr": "Aucun signalement."
+  },
+  "admin:text_8b8efd7387": {
+    "en": "Could not confirm",
+    "fr": "Validation impossible"
+  },
+  "admin:text_9376a06905": {
+    "en": "Ingredients to review",
+    "fr": "Ingrédients à vérifier"
+  },
+  "admin:text_991dd7eec8": {
+    "en": "sorted by AI",
+    "fr": "rangé par l'IA"
+  },
+  "admin:text_9dd49d3f4e": {
+    "en": "Could not load reports.",
+    "fr": "Impossible de charger les signalements."
+  },
+  "admin:text_9f873ad208": {
+    "en": "This page is for admins only.",
+    "fr": "Cette page est réservée aux admins."
+  },
+  "admin:text_bc596061e4": {
+    "en": "Reports",
+    "fr": "Signalements"
+  },
+  "admin:text_c58c04d7b2": {
+    "en": "All sorted, nothing to review!",
+    "fr": "Tout est rangé, rien à vérifier !"
+  },
+  "admin:text_ccfb7bb9b1": {
+    "en": "Could not update",
+    "fr": "Impossible de mettre à jour"
+  },
+  "admin:text_da32a16c3d": {
+    "en": "Resolved",
+    "fr": "Traité"
+  },
+  "admin:text_dc11c052b5": {
+    "en": "Merge with… (duplicate)",
+    "fr": "Fusionner avec… (doublon)"
+  },
+  "admin:text_e526c8514b": {
+    "en": "Report resolved",
+    "fr": "Signalement traité"
+  },
+  "auth:text_0488d63019": {
+    "en": "No account yet? Sign up",
+    "fr": "Pas encore de compte ? S'inscrire"
+  },
+  "auth:text_05d2443512": {
+    "en": "Family recipes,",
+    "fr": "Les recettes de famille,"
+  },
+  "auth:text_0bd26310df": {
+    "en": "Accept the terms of use to create your account",
+    "fr": "Accepte les conditions générales pour créer ton compte"
+  },
+  "auth:text_1e71b2d891": {
+    "en": "Invitation code",
+    "fr": "Code d'invitation"
+  },
+  "auth:text_2412bd16bf": {
+    "en": "Create my account",
+    "fr": "Créer mon compte"
+  },
+  "auth:text_2f335de29c": {
+    "en": "Already have an account? Sign in",
+    "fr": "Déjà un compte ? Se connecter"
+  },
+  "auth:text_37bf665957": {
+    "en": "This invitation code is not valid",
+    "fr": "Ce code d'invitation n'est pas valide"
+  },
+  "auth:text_644474d479": {
+    "en": "terms of use",
+    "fr": "conditions générales d'utilisation"
+  },
+  "auth:text_65afd755f2": {
+    "en": "I have read and accept the",
+    "fr": "J'ai lu et j'accepte les"
+  },
+  "auth:text_84add5b295": {
+    "en": "Email",
+    "fr": "Email"
+  },
+  "auth:text_8694eb3592": {
+    "en": "Sign in — La Popote de Tata Suzanne",
+    "fr": "Connexion — La Popote de Tata Suzanne"
+  },
+  "auth:text_94858052f8": {
+    "en": "Check your inbox to confirm your account, then come back to sign in.",
+    "fr": "Jette un œil à ta boîte mail pour confirmer ton compte, puis reviens te connecter."
+  },
+  "auth:text_94e2f3ee14": {
+    "en": "Password",
+    "fr": "Mot de passe"
+  },
+  "auth:text_ba328a6a24": {
+    "en": "Oops, incorrect email or password",
+    "fr": "Oups, email ou mot de passe incorrect"
+  },
+  "auth:text_d696d0436a": {
+    "en": "So who is Tata Suzanne?",
+    "fr": "Mais qui est Tata Suzanne ?"
+  },
+  "auth:text_de0a207696": {
+    "en": "shared with everyone.",
+    "fr": "partagées entre tous."
+  },
+  "auth:text_fedf2439f2": {
+    "en": "Sign in",
+    "fr": "Se connecter"
+  },
+  "common:text_013563a3fc": {
+    "en": "🥣 Soup & toast",
+    "fr": "🥣 Soupe & tartines"
+  },
+  "common:text_0462759e3f": {
+    "en": "Invitation created for {{email}}. Link copied: send it to them.",
+    "fr": "Invitation créée pour {{email}}. Lien copié : envoyez-le-lui."
+  },
+  "common:text_0f37930863": {
+    "en": "a former member",
+    "fr": "un ancien membre"
+  },
+  "common:text_105ac672a1": {
+    "en": "Previous slide",
+    "fr": "Diapositive précédente"
+  },
+  "common:text_1ed63d9b12": {
+    "en": "copyright",
+    "fr": "droits d'auteur"
+  },
+  "common:text_1fa39dd905": {
+    "en": "🥪 Quick bite",
+    "fr": "🥪 Sur le pouce"
+  },
+  "common:text_3d91463ab5": {
+    "en": "🧺 Picnic",
+    "fr": "🧺 Pique-nique"
+  },
+  "common:text_3ef663530d": {
+    "en": "{{count}} stars",
+    "fr": "{{count}} étoiles"
+  },
+  "common:text_4274ec21a9": {
+    "en": "🍽️ Eating out",
+    "fr": "🍽️ Resto / Sortie"
+  },
+  "common:text_42b5241708": {
+    "en": "{{count}} photos",
+    "fr": "les {{count}} photos"
+  },
+  "common:text_4e888e83ba": {
+    "en": "Cooking",
+    "fr": "Cuisson"
+  },
+  "common:text_573b66e13c": {
+    "en": "Reply to {{name}}…",
+    "fr": "Répondre à {{name}}…"
+  },
+  "common:text_590ac40e11": {
+    "en": "Toggle navigation",
+    "fr": "Afficher ou masquer la navigation"
+  },
+  "common:text_596d29a7e3": {
+    "en": "Next",
+    "fr": "Suivant"
+  },
+  "common:text_5fc7ced925": {
+    "en": "Recipe {{number}}",
+    "fr": "Recette {{number}}"
+  },
+  "common:text_6e738d3d3c": {
+    "en": "inappropriate content",
+    "fr": "contenu inapproprié"
+  },
+  "common:text_701761323c": {
+    "en": "🎉 Nibbles / guests",
+    "fr": "🎉 Apéro / Invités"
+  },
+  "common:text_80bf0c8d3c": {
+    "en": "link",
+    "fr": "lien"
+  },
+  "common:text_86b1be4080": {
+    "en": "Next page",
+    "fr": "Page suivante"
+  },
+  "common:text_90c2a28fb6": {
+    "en": "List generated: {{count}} items",
+    "fr": "Liste générée : {{count}} articles"
+  },
+  "common:text_9acf9d98e8": {
+    "en": "Next slide",
+    "fr": "Diapositive suivante"
+  },
+  "common:text_9e15ded9d3": {
+    "en": "Previous page",
+    "fr": "Page précédente"
+  },
+  "common:text_9f48a8166f": {
+    "en": "a member",
+    "fr": "un membre"
+  },
+  "common:text_a029786608": {
+    "en": "{{name}} confirmed",
+    "fr": "{{name}} validé"
+  },
+  "common:text_a527f171f7": {
+    "en": "Previous",
+    "fr": "Précédent"
+  },
+  "common:text_aaa029e6a2": {
+    "en": "Details",
+    "fr": "Détails"
+  },
+  "common:text_ad6865e976": {
+    "en": "Mobile navigation.",
+    "fr": "Navigation mobile."
+  },
+  "common:text_b1e681d063": {
+    "en": "🥡 Leftovers",
+    "fr": "🥡 Restes"
+  },
+  "common:text_b33f521f36": {
+    "en": "put back on the list",
+    "fr": "remis dans la liste"
+  },
+  "common:text_b7003e820d": {
+    "en": "🥗 Mixed salad",
+    "fr": "🥗 Salade composée"
+  },
+  "common:text_c1f852017b": {
+    "en": "error",
+    "fr": "erreur"
+  },
+  "common:text_c5d87b23f2": {
+    "en": "Oven",
+    "fr": "Four"
+  },
+  "common:text_c738c02f4a": {
+    "en": "bought",
+    "fr": "acheté"
+  },
+  "common:text_ca10ddae1d": {
+    "en": "Added to {{meal}} on {{date}}",
+    "fr": "Ajouté au {{meal}} du {{date}}"
+  },
+  "common:text_cde085f851": {
+    "en": "More pages",
+    "fr": "Plus de pages"
+  },
+  "common:text_cf03cf2e9c": {
+    "en": "Navigation",
+    "fr": "Navigation"
+  },
+  "common:text_d84c1eb8c3": {
+    "en": "Rest",
+    "fr": "Repos"
+  },
+  "common:text_de711f4bc1": {
+    "en": "🍕 Pizza / takeaway",
+    "fr": "🍕 Pizza / Livraison"
+  },
+  "common:text_f350d45c73": {
+    "en": "{{count}} meals copied",
+    "fr": "{{count}} repas copiés"
+  },
+  "common:text_f8daa3cf3a": {
+    "en": "Merged into {{name}}",
+    "fr": "Fusionné dans {{name}}"
+  },
+  "cooking:text_0757b3a4d2": {
+    "en": "Uncheck all",
+    "fr": "Tout décocher"
+  },
+  "cooking:text_13146b48d0": {
+    "en": "Step",
+    "fr": "Étape"
+  },
+  "cooking:text_1744a5d8f1": {
+    "en": "Step by step",
+    "fr": "Pas à pas"
+  },
+  "cooking:text_1b1cd217cd": {
+    "en": "Stop",
+    "fr": "Arrêter"
+  },
+  "cooking:text_1c56710b73": {
+    "en": "Resume",
+    "fr": "Reprendre"
+  },
+  "cooking:text_1d79267839": {
+    "en": "For this step",
+    "fr": "Pour cette étape"
+  },
+  "cooking:text_244c7cda46": {
+    "en": "All steps",
+    "fr": "Toutes les étapes"
+  },
+  "cooking:text_2618bec51c": {
+    "en": "Cooking mode — La Popote de Tata Suzanne",
+    "fr": "Mode cuisine — La Popote de Tata Suzanne"
+  },
+  "cooking:text_2a0048f0d8": {
+    "en": "Finished!",
+    "fr": "Terminé !"
+  },
+  "cooking:text_35d827f87d": {
+    "en": "You stopped at step",
+    "fr": "Tu t'étais arrêté·e à l'étape"
+  },
+  "cooking:text_3682c514d6": {
+    "en": "Cancel timer",
+    "fr": "Annuler le minuteur"
+  },
+  "cooking:text_46c0bd4827": {
+    "en": "Thanks for your rating!",
+    "fr": "Merci pour ta note !"
+  },
+  "cooking:text_52f9edf5fb": {
+    "en": "⏰ Timer finished",
+    "fr": "⏰ Minuteur terminé"
+  },
+  "cooking:text_5f486c1707": {
+    "en": "This recipe has no steps yet.",
+    "fr": "Cette recette n'a pas encore d'étapes."
+  },
+  "cooking:text_625e15038d": {
+    "en": "Review the last step",
+    "fr": "Revoir la dernière étape"
+  },
+  "cooking:text_6bf1bd74a9": {
+    "en": "Finish",
+    "fr": "Terminer"
+  },
+  "cooking:text_781961bc81": {
+    "en": "Pause",
+    "fr": "Pause"
+  },
+  "cooking:text_82b94f1f99": {
+    "en": "Previous",
+    "fr": "Précédente"
+  },
+  "cooking:text_8e664f7c90": {
+    "en": "Next",
+    "fr": "Suivante"
+  },
+  "cooking:text_8f086487d2": {
+    "en": "Leave a comment",
+    "fr": "Laisser un commentaire"
+  },
+  "cooking:text_936653cd16": {
+    "en": "Exit cooking mode",
+    "fr": "Quitter le mode cuisine"
+  },
+  "cooking:text_976aae3d14": {
+    "en": "Light theme",
+    "fr": "Thème clair"
+  },
+  "cooking:text_a0f063fe86": {
+    "en": "Add a photo of my dish",
+    "fr": "Ajouter une photo de mon plat"
+  },
+  "cooking:text_a15c72adab": {
+    "en": "Start again",
+    "fr": "Recommencer"
+  },
+  "cooking:text_a4e030cfdf": {
+    "en": "Did you enjoy it?",
+    "fr": "Ça t'a plu ?"
+  },
+  "cooking:text_a6d124cfb8": {
+    "en": "+1 min",
+    "fr": "+1 min"
+  },
+  "cooking:text_bc704b2368": {
+    "en": "The recipe step by step, in large print, with timers.",
+    "fr": "La recette pas à pas, en grand, avec minuteurs."
+  },
+  "cooking:text_c14cadb0fa": {
+    "en": "🔆 Screen kept awake",
+    "fr": "🔆 Écran maintenu allumé"
+  },
+  "cooking:text_c215faeb85": {
+    "en": "Rating not saved",
+    "fr": "Note non enregistrée"
+  },
+  "cooking:text_d7f4d197ba": {
+    "en": "Dark theme",
+    "fr": "Thème sombre"
+  },
+  "cooking:text_dbd66e641f": {
+    "en": "Pick up where you left off?",
+    "fr": "Reprendre où tu en étais ?"
+  },
+  "faq:text_16664684bf": {
+    "en": "Frequently asked questions",
+    "fr": "Questions fréquentes"
+  },
+  "faq:text_20b431ba6e": {
+    "en": "How do I add a recipe from a photo or cookbook?",
+    "fr": "Comment ajouter une recette depuis une photo ou un livre ?"
+  },
+  "faq:text_3930f3343b": {
+    "en": "How do I rate or comment on a recipe?",
+    "fr": "Comment noter ou commenter une recette ?"
+  },
+  "faq:text_471b6bf4bc": {
+    "en": "Have a question, an idea or a problem? Tap the button below: your email app opens with the email already drafted.",
+    "fr": "Une question, une idée ou un souci ? Touche le bouton ci-dessous : ton application de messagerie s'ouvre avec l'e-mail déjà rédigé."
+  },
+  "faq:text_66ae686f52": {
+    "en": "How do I generate a shopping list from the menu?",
+    "fr": "Comment générer la liste de courses à partir du menu ?"
+  },
+  "faq:text_68dff4e82e": {
+    "en": "How does sharing with my family work?",
+    "fr": "Comment fonctionne le partage avec ma famille ?"
+  },
+  "faq:text_6adf72211c": {
+    "en": "In Recipes, tap ‘Add’, choose a category, then take one or more photos. The information is read automatically; check the highlighted fields before saving. You can also enter everything by hand.",
+    "fr": "Dans Recettes, touche « Ajouter », choisis la catégorie puis prends une ou plusieurs photos. Les informations sont lues automatiquement ; vérifie les champs surlignés avant d'enregistrer. Tu peux aussi tout saisir à la main."
+  },
+  "faq:text_6b777c19a0": {
+    "en": "In Profile, under ‘My household’, copy an invitation link and send it. Once they have signed up, the menu and shopping list are shared and update in real time.",
+    "fr": "Dans Profil, section « Ma famille », copie un lien d'invitation et envoie-le. Une fois la personne inscrite, le menu et la liste de courses sont partagés et se mettent à jour en direct."
+  },
+  "faq:text_7302c9c2c6": {
+    "en": "Fill in your weekly menu, then open Shopping and tap ‘Generate from menu’. Quantities are adjusted for the servings and matching ingredients are grouped together.",
+    "fr": "Remplis le menu de la semaine, puis ouvre Courses et touche « Générer depuis le menu ». Les quantités sont adaptées au nombre de personnes et les ingrédients identiques sont regroupés."
+  },
+  "faq:text_827c28f042": {
+    "en": "Yes. The servings you set in a menu slot only apply to that meal; the original recipe stays unchanged.",
+    "fr": "Oui. Le nombre de personnes réglé sur une case du menu ne concerne que ce repas ; la recette d'origine reste inchangée."
+  },
+  "faq:text_904363825e": {
+    "en": "Send an email",
+    "fr": "Envoyer un e-mail"
+  },
+  "faq:text_bb1b8e4607": {
+    "en": "Can I change the servings on the menu without changing the recipe?",
+    "fr": "Puis-je changer les portions sur le menu sans modifier la recette ?"
+  },
+  "faq:text_e94c4565f1": {
+    "en": "Open a recipe: tap the stars to rate it from 1 to 5, and share your thoughts in the Comments section at the bottom of the page.",
+    "fr": "Ouvre la fiche d'une recette : touche les étoiles pour donner une note de 1 à 5, et écris ton avis dans la section Commentaires en bas de page."
+  },
+  "faq:text_f02ffb674a": {
+    "en": "Contact us",
+    "fr": "Nous contacter"
+  },
+  "home:text_2fdb648285": {
+    "en": "One photo and it's filed away: adjust the servings, plan your week.",
+    "fr": "Une photo et c'est rangé : ajuste les portions, planifie la semaine."
+  },
+  "home:text_43566ee97f": {
+    "en": "Automatically read recipes from photos",
+    "fr": "Lecture automatique des recettes en photo"
+  },
+  "home:text_78d15f1437": {
+    "en": "Family recipes, shared with everyone: photograph them, plan your week and do the shopping.",
+    "fr": "Les recettes de famille, partagées entre tous : prends-les en photo, planifie la semaine, fais les courses."
+  },
+  "home:text_91a0e19b89": {
+    "en": "La Popote de Tata Suzanne — family recipes",
+    "fr": "La Popote de Tata Suzanne — les recettes de famille"
+  },
+  "home:text_a7ee0ed91e": {
+    "en": "Weekly menus",
+    "fr": "Menus de la semaine"
+  },
+  "home:text_bc158f3cfb": {
+    "en": "Shopping list by aisle",
+    "fr": "Liste de courses par rayon"
+  },
+  "home:text_da4411f7fa": {
+    "en": "Open my recipes",
+    "fr": "Ouvrir mes recettes"
+  },
+  "household:text_1bf50ac473": {
+    "en": "Join a household to share the menu and shopping list.",
+    "fr": "Rejoins un foyer pour partager menu et liste de courses."
+  },
+  "household:text_236f485bb4": {
+    "en": "Back to profile",
+    "fr": "Retour au profil"
+  },
+  "household:text_2da75fc85d": {
+    "en": "invites you to join",
+    "fr": "t'invite à rejoindre"
+  },
+  "household:text_300855cb1a": {
+    "en": "to share the menu and shopping list.",
+    "fr": "pour partager le menu et la liste de courses."
+  },
+  "household:text_3bf64993f1": {
+    "en": "Join",
+    "fr": "Rejoindre"
+  },
+  "household:text_47a4276552": {
+    "en": "Join household",
+    "fr": "Rejoindre le foyer"
+  },
+  "household:text_49ba329242": {
+    "en": "Cancel",
+    "fr": "Annuler"
+  },
+  "household:text_64608579ea": {
+    "en": "Join this household?",
+    "fr": "Rejoindre ce foyer ?"
+  },
+  "household:text_77c3627572": {
+    "en": "You already belong to ‘",
+    "fr": "Tu fais déjà partie de «"
+  },
+  "household:text_79c480a7cd": {
+    "en": "This invitation has expired. Ask for a new one from",
+    "fr": "Cette invitation a expiré. Demandes-en une nouvelle à"
+  },
+  "household:text_7c3ac2ff72": {
+    "en": "You will leave your current household: its menu and shopping list will no longer be visible to you.",
+    "fr": "Tu quitteras ton foyer actuel : son menu et sa liste de courses ne te seront plus visibles."
+  },
+  "household:text_9a6f237598": {
+    "en": "This invitation does not exist.",
+    "fr": "Cette invitation n'existe pas."
+  },
+  "menu:text_0a9f25a794": {
+    "en": "serv.",
+    "fr": "p."
+  },
+  "menu:text_0c3f07d383": {
+    "en": "Copy previous week",
+    "fr": "Copier la semaine précédente"
+  },
+  "menu:text_109e2c07f5": {
+    "en": "Drag a recipe into a slot. Hold Alt (or keep your finger pressed before moving) to duplicate; drag outside the menu or onto the bin to remove.",
+    "fr": "Glisse une recette dans une case. Maintenez Alt (ou gardez le doigt appuyé avant de bouger) pour dupliquer ; glissez hors du menu ou sur la poubelle pour retirer."
+  },
+  "menu:text_12abd2304e": {
+    "en": "Meal",
+    "fr": "Repas"
+  },
+  "menu:text_12ead7dd4e": {
+    "en": "+ copy",
+    "fr": "+ copie"
+  },
+  "menu:text_13e65afa77": {
+    "en": "Week cleared",
+    "fr": "Semaine vidée"
+  },
+  "menu:text_1c05755ea2": {
+    "en": "No matching recipes.",
+    "fr": "Aucune recette ne correspond."
+  },
+  "menu:text_1c075e2d2e": {
+    "en": "All meals for",
+    "fr": "Tous les repas du"
+  },
+  "menu:text_2186ae1b44": {
+    "en": "The change could not be saved",
+    "fr": "La modification n'a pas pu être enregistrée"
+  },
+  "menu:text_240ce85d68": {
+    "en": "Day",
+    "fr": "Jour"
+  },
+  "menu:text_25b5e805c4": {
+    "en": "The previous week is empty",
+    "fr": "La semaine précédente est vide"
+  },
+  "menu:text_2d05d0f179": {
+    "en": "Increase",
+    "fr": "Plus"
+  },
+  "menu:text_2f1dfe40d3": {
+    "en": "Next week",
+    "fr": "Semaine suivante"
+  },
+  "menu:text_2fd94868dd": {
+    "en": "Add a recipe",
+    "fr": "Ajouter une recette"
+  },
+  "menu:text_357bf4d869": {
+    "en": "Servings",
+    "fr": "Personnes"
+  },
+  "menu:text_3cec681ba5": {
+    "en": "Fewer servings",
+    "fr": "Moins de personnes"
+  },
+  "menu:text_41aecf3b1b": {
+    "en": "Drag a recipe",
+    "fr": "Glisse une recette"
+  },
+  "menu:text_441d270fa6": {
+    "en": "Could not add to the menu",
+    "fr": "Impossible d'ajouter au menu"
+  },
+  "menu:text_442d45c0a0": {
+    "en": "Add a free-form meal (leftovers, eating out…)",
+    "fr": "Ajouter un plat libre (restes, resto…)"
+  },
+  "menu:text_54ec24a19c": {
+    "en": "Remove",
+    "fr": "Retirer"
+  },
+  "menu:text_59a2c60029": {
+    "en": "Clear the week",
+    "fr": "Vider la semaine"
+  },
+  "menu:text_59d2fd2adc": {
+    "en": "Drag",
+    "fr": "Glisser"
+  },
+  "menu:text_5ab4ec640d": {
+    "en": "Close",
+    "fr": "Fermer"
+  },
+  "menu:text_64fe1878eb": {
+    "en": "will be removed from the menu (the recipes stay in your cookbook).",
+    "fr": "seront retirés du menu (les recettes restent dans ton livre de cuisine)."
+  },
+  "menu:text_6dac7306b6": {
+    "en": "Plan the week’s lunches and dinners by dragging your recipes.",
+    "fr": "Planifie déjeuners et dîners de la semaine en glissant tes recettes."
+  },
+  "menu:text_733629cc8f": {
+    "en": "Recipe",
+    "fr": "Recette"
+  },
+  "menu:text_85a3049087": {
+    "en": "Previous week",
+    "fr": "Semaine précédente"
+  },
+  "menu:text_87c57ed173": {
+    "en": "Add",
+    "fr": "Ajouter"
+  },
+  "menu:text_9dbdd8bd20": {
+    "en": "Weekly menu — La Popote de Tata Suzanne",
+    "fr": "Menu de la semaine — La Popote de Tata Suzanne"
+  },
+  "menu:text_a265e646eb": {
+    "en": "Remove from menu",
+    "fr": "Retirer du menu"
+  },
+  "menu:text_a621be25b2": {
+    "en": "What have you planned? e.g. Green beans and chicken",
+    "fr": "Qu'est-ce que tu as prévu ? ex. Haricots verts et poulet"
+  },
+  "menu:text_aafc0c3f82": {
+    "en": "A meal without a recipe",
+    "fr": "Un plat sans recette"
+  },
+  "menu:text_ae773a6258": {
+    "en": "Clear the week?",
+    "fr": "Vider la semaine ?"
+  },
+  "menu:text_b4f3e74db0": {
+    "en": "Free-form meal",
+    "fr": "Plat libre"
+  },
+  "menu:text_c4a8cc808f": {
+    "en": "For",
+    "fr": "Pour"
+  },
+  "menu:text_d2653d7ca4": {
+    "en": "Decrease",
+    "fr": "Moins"
+  },
+  "menu:text_d3101676be": {
+    "en": "serving",
+    "fr": "personne"
+  },
+  "menu:text_d91c08ba94": {
+    "en": "Cooking mode",
+    "fr": "Cuisiner"
+  },
+  "menu:text_e08ba779d2": {
+    "en": "No recipes.",
+    "fr": "Aucune recette."
+  },
+  "menu:text_e399ed9cab": {
+    "en": "More servings",
+    "fr": "Plus de personnes"
+  },
+  "menu:text_f89809285b": {
+    "en": "Add to menu",
+    "fr": "Ajouter au menu"
+  },
+  "profile:text_0889d5a869": {
+    "en": "Type SUPPRIMER to confirm",
+    "fr": "Écris SUPPRIMER pour confirmer"
+  },
+  "profile:text_0b354b3f05": {
+    "en": "Your recipes have been exported",
+    "fr": "Tes recettes sont exportées"
+  },
+  "profile:text_24e18a922a": {
+    "en": "Review what AI has sorted and merge duplicates.",
+    "fr": "Valider ce que l'IA a rangé, fusionner les doublons."
+  },
+  "profile:text_2ee2dc9bac": {
+    "en": "Leave them with the community anonymously",
+    "fr": "Les laisser à la communauté de façon anonyme"
+  },
+  "profile:text_3269d176af": {
+    "en": "Your account has been deleted",
+    "fr": "Ton compte a été supprimé"
+  },
+  "profile:text_354139903d": {
+    "en": "Content reports",
+    "fr": "Signalements de contenus"
+  },
+  "profile:text_38e05e6601": {
+    "en": "The ones you added, with their ratings.",
+    "fr": "Celles que tu as ajoutées, avec leurs notes."
+  },
+  "profile:text_3ae906ad92": {
+    "en": "Valid for 7 days. Anyone invited by email will also see the invitation in their Profile.",
+    "fr": "Valable 7 jours. La personne invitée par email verra aussi l'invitation dans son Profil."
+  },
+  "profile:text_3c7ec33261": {
+    "en": "Invite",
+    "fr": "Inviter"
+  },
+  "profile:text_3e4126f522": {
+    "en": "Leave",
+    "fr": "Quitter"
+  },
+  "profile:text_3ed9dc41f3": {
+    "en": "My data",
+    "fr": "Mes données"
+  },
+  "profile:text_470d2013f0": {
+    "en": "Default servings",
+    "fr": "Personnes par défaut"
+  },
+  "profile:text_55d8c68bdc": {
+    "en": "Invite a member",
+    "fr": "Inviter un membre"
+  },
+  "profile:text_5cdd406996": {
+    "en": "Could not export your recipes",
+    "fr": "Export impossible"
+  },
+  "profile:text_5f103de5fc": {
+    "en": "Copy an invitation link",
+    "fr": "Copier un lien d'invitation"
+  },
+  "profile:text_622e1ad41c": {
+    "en": "Delete my recipes too",
+    "fr": "Supprimer aussi mes recettes"
+  },
+  "profile:text_642880d520": {
+    "en": "The story of Tata Suzanne",
+    "fr": "L'histoire de Tata Suzanne"
+  },
+  "profile:text_663bdf6aef": {
+    "en": "Deletion could not be completed. Try again.",
+    "fr": "La suppression n’a pas pu être terminée. Réessaie."
+  },
+  "profile:text_66e03d8bb9": {
+    "en": "Delete permanently",
+    "fr": "Supprimer définitivement"
+  },
+  "profile:text_6eca149a44": {
+    "en": "You will have an empty personal household. The shared menu and list stay with the other members.",
+    "fr": "Tu retrouveras un foyer personnel vide. Le menu et la liste partagés restent aux autres membres."
+  },
+  "profile:text_6f0ee49f45": {
+    "en": "Profile — La Popote de Tata Suzanne",
+    "fr": "Profil — La Popote de Tata Suzanne"
+  },
+  "profile:text_72058df24b": {
+    "en": "First name saved",
+    "fr": "Prénom enregistré"
+  },
+  "profile:text_72292cd81f": {
+    "en": "A household setting, used when adding a recipe to the menu.",
+    "fr": "Réglage du foyer, utilisé quand on ajoute une recette au menu."
+  },
+  "profile:text_75108fb5f0": {
+    "en": "Who’s behind La Popote?",
+    "fr": "Mais qui se cache derrière la Popote ?"
+  },
+  "profile:text_77406ffb5c": {
+    "en": "Your account, household and preferences.",
+    "fr": "Ton compte, ta famille et tes préférences."
+  },
+  "profile:text_7974de87f0": {
+    "en": "Leave household",
+    "fr": "Quitter le foyer"
+  },
+  "profile:text_79ea33835f": {
+    "en": "Cancel invitation",
+    "fr": "Annuler l'invitation"
+  },
+  "profile:text_8c92963104": {
+    "en": "Export my recipes (JSON)",
+    "fr": "Exporter mes recettes (JSON)"
+  },
+  "profile:text_8e7e0b7403": {
+    "en": "Leave ‘",
+    "fr": "Quitter «"
+  },
+  "profile:text_967c07c603": {
+    "en": "Invitation link copied",
+    "fr": "Lien d'invitation copié"
+  },
+  "profile:text_a27c739b20": {
+    "en": " (me)",
+    "fr": " (moi)"
+  },
+  "profile:text_a620db43f4": {
+    "en": "Deleting…",
+    "fr": "Suppression…"
+  },
+  "profile:text_b0e8e7781b": {
+    "en": "email@example.com",
+    "fr": "email@exemple.fr"
+  },
+  "profile:text_b2b4598c31": {
+    "en": "My household",
+    "fr": "Ma famille"
+  },
+  "profile:text_bdb450bf5d": {
+    "en": "Owner",
+    "fr": "Propriétaire"
+  },
+  "profile:text_c8dccf6f6f": {
+    "en": "This cannot be undone. Your personal data and private photos will be erased.",
+    "fr": "Cette action est définitive. Tes données personnelles et tes photos privées seront effacées."
+  },
+  "profile:text_cdd28e1a69": {
+    "en": "Copy",
+    "fr": "Copier"
+  },
+  "profile:text_ce4b2a4710": {
+    "en": "— the menu and shopping list are shared by all members.",
+    "fr": "— le menu et la liste de courses sont partagés entre tous les membres."
+  },
+  "profile:text_d01429530e": {
+    "en": "Shown on the recipes you share: ‘Added by",
+    "fr": "Affiché sur les recettes que tu partages : « Ajoutée par"
+  },
+  "profile:text_d6aeddecf6": {
+    "en": "Your shared recipes",
+    "fr": "Tes recettes partagées"
+  },
+  "profile:text_da4f647350": {
+    "en": "Could not save",
+    "fr": "Impossible d'enregistrer"
+  },
+  "profile:text_db06dba6ec": {
+    "en": "Link copied",
+    "fr": "Lien copié"
+  },
+  "profile:text_e4387ade0f": {
+    "en": "First name",
+    "fr": "Prénom"
+  },
+  "profile:text_e72c2c2a24": {
+    "en": "invites you to join ‘",
+    "fr": "t'invite à rejoindre «"
+  },
+  "profile:text_e851464c15": {
+    "en": "Could not create the invitation",
+    "fr": "Invitation impossible"
+  },
+  "profile:text_e894aea3c8": {
+    "en": "Delete my account",
+    "fr": "Supprimer mon compte"
+  },
+  "profile:text_ee42c1662a": {
+    "en": "Signed in as",
+    "fr": "Connecté en tant que"
+  },
+  "recipeForm:text_0309d0554d": {
+    "en": "New recipe — La Popote de Tata Suzanne",
+    "fr": "Nouvelle recette — La Popote de Tata Suzanne"
+  },
+  "recipeForm:text_09a38fda78": {
+    "en": "Quantity",
+    "fr": "Quantité"
+  },
+  "recipeForm:text_09a509a975": {
+    "en": "Import anyway",
+    "fr": "Importer quand même"
+  },
+  "recipeForm:text_0ffc806929": {
+    "en": "Dish photo",
+    "fr": "Photo du plat"
+  },
+  "recipeForm:text_1237cea552": {
+    "en": "Or select an area on a page by hand",
+    "fr": "Ou trace une zone à la main sur une page"
+  },
+  "recipeForm:text_1474274054": {
+    "en": "Which one would you like to import?",
+    "fr": "Laquelle veux-tu importer ?"
+  },
+  "recipeForm:text_15256f8cad": {
+    "en": "Tags (separated by commas)",
+    "fr": "Tags (séparés par des virgules)"
+  },
+  "recipeForm:text_154562b9e9": {
+    "en": "Prep time (min)",
+    "fr": "Préparation (min)"
+  },
+  "recipeForm:text_16c51a1a52": {
+    "en": "This link does not look valid. Check that it starts with https://",
+    "fr": "Ce lien ne semble pas valide. Vérifie qu'il commence par https://"
+  },
+  "recipeForm:text_18e4765e61": {
+    "en": "Photos found on your pages",
+    "fr": "Photos repérées sur tes pages"
+  },
+  "recipeForm:text_1e5e10752f": {
+    "en": "Could not save",
+    "fr": "Enregistrement impossible"
+  },
+  "recipeForm:text_1e88ec32ff": {
+    "en": "Gallery",
+    "fr": "Galerie"
+  },
+  "recipeForm:text_1f30c3eaea": {
+    "en": "Confirm your rights before sharing the recipe",
+    "fr": "Certifie tes droits avant de partager la recette"
+  },
+  "recipeForm:text_2983494f81": {
+    "en": "Paste by hand",
+    "fr": "Coller à la main"
+  },
+  "recipeForm:text_2a94592128": {
+    "en": "Save changes",
+    "fr": "Enregistrer les modifications"
+  },
+  "recipeForm:text_3577836d39": {
+    "en": "Source / inspiration (optional)",
+    "fr": "Source / inspiration (facultatif)"
+  },
+  "recipeForm:text_383f2e3e0b": {
+    "en": "Move down",
+    "fr": "Descendre"
+  },
+  "recipeForm:text_388fd9c409": {
+    "en": "Unit",
+    "fr": "Unité"
+  },
+  "recipeForm:text_3aacb5415a": {
+    "en": "One or more pages (up to 6). Ingredients and steps will be read automatically.",
+    "fr": "Une ou plusieurs pages (jusqu'à 6). Les ingrédients et étapes seront lus automatiquement."
+  },
+  "recipeForm:text_3d06ec48be": {
+    "en": "Aisle",
+    "fr": "Rayon"
+  },
+  "recipeForm:text_3d6c438cdb": {
+    "en": "Paste the link in the field",
+    "fr": "Colle le lien dans le champ"
+  },
+  "recipeForm:text_3f88d90525": {
+    "en": "Save recipe",
+    "fr": "Enregistrer la recette"
+  },
+  "recipeForm:text_402dcbb9a9": {
+    "en": "Camera",
+    "fr": "Appareil photo"
+  },
+  "recipeForm:text_41ab546121": {
+    "en": "Cooking time (min)",
+    "fr": "Cuisson (min)"
+  },
+  "recipeForm:text_45d29b8f1d": {
+    "en": "New recipe",
+    "fr": "Nouvelle recette"
+  },
+  "recipeForm:text_4a4ecca09d": {
+    "en": "Adjust the crop",
+    "fr": "Ajuster le cadrage"
+  },
+  "recipeForm:text_4d918d003c": {
+    "en": "Seasons",
+    "fr": "Saisons"
+  },
+  "recipeForm:text_4e6eb1c353": {
+    "en": "Keep as it is",
+    "fr": "Garder telle quelle"
+  },
+  "recipeForm:text_4e85410981": {
+    "en": "Recipe updated",
+    "fr": "Recette mise à jour"
+  },
+  "recipeForm:text_544e5e00f4": {
+    "en": "Import recipe",
+    "fr": "Importer la recette"
+  },
+  "recipeForm:text_5a3721b983": {
+    "en": "This recipe may already exist",
+    "fr": "Cette recette existe peut-être déjà"
+  },
+  "recipeForm:text_5c211ecc0c": {
+    "en": "Already in La Popote!",
+    "fr": "Déjà dans la Popote !"
+  },
+  "recipeForm:text_5e52c623ce": {
+    "en": "Check the recipe",
+    "fr": "Vérifie la recette"
+  },
+  "recipeForm:text_61b58f0a72": {
+    "en": "Paste your recipe in the box below",
+    "fr": "Colle ta recette dans la zone ci-dessous"
+  },
+  "recipeForm:text_66118017e6": {
+    "en": "← Another source",
+    "fr": "← Autre source"
+  },
+  "recipeForm:text_669fabe595": {
+    "en": "Paste",
+    "fr": "Coller"
+  },
+  "recipeForm:text_6d02443500": {
+    "en": "Edit recipe — La Popote de Tata Suzanne",
+    "fr": "Modifier la recette — La Popote de Tata Suzanne"
+  },
+  "recipeForm:text_6de734e9b7": {
+    "en": "Only visible to you and members of your household.",
+    "fr": "Visible seulement par toi et les membres de ton foyer."
+  },
+  "recipeForm:text_6fc6a913fc": {
+    "en": "Ingredient",
+    "fr": "Ingrédient"
+  },
+  "recipeForm:text_70440046a3": {
+    "en": "Notes",
+    "fr": "Notes"
+  },
+  "recipeForm:text_739841cd5e": {
+    "en": "Keep at least one category",
+    "fr": "Garde au moins une catégorie"
+  },
+  "recipeForm:text_7459dc5b15": {
+    "en": "Web link",
+    "fr": "Lien web"
+  },
+  "recipeForm:text_7617620ea3": {
+    "en": "Oops, the photo could not be uploaded",
+    "fr": "Oups, la photo n'a pas pu être envoyée"
+  },
+  "recipeForm:text_79490658bf": {
+    "en": "Recipe saved",
+    "fr": "Recette enregistrée"
+  },
+  "recipeForm:text_7c89110f80": {
+    "en": "Paste your recipe here",
+    "fr": "Colle ta recette ici"
+  },
+  "recipeForm:text_7dc1769650": {
+    "en": "A title is required",
+    "fr": "Le titre est obligatoire"
+  },
+  "recipeForm:text_7e20067e47": {
+    "en": "Is this the dish photo?",
+    "fr": "Est-ce bien la photo du plat ?"
+  },
+  "recipeForm:text_7eaf86815a": {
+    "en": "Landscape",
+    "fr": "Paysage"
+  },
+  "recipeForm:text_8237a93b61": {
+    "en": "Oops, cropping failed",
+    "fr": "Oups, le recadrage a échoué"
+  },
+  "recipeForm:text_8475200f64": {
+    "en": "· change",
+    "fr": "· changer"
+  },
+  "recipeForm:text_870c1fb924": {
+    "en": "Paste text",
+    "fr": "Coller un texte"
+  },
+  "recipeForm:text_8a67571a7d": {
+    "en": "Preparing photos…",
+    "fr": "Préparation des photos…"
+  },
+  "recipeForm:text_8ac919c67f": {
+    "en": "Choose another photo",
+    "fr": "Choisir une autre photo"
+  },
+  "recipeForm:text_8bc8cb5fab": {
+    "en": "Oops, this photo could not be read",
+    "fr": "Oups, cette photo n'a pas pu être lue"
+  },
+  "recipeForm:text_8dadf151c9": {
+    "en": "Crop your photo",
+    "fr": "Recadre ta photo"
+  },
+  "recipeForm:text_8dfece6572": {
+    "en": "Edit the ingredients, steps and recipe information.",
+    "fr": "Modifiez les ingrédients, étapes et informations de la recette."
+  },
+  "recipeForm:text_92b6b1bf71": {
+    "en": "Portrait",
+    "fr": "Portrait"
+  },
+  "recipeForm:text_92b7ed393d": {
+    "en": "(one or more)",
+    "fr": "(une ou plusieurs)"
+  },
+  "recipeForm:text_9673f2aab9": {
+    "en": "Received a recipe by message or email? Copy and paste it here; Tata Suzanne will sort it out.",
+    "fr": "Une recette reçue par message ou par e-mail ? Copie-la puis colle-la ici, Tata Suzanne fait le tri."
+  },
+  "recipeForm:text_988cb54ba4": {
+    "en": "Save anyway",
+    "fr": "Enregistrer quand même"
+  },
+  "recipeForm:text_9a131db323": {
+    "en": "Could not upload the photos",
+    "fr": "Échec de l'envoi des photos"
+  },
+  "recipeForm:text_9b1f6bcf82": {
+    "en": "Recipe website, blog",
+    "fr": "Site de recettes, blog"
+  },
+  "recipeForm:text_9b3cbed5c4": {
+    "en": "Zoom",
+    "fr": "Zoom"
+  },
+  "recipeForm:text_a228b200e8": {
+    "en": "Add a recipe from a photo or by hand.",
+    "fr": "Ajoute une recette en photo ou à la main."
+  },
+  "recipeForm:text_a4772129f3": {
+    "en": "Qty",
+    "fr": "Qté"
+  },
+  "recipeForm:text_a81211d314": {
+    "en": "e.g. Potato gratin",
+    "fr": "Ex. Gratin dauphinois"
+  },
+  "recipeForm:text_a934d0e021": {
+    "en": "Optional",
+    "fr": "Facultatif"
+  },
+  "recipeForm:text_a978069bcd": {
+    "en": "Reading the recipe…",
+    "fr": "Lecture de la recette…"
+  },
+  "recipeForm:text_ac9d21a2f5": {
+    "en": "Could not read it, try again in a moment.",
+    "fr": "Lecture impossible, réessaie dans un instant."
+  },
+  "recipeForm:text_adabc0e05e": {
+    "en": "Steps",
+    "fr": "Étapes"
+  },
+  "recipeForm:text_b512de0101": {
+    "en": "🔒 Private recipe",
+    "fr": "🔒 Recette privée"
+  },
+  "recipeForm:text_b52df8b277": {
+    "en": "No ingredients.",
+    "fr": "Aucun ingrédient."
+  },
+  "recipeForm:text_b6b2a24284": {
+    "en": "Paste the recipe link (cooking website, blog…).",
+    "fr": "Colle le lien de la recette (site de cuisine, blog…)."
+  },
+  "recipeForm:text_b80ec3c9b2": {
+    "en": "Back to my recipe",
+    "fr": "Revenir à ma recette"
+  },
+  "recipeForm:text_b813da1adc": {
+    "en": "No dish photo was found on your pages.",
+    "fr": "Aucune photo de plat n'a été repérée sur tes pages."
+  },
+  "recipeForm:text_b877e3c842": {
+    "en": "What type of recipe?",
+    "fr": "Quel type de recette ?"
+  },
+  "recipeForm:text_b9bfe9364b": {
+    "en": "Reading the page…",
+    "fr": "Lecture de la page…"
+  },
+  "recipeForm:text_bd6b16d51f": {
+    "en": "Cookbook, notebook, magazine",
+    "fr": "Livre, carnet, magazine"
+  },
+  "recipeForm:text_be4220f720": {
+    "en": "Confirm",
+    "fr": "Valider"
+  },
+  "recipeForm:text_c376705a94": {
+    "en": "Could not analyse",
+    "fr": "Analyse impossible"
+  },
+  "recipeForm:text_c540da836d": {
+    "en": "Several recipes found",
+    "fr": "Plusieurs recettes trouvées"
+  },
+  "recipeForm:text_c695e4ca99": {
+    "en": "No steps.",
+    "fr": "Aucune étape."
+  },
+  "recipeForm:text_ce32674d29": {
+    "en": "Inspired by Saveurs, Dec 2025",
+    "fr": "Inspiré de Saveurs, déc. 2025"
+  },
+  "recipeForm:text_ce76a1a3d8": {
+    "en": "Recipe link",
+    "fr": "Lien de la recette"
+  },
+  "recipeForm:text_d01d900383": {
+    "en": "Photo",
+    "fr": "Photo"
+  },
+  "recipeForm:text_d06ab56091": {
+    "en": "Analyse",
+    "fr": "Analyser"
+  },
+  "recipeForm:text_d463d7d2a3": {
+    "en": "Categories",
+    "fr": "Catégories"
+  },
+  "recipeForm:text_d515a8f219": {
+    "en": "Read recipe",
+    "fr": "Lire la recette"
+  },
+  "recipeForm:text_d715eaed44": {
+    "en": "Tata Suzanne can’t read this page. Copy the recipe text and use ‘Paste text’.",
+    "fr": "Tata Suzanne n'arrive pas à lire cette page. Copie le texte de la recette et utilise « Coller un texte »."
+  },
+  "recipeForm:text_d72b974edb": {
+    "en": "Could not save the recipe",
+    "fr": "Impossible d'enregistrer la recette"
+  },
+  "recipeForm:text_dc7bfb98dc": {
+    "en": "Paste from clipboard",
+    "fr": "Coller depuis le presse-papiers"
+  },
+  "recipeForm:text_dd1b79d91c": {
+    "en": "Move up",
+    "fr": "Monter"
+  },
+  "recipeForm:text_df8a3100d5": {
+    "en": "The shared collection contains a recipe with a very similar title:",
+    "fr": "La base commune contient une recette au titre très proche :"
+  },
+  "recipeForm:text_e086cd422d": {
+    "en": "Photograph the recipe",
+    "fr": "Photographie la recette"
+  },
+  "recipeForm:text_e347914abd": {
+    "en": "Recipe text",
+    "fr": "Texte de la recette"
+  },
+  "recipeForm:text_e5dbb692a3": {
+    "en": "Open recipe",
+    "fr": "Ouvrir la recette"
+  },
+  "recipeForm:text_e753924565": {
+    "en": "Ingredients",
+    "fr": "Ingrédients"
+  },
+  "recipeForm:text_e7d14248ff": {
+    "en": "Where is your recipe from?",
+    "fr": "D'où vient ta recette ?"
+  },
+  "recipeForm:text_e8b653facf": {
+    "en": "This recipe has already been imported: ‘",
+    "fr": "Cette recette a déjà été importée : «"
+  },
+  "recipeForm:text_eb97899aed": {
+    "en": "Title",
+    "fr": "Titre"
+  },
+  "recipeForm:text_f0400d9d1f": {
+    "en": "Add my own photo",
+    "fr": "Ajouter ma propre photo"
+  },
+  "recipeForm:text_f1df6b853e": {
+    "en": "Could not read the recipe",
+    "fr": "Lecture impossible"
+  },
+  "recipeForm:text_f3b7773bd7": {
+    "en": "Check the highlighted fields: they are empty or could not be read from the photo.",
+    "fr": "Vérifie les champs surlignés : ils sont vides ou n'ont pas pu être lus sur la photo."
+  },
+  "recipeForm:text_f69c3bfdfd": {
+    "en": "Enter by hand",
+    "fr": "Saisir à la main"
+  },
+  "recipeForm:text_fb06270f7c": {
+    "en": "Page",
+    "fr": "Page"
+  },
+  "recipeForm:text_ff2929ca69": {
+    "en": "Square",
+    "fr": "Carré"
+  },
+  "recipes:text_0591b94272": {
+    "en": "Take a photo of a recipe; we’ll take care of the rest.",
+    "fr": "Prends une recette en photo, on s'occupe du reste."
+  },
+  "recipes:text_05e1b88673": {
+    "en": "Report sent",
+    "fr": "Signalement envoyé"
+  },
+  "recipes:text_0a91e1e528": {
+    "en": "Delete this comment?",
+    "fr": "Supprimer ce commentaire ?"
+  },
+  "recipes:text_0c30bd5696": {
+    "en": "No favourites yet. Tap a recipe’s heart to find it here!",
+    "fr": "Pas encore de favoris. Tape sur le cœur d'une recette pour la retrouver ici !"
+  },
+  "recipes:text_0ee4ff1d4c": {
+    "en": "The page could not load",
+    "fr": "La page n'a pas pu se charger"
+  },
+  "recipes:text_0f42629763": {
+    "en": "Newest first",
+    "fr": "Plus récents"
+  },
+  "recipes:text_1020d9085c": {
+    "en": "Favourites",
+    "fr": "Favoris"
+  },
+  "recipes:text_110a4a3581": {
+    "en": "Fruit & veg",
+    "fr": "fruits & légumes"
+  },
+  "recipes:text_1191003f27": {
+    "en": "My favourites ❤️",
+    "fr": "Mes favoris ❤️"
+  },
+  "recipes:text_11afbe2b29": {
+    "en": "All year round",
+    "fr": "toute l'année"
+  },
+  "recipes:text_12555af789": {
+    "en": "Vegetables",
+    "fr": "légumes"
+  },
+  "recipes:text_178bbdbd25": {
+    "en": "Comment options",
+    "fr": "Options du commentaire"
+  },
+  "recipes:text_1a2e6ab154": {
+    "en": "Soup",
+    "fr": "soupe"
+  },
+  "recipes:text_1a9508cad4": {
+    "en": "reviews",
+    "fr": "avis"
+  },
+  "recipes:text_1acf282bbf": {
+    "en": "Title or ingredient…",
+    "fr": "Titre ou ingrédient…"
+  },
+  "recipes:text_1acfc1c7d7": {
+    "en": "Delete",
+    "fr": "Supprimer"
+  },
+  "recipes:text_1bec55b23e": {
+    "en": "Newest first",
+    "fr": "Plus récentes"
+  },
+  "recipes:text_2187796d2f": {
+    "en": "The recipes you have added to the shared collection, with their ratings.",
+    "fr": "Les recettes que tu as ajoutées à la base commune, avec leurs notes."
+  },
+  "recipes:text_2263c773e9": {
+    "en": "Festive meal",
+    "fr": "repas de fête"
+  },
+  "recipes:text_23d734b0b5": {
+    "en": "Contains",
+    "fr": "Contient"
+  },
+  "recipes:text_240c30cb40": {
+    "en": "Page not found",
+    "fr": "Page introuvable"
+  },
+  "recipes:text_2427aa9cb7": {
+    "en": "just now",
+    "fr": "à l'instant"
+  },
+  "recipes:text_25afd8967a": {
+    "en": "Butcher",
+    "fr": "boucherie"
+  },
+  "recipes:text_26935166ee": {
+    "en": "My cookbook",
+    "fr": "Mon livre de cuisine"
+  },
+  "recipes:text_283c2aecc7": {
+    "en": "Curry",
+    "fr": "curry"
+  },
+  "recipes:text_2a17362850": {
+    "en": "Your photo was hard to read. Complete the recipe by hand and check what was read carefully.",
+    "fr": "Ta photo était difficile à lire. Complète la recette à la main et vérifie bien ce qui a été décodé."
+  },
+  "recipes:text_2a198f47f3": {
+    "en": "Reason",
+    "fr": "Motif"
+  },
+  "recipes:text_2a4e1d2eba": {
+    "en": "e.g. mushroom",
+    "fr": "ex. champignon"
+  },
+  "recipes:text_2a8e76e0d9": {
+    "en": "Filters",
+    "fr": "Filtres"
+  },
+  "recipes:text_2a943c6120": {
+    "en": "Recipe — La Popote de Tata Suzanne",
+    "fr": "Recette — La Popote de Tata Suzanne"
+  },
+  "recipes:text_2b02d3ca4d": {
+    "en": "Family recipes, shared with everyone.",
+    "fr": "Les recettes de famille, partagées entre tous."
+  },
+  "recipes:text_2b161558c2": {
+    "en": "Delete this recipe?",
+    "fr": "Supprimer cette recette ?"
+  },
+  "recipes:text_2bf385bec5": {
+    "en": "Main course",
+    "fr": "plat"
+  },
+  "recipes:text_2f26bec8a9": {
+    "en": "Quickest first",
+    "fr": "Plus rapides"
+  },
+  "recipes:text_2fa92198ed": {
+    "en": "Send report",
+    "fr": "Envoyer le signalement"
+  },
+  "recipes:text_33e1f32ef8": {
+    "en": "Prep time",
+    "fr": "Préparation"
+  },
+  "recipes:text_34e6b19e89": {
+    "en": "Post",
+    "fr": "Publier"
+  },
+  "recipes:text_35a6550b4c": {
+    "en": "Not signed in",
+    "fr": "Non connecté"
+  },
+  "recipes:text_360bf84c41": {
+    "en": "Not rated yet",
+    "fr": "Pas encore notée"
+  },
+  "recipes:text_37ed23980e": {
+    "en": "glasses",
+    "fr": "verres"
+  },
+  "recipes:text_38f5e2ad12": {
+    "en": "Autumn",
+    "fr": "automne"
+  },
+  "recipes:text_3adc3e6009": {
+    "en": "Comments (",
+    "fr": "Commentaires ("
+  },
+  "recipes:text_3b6189ade7": {
+    "en": "Nibbles & drinks",
+    "fr": "apéro"
+  },
+  "recipes:text_3b99285efc": {
+    "en": "This cannot be undone.",
+    "fr": "Cette action est définitive."
+  },
+  "recipes:text_3bc69c6809": {
+    "en": "No comments yet. Be the first!",
+    "fr": "Aucun commentaire pour l'instant. Soyez le premier !"
+  },
+  "recipes:text_3d80b05773": {
+    "en": "Report content",
+    "fr": "Signaler un contenu"
+  },
+  "recipes:text_3ecbc2fd0f": {
+    "en": "Frozen",
+    "fr": "surgelés"
+  },
+  "recipes:text_3f8d0a0438": {
+    "en": "Lunch",
+    "fr": "déjeuner"
+  },
+  "recipes:text_40f3829151": {
+    "en": "🌿 In season",
+    "fr": "🌿 De saison"
+  },
+  "recipes:text_429dd82534": {
+    "en": "It will be removed from the shared collection for everyone.",
+    "fr": "Elle disparaîtra de la base commune pour tout le monde."
+  },
+  "recipes:text_4643aa8314": {
+    "en": "Recipes",
+    "fr": "Recettes"
+  },
+  "recipes:text_464d7c46bc": {
+    "en": "My recipes",
+    "fr": "Mes recettes"
+  },
+  "recipes:text_475d36adbc": {
+    "en": "Afternoon snack",
+    "fr": "goûter"
+  },
+  "recipes:text_4c6c3b590b": {
+    "en": "View the original recipe ↗",
+    "fr": "Voir la recette d'origine ↗"
+  },
+  "recipes:text_510c2bd72f": {
+    "en": "sachet",
+    "fr": "sachet"
+  },
+  "recipes:text_522597dd18": {
+    "en": "Other",
+    "fr": "autre"
+  },
+  "recipes:text_52bfa6f026": {
+    "en": "clove",
+    "fr": "gousse"
+  },
+  "recipes:text_556635f2ec": {
+    "en": "My cookbook",
+    "fr": "Mon carnet"
+  },
+  "recipes:text_55762ff273": {
+    "en": "Could not delete",
+    "fr": "Suppression impossible"
+  },
+  "recipes:text_5579207617": {
+    "en": "Quiches & tarts",
+    "fr": "quiche / tarte"
+  },
+  "recipes:text_57596f133d": {
+    "en": " invites you to join ",
+    "fr": " t'invite à rejoindre "
+  },
+  "recipes:text_57f5f5efbc": {
+    "en": "Menu",
+    "fr": "Menu"
+  },
+  "recipes:text_58841c02ff": {
+    "en": "A → Z",
+    "fr": "A → Z"
+  },
+  "recipes:text_58f0f061a8": {
+    "en": "e.g. tomato",
+    "fr": "ex. tomate"
+  },
+  "recipes:text_5cb43c68b3": {
+    "en": "cloves",
+    "fr": "gousses"
+  },
+  "recipes:text_5cc8d13256": {
+    "en": "Bread & brioche",
+    "fr": "pain / brioche"
+  },
+  "recipes:text_5e966292e7": {
+    "en": "Could not send the report",
+    "fr": "Signalement impossible"
+  },
+  "recipes:text_5fc24fba4e": {
+    "en": "Comment deleted",
+    "fr": "Commentaire supprimé"
+  },
+  "recipes:text_61c64adcb7": {
+    "en": "Salad",
+    "fr": "salade"
+  },
+  "recipes:text_627e8a9ff8": {
+    "en": "Fishmonger",
+    "fr": "poissonnerie"
+  },
+  "recipes:text_63551ae9f0": {
+    "en": "Show more",
+    "fr": "Voir plus"
+  },
+  "recipes:text_64d0cbc5f0": {
+    "en": "Summer",
+    "fr": "été"
+  },
+  "recipes:text_65049dada1": {
+    "en": "slice",
+    "fr": "tranche"
+  },
+  "recipes:text_669fe25a32": {
+    "en": "Profile",
+    "fr": "Profil"
+  },
+  "recipes:text_6711ab0e30": {
+    "en": "Try removing a filter, or add this recipe to your cookbook.",
+    "fr": "Essaie d'enlever un filtre, ou ajoute cette recette à ton livre de cuisine."
+  },
+  "recipes:text_67e1c5a841": {
+    "en": "Too many requests, try again in a moment.",
+    "fr": "Trop de demandes, réessaie dans un instant."
+  },
+  "recipes:text_6ac8bfd3aa": {
+    "en": "AI credits have run out.",
+    "fr": "Crédits IA épuisés."
+  },
+  "recipes:text_6c7df42d50": {
+    "en": "Oldest first",
+    "fr": "Plus anciens"
+  },
+  "recipes:text_6d7d6db418": {
+    "en": "(optional)",
+    "fr": "(facultatif)"
+  },
+  "recipes:text_6f599fe8e1": {
+    "en": "Waffles & toast",
+    "fr": "gaufre / tartines"
+  },
+  "recipes:text_721554924b": {
+    "en": "Add to favourites",
+    "fr": "Ajouter aux favoris"
+  },
+  "recipes:text_725e1e5db1": {
+    "en": "Breakfast",
+    "fr": "petit-déjeuner"
+  },
+  "recipes:text_757e11c022": {
+    "en": "Winter",
+    "fr": "hiver"
+  },
+  "recipes:text_781fcb11b3": {
+    "en": "Drinks",
+    "fr": "boisson"
+  },
+  "recipes:text_7b2788f09a": {
+    "en": "The recipe collection is still empty",
+    "fr": "La base de recettes est encore vide"
+  },
+  "recipes:text_7dfb1aed83": {
+    "en": "Cake",
+    "fr": "gâteau"
+  },
+  "recipes:text_7f09b79d49": {
+    "en": "Inappropriate content",
+    "fr": "Contenu inapproprié"
+  },
+  "recipes:text_7f44e27972": {
+    "en": "Recipe author",
+    "fr": "Auteur de la recette"
+  },
+  "recipes:text_809ee631ff": {
+    "en": "Recipe deleted",
+    "fr": "Recette supprimée"
+  },
+  "recipes:text_80e6e79c90": {
+    "en": "Sauce",
+    "fr": "sauce"
+  },
+  "recipes:text_848eed0fbd": {
+    "en": "Tags",
+    "fr": "Tags"
+  },
+  "recipes:text_85da9cf739": {
+    "en": "My cookbook — La Popote de Tata Suzanne",
+    "fr": "Mon livre de cuisine — La Popote de Tata Suzanne"
+  },
+  "recipes:text_87ea40699d": {
+    "en": "Bakery",
+    "fr": "boulangerie"
+  },
+  "recipes:text_88b56299a2": {
+    "en": "Tata Suzanne is taking a break, try again tomorrow!",
+    "fr": "Tata Suzanne fait une pause, réessaie demain !"
+  },
+  "recipes:text_895d416be8": {
+    "en": "Try again",
+    "fr": "Réessayer"
+  },
+  "recipes:text_8a60344aed": {
+    "en": "slices",
+    "fr": "tranches"
+  },
+  "recipes:text_8af8d2a61b": {
+    "en": "tsp",
+    "fr": "c. à café"
+  },
+  "recipes:text_8b5f12d613": {
+    "en": "Drinks",
+    "fr": "boissons"
+  },
+  "recipes:text_8cc624a9db": {
+    "en": "★ and above",
+    "fr": "★ et +"
+  },
+  "recipes:text_8cda2711af": {
+    "en": "Pasta",
+    "fr": "pâtes"
+  },
+  "recipes:text_8dd695c16f": {
+    "en": "My favourites",
+    "fr": "Mes favoris"
+  },
+  "recipes:text_90247ff26a": {
+    "en": "Recipes — La Popote de Tata Suzanne",
+    "fr": "Recettes — La Popote de Tata Suzanne"
+  },
+  "recipes:text_90ad87338d": {
+    "en": "Starter",
+    "fr": "entrée"
+  },
+  "recipes:text_927ec3509c": {
+    "en": "Source / inspiration",
+    "fr": "Source / inspiration"
+  },
+  "recipes:text_92d9a0c982": {
+    "en": "Oops, that didn’t work",
+    "fr": "Oups, ça n'a pas marché"
+  },
+  "recipes:text_93b1cac757": {
+    "en": "Season",
+    "fr": "Saison"
+  },
+  "recipes:text_94c7cc6b57": {
+    "en": "I confirm I have the right to share this content: the dish photo is mine and the text is written in my own words or comes from family recipes. I acknowledge the source if the recipe is inspired by a book, magazine or website.",
+    "fr": "Je certifie avoir le droit de partager ce contenu : la photo du plat est la mienne et le texte est rédigé avec mes propres mots ou appartient au domaine familial. J'indique la source si la recette est inspirée d'un livre, d'un magazine ou d'un site."
+  },
+  "recipes:text_95ae9b719b": {
+    "en": "Could not publish",
+    "fr": "Publication impossible"
+  },
+  "recipes:text_97c13899ac": {
+    "en": "pinches",
+    "fr": "pincées"
+  },
+  "recipes:text_98f3234e5c": {
+    "en": "Details (optional)",
+    "fr": "Précisions (facultatif)"
+  },
+  "recipes:text_9ed317caef": {
+    "en": "Reply",
+    "fr": "Répondre"
+  },
+  "recipes:text_a16536d78d": {
+    "en": "Shopping",
+    "fr": "Courses"
+  },
+  "recipes:text_a1a208ddea": {
+    "en": "tbsp",
+    "fr": "c. à soupe"
+  },
+  "recipes:text_a25ed70db2": {
+    "en": "pc",
+    "fr": "pièce"
+  },
+  "recipes:text_a3cb7af7fa": {
+    "en": "Back to home",
+    "fr": "Retour à l'accueil"
+  },
+  "recipes:text_a4041c5ef2": {
+    "en": "Nothing matches… yet!",
+    "fr": "Rien ne correspond… pour l'instant !"
+  },
+  "recipes:text_a6f7214ee9": {
+    "en": "Added by",
+    "fr": "Ajoutée par"
+  },
+  "recipes:text_a73e6e2a97": {
+    "en": "Sort comments",
+    "fr": "Trier les commentaires"
+  },
+  "recipes:text_a77db3da34": {
+    "en": "Delete ‘",
+    "fr": "Supprimer «"
+  },
+  "recipes:text_a7e4c9fa22": {
+    "en": "Sort",
+    "fr": "Trier"
+  },
+  "recipes:text_a8ff8fd207": {
+    "en": "Home",
+    "fr": "Accueil"
+  },
+  "recipes:text_ab546c237a": {
+    "en": "Error",
+    "fr": "Erreur"
+  },
+  "recipes:text_ad3917ed2e": {
+    "en": "Remove my rating",
+    "fr": "Retirer ma note"
+  },
+  "recipes:text_af5f88d8ee": {
+    "en": "👩‍🍳 Cooking mode",
+    "fr": "👩‍🍳 Cuisiner"
+  },
+  "recipes:text_b1ab62ff78": {
+    "en": "Your cookbook is still brand new. Add your first recipe!",
+    "fr": "Ton livre de cuisine est encore tout neuf. Ajoute ta première recette !"
+  },
+  "recipes:text_b505bf8ac9": {
+    "en": "🔒 Private recipe: only visible to the author’s household",
+    "fr": "🔒 Recette privée : visible seulement par le foyer de l'auteur"
+  },
+  "recipes:text_b560cbe8cb": {
+    "en": "Share your thoughts, a tip or a variation…",
+    "fr": "Partage ton avis, une astuce, une variante…"
+  },
+  "recipes:text_b6c935d4f3": {
+    "en": "min",
+    "fr": "min"
+  },
+  "recipes:text_b707b607ac": {
+    "en": "sachets",
+    "fr": "sachets"
+  },
+  "recipes:text_b8c6378ca0": {
+    "en": "Dairy",
+    "fr": "crèmerie"
+  },
+  "recipes:text_bbc7e79964": {
+    "en": "Member",
+    "fr": "Membre"
+  },
+  "recipes:text_bc7db84a5a": {
+    "en": "👤 Added by me",
+    "fr": "👤 Ajoutées par moi"
+  },
+  "recipes:text_be343d6288": {
+    "en": "Dinner",
+    "fr": "dîner"
+  },
+  "recipes:text_c0086495c3": {
+    "en": "My rating",
+    "fr": "Ma note"
+  },
+  "recipes:text_c1ccf83eea": {
+    "en": "Without",
+    "fr": "Sans"
+  },
+  "recipes:text_c2f55bd2eb": {
+    "en": "Removed from your favourites",
+    "fr": "Retirée de tes favoris"
+  },
+  "recipes:text_cd1f6e0042": {
+    "en": "Watch La Popote de Tata Suzanne: a recipe photo, and your menu and shopping fall into place.",
+    "fr": "Découvre en vidéo La Popote de Tata Suzanne : une photo de recette, et ton menu et tes courses s'organisent tout seuls."
+  },
+  "recipes:text_cdd2659977": {
+    "en": "La Popote de Tata Suzanne on video",
+    "fr": "La Popote de Tata Suzanne en vidéo"
+  },
+  "recipes:text_ce42048032": {
+    "en": "glass",
+    "fr": "verre"
+  },
+  "recipes:text_d11f99ae2c": {
+    "en": "bunches",
+    "fr": "bottes"
+  },
+  "recipes:text_d1308827c5": {
+    "en": " · edited",
+    "fr": " · modifié"
+  },
+  "recipes:text_d140c252de": {
+    "en": "Could not save the changes",
+    "fr": "Modification impossible"
+  },
+  "recipes:text_d197b55d3e": {
+    "en": "Copyright",
+    "fr": "Droits d'auteur"
+  },
+  "recipes:text_d218aa87e9": {
+    "en": "pinch",
+    "fr": "pincée"
+  },
+  "recipes:text_d317cff6eb": {
+    "en": "Highest rated",
+    "fr": "Mieux notées"
+  },
+  "recipes:text_d457e52a3e": {
+    "en": "Recently favourited",
+    "fr": "Ajoutées récemment aux favoris"
+  },
+  "recipes:text_d76459d00f": {
+    "en": "Minimum rating",
+    "fr": "Note minimum"
+  },
+  "recipes:text_d81c8b164e": {
+    "en": "This page does not exist or has moved.",
+    "fr": "Cette page n'existe pas ou a été déplacée."
+  },
+  "recipes:text_d871330999": {
+    "en": "recipe",
+    "fr": "recette"
+  },
+  "recipes:text_dc92f5487f": {
+    "en": "Maximum total time",
+    "fr": "Temps total max"
+  },
+  "recipes:text_dcaac849fc": {
+    "en": "Remove from favourites",
+    "fr": "Retirer des favoris"
+  },
+  "recipes:text_e04f129086": {
+    "en": "Terms of use",
+    "fr": "Conditions générales d'utilisation"
+  },
+  "recipes:text_e0abd3a4ca": {
+    "en": "Added to your favourites ❤️",
+    "fr": "Ajoutée à tes favoris ❤️"
+  },
+  "recipes:text_e2ac42cf6f": {
+    "en": "Spring",
+    "fr": "printemps"
+  },
+  "recipes:text_e3b1822fdc": {
+    "en": "Clear all",
+    "fr": "Tout effacer"
+  },
+  "recipes:text_e94ef54525": {
+    "en": "Something went wrong. Try again or go back home.",
+    "fr": "Une erreur s'est produite. Réessaie ou reviens à l'accueil."
+  },
+  "recipes:text_eca6cd0e70": {
+    "en": "I couldn’t find a recipe in this text. Complete it by hand and check what was read carefully.",
+    "fr": "Je n'ai pas trouvé de recette dans ce texte. Complète-la à la main et vérifie bien ce qui a été décodé."
+  },
+  "recipes:text_ecf740ae54": {
+    "en": "See who favourited it",
+    "fr": "Voir qui l'a en favori"
+  },
+  "recipes:text_f0da6585a4": {
+    "en": "Search the shared recipe collection by title, ingredient, season or time.",
+    "fr": "Cherchez dans la base commune de recettes par titre, ingrédient, saison ou temps."
+  },
+  "recipes:text_f260e757ce": {
+    "en": "Edit",
+    "fr": "Modifier"
+  },
+  "recipes:text_f34aef78d6": {
+    "en": "Favourited by",
+    "fr": "Ajoutée aux favoris par"
+  },
+  "recipes:text_f5194be92b": {
+    "en": "Dessert",
+    "fr": "dessert"
+  },
+  "recipes:text_f5ad9edb00": {
+    "en": "Pantry",
+    "fr": "épicerie"
+  },
+  "recipes:text_f7c8bcd8b2": {
+    "en": "Save",
+    "fr": "Enregistrer"
+  },
+  "recipes:text_f914901f1d": {
+    "en": "Ingredients, steps and adjustable servings.",
+    "fr": "Ingrédients, étapes et portions ajustables."
+  },
+  "recipes:text_fc22fb6cff": {
+    "en": "bunch",
+    "fr": "botte"
+  },
+  "recipes:text_fe23de7b57": {
+    "en": "Clear",
+    "fr": "Effacer"
+  },
+  "recipes:text_fe73945a1e": {
+    "en": "Try for free",
+    "fr": "Essayer gratuitement"
+  },
+  "shopping:text_07db7090ee": {
+    "en": "Arrange the aisles in your supermarket’s order; your shopping list will follow.",
+    "fr": "Glisse les rayons dans l'ordre de ton supermarché, le panier suivra."
+  },
+  "shopping:text_0e8748f077": {
+    "en": "Aisle updated",
+    "fr": "Rayon mis à jour"
+  },
+  "shopping:text_13901111ad": {
+    "en": "Clear",
+    "fr": "Vider"
+  },
+  "shopping:text_16d24ec440": {
+    "en": "often bought",
+    "fr": "souvent acheté"
+  },
+  "shopping:text_18b30f5220": {
+    "en": "List copied",
+    "fr": "Liste copiée"
+  },
+  "shopping:text_37c5b1d478": {
+    "en": "My store layout",
+    "fr": "Mon magasin"
+  },
+  "shopping:text_41f2db2748": {
+    "en": "Could not generate the list",
+    "fr": "La génération a échoué"
+  },
+  "shopping:text_4550c68ee1": {
+    "en": "Default",
+    "fr": "Par défaut"
+  },
+  "shopping:text_4770536869": {
+    "en": "Your shopping list, generated from the menu and sorted by aisle.",
+    "fr": "Ta liste de courses générée depuis le menu, rangée par rayon."
+  },
+  "shopping:text_55b92a4e01": {
+    "en": "To buy",
+    "fr": "À acheter"
+  },
+  "shopping:text_565cecd7e8": {
+    "en": "item",
+    "fr": "article"
+  },
+  "shopping:text_56e5509d7a": {
+    "en": "Could not save the order",
+    "fr": "Impossible d'enregistrer l'ordre"
+  },
+  "shopping:text_6488f656ae": {
+    "en": "No recipes planned for these dates",
+    "fr": "Aucune recette au menu sur ces jours"
+  },
+  "shopping:text_657fb20d18": {
+    "en": "Change aisle",
+    "fr": "Changer de rayon"
+  },
+  "shopping:text_6d83011042": {
+    "en": "Recently bought",
+    "fr": "Acheté récemment"
+  },
+  "shopping:text_6e0ca3ff67": {
+    "en": "Change aisle:",
+    "fr": "Changer de rayon :"
+  },
+  "shopping:text_706438abfd": {
+    "en": "Start date",
+    "fr": "Date de début"
+  },
+  "shopping:text_716a6d8d5e": {
+    "en": "End date",
+    "fr": "Date de fin"
+  },
+  "shopping:text_72288a0d68": {
+    "en": "Already in stock (excluded from the list)",
+    "fr": "Déjà en stock (exclu de la liste)"
+  },
+  "shopping:text_848132bee9": {
+    "en": "What do you need?",
+    "fr": "Que veux-tu acheter ?"
+  },
+  "shopping:text_8481498539": {
+    "en": "From",
+    "fr": "Du"
+  },
+  "shopping:text_9f31287ac3": {
+    "en": "remaining",
+    "fr": "restant"
+  },
+  "shopping:text_a45ea7e70e": {
+    "en": "Add ‘",
+    "fr": "Ajouter «"
+  },
+  "shopping:text_aef9c30359": {
+    "en": "Already in stock (",
+    "fr": "Déjà en stock ("
+  },
+  "shopping:text_af7dc0a9e1": {
+    "en": "This week",
+    "fr": "Cette semaine"
+  },
+  "shopping:text_b37e915a0a": {
+    "en": "Could not change the aisle",
+    "fr": "Impossible de changer le rayon"
+  },
+  "shopping:text_b47f65dcb8": {
+    "en": "Generate from menu",
+    "fr": "Générer depuis le menu"
+  },
+  "shopping:text_bad56f23cf": {
+    "en": "Default order restored",
+    "fr": "Ordre par défaut rétabli"
+  },
+  "shopping:text_bdde1cc565": {
+    "en": "The basket is empty, Tata Suzanne would be proud!",
+    "fr": "Le panier est vide, Tata Suzanne serait fière de toi !"
+  },
+  "shopping:text_c1fbed8c09": {
+    "en": "From",
+    "fr": "Vient de"
+  },
+  "shopping:text_ce4e3498e5": {
+    "en": "Generating…",
+    "fr": "Génération…"
+  },
+  "shopping:text_d365e62ff2": {
+    "en": "Could not add",
+    "fr": "Ajout impossible"
+  },
+  "shopping:text_e79fae9a63": {
+    "en": "Share list",
+    "fr": "Partager la liste"
+  },
+  "shopping:text_e7aa270b21": {
+    "en": "Added by hand",
+    "fr": "Ajouté à la main"
+  },
+  "shopping:text_f095160c09": {
+    "en": "to",
+    "fr": "au"
+  },
+  "shopping:text_f0e3fb4b0e": {
+    "en": "Shopping list — La Popote de Tata Suzanne",
+    "fr": "Liste de courses — La Popote de Tata Suzanne"
+  },
+  "story:text_039c01ae18": {
+    "en": "La Popote de Tata Suzanne began with a simple wish: to bring everything together in one place.",
+    "fr": "La Popote de Tata Suzanne est née d'une envie simple : tout réunir au même endroit."
+  },
+  "story:text_09a6d6b439": {
+    "en": "The result? A lot of energy spent, and an awful lot to keep track of.",
+    "fr": "Au final ? Beaucoup d'énergie dépensée, et une sacrée charge mentale."
+  },
+  "story:text_196694385d": {
+    "en": "Make life simpler. Share the jobs. And create a community where everyone shares good ideas and favourite recipes.",
+    "fr": "Simplifier. Répartir les tâches. Et créer une communauté où l'on partage ses bonnes idées et ses meilleures recettes."
+  },
+  "story:text_238cf7f853": {
+    "en": "Bon appétit !",
+    "fr": "Et bon appétit !"
+  },
+  "story:text_2a49ca854c": {
+    "en": "Join the table",
+    "fr": "Rejoindre la tablée"
+  },
+  "story:text_32d786f016": {
+    "en": "The story of",
+    "fr": "L'histoire de"
+  },
+  "story:text_3e223e516f": {
+    "en": "Thank you for sharing your table with us.",
+    "fr": "Merci de partager votre tablée avec nous."
+  },
+  "story:text_6126d49056": {
+    "en": "The idea behind La Popote",
+    "fr": "L'idée de la Popote"
+  },
+  "story:text_6adfef2fe1": {
+    "en": "Tata Suzanne is Marion: magazine cuttings, Post-it notes everywhere, and a wish to bring it all together to share.",
+    "fr": "Tata Suzanne, c'est Marion : des magazines découpés, des post-it partout, et l'envie de tout réunir pour partager."
+  },
+  "story:text_7cd9a6a5a2": {
+    "en": "Tata Suzanne is Marion. She loves a laugh, she loves cooking, and above all, she loves sharing.",
+    "fr": "Tata Suzanne, c'est Marion. Elle aime rigoler, elle aime cuisiner, et surtout, elle aime partager."
+  },
+  "story:text_854e897c17": {
+    "en": "The happy chaos",
+    "fr": "Le joyeux bazar"
+  },
+  "story:text_857f54e3ca": {
+    "en": "Remember the butter…",
+    "fr": "Penser au beurre…"
+  },
+  "story:text_867d2a214d": {
+    "en": "Then there are WhatsApp groups with family and friends, a shopping app, a weekly menu chart on paper… and plenty of ‘what’s for dinner tonight?’.",
+    "fr": "Il y a aussi les boucles WhatsApp avec la famille et les copines, une app pour les courses, un tableau papier pour le menu de la semaine… et une bonne dose de « on mange quoi ce soir ? »."
+  },
+  "story:text_9e4318e373": {
+    "en": "La Popote is a pilot project. Perhaps one day it will grow bigger. Perhaps it will stay an app for family and friends. Either way, it will be made with the same ingredient: a love of sharing.",
+    "fr": "La Popote est un pilote. Peut-être qu'un jour, elle deviendra plus grande. Peut-être qu'elle restera l'app de la famille et des copains. Dans les deux cas, elle sera faite avec le même ingrédient : l'envie de partager."
+  },
+  "story:text_a1ec3d4803": {
+    "en": "The story of Tata Suzanne — La Popote",
+    "fr": "L'histoire de Tata Suzanne — La Popote"
+  },
+  "story:text_b05ccbf947": {
+    "en": "Who is Tata Suzanne?",
+    "fr": "Tata Suzanne, c'est qui ?"
+  },
+  "story:text_b17d6fb5e0": {
+    "en": "You don’t need to be a chef",
+    "fr": "Pas besoin d'être un chef"
+  },
+  "story:text_b94baca4f2": {
+    "en": "Browse the recipes",
+    "fr": "Découvrir les recettes"
+  },
+  "story:text_cfe876f5e3": {
+    "en": "She always has a good idea tucked away. And there is plenty tucked away: hundreds of recipes cut out of magazines, cookbooks bursting at the seams, and Post-it notes. Lots of Post-it notes. Post-it notes on Post-it notes.",
+    "fr": "Elle a toujours une bonne idée sous le coude. Et sous le coude, il y a beaucoup de choses : des centaines de recettes découpées dans des magazines, des livres de cuisine qui débordent, et des post-it. Beaucoup de post-it. Des post-it sur les post-it."
+  },
+  "story:text_e4a18be917": {
+    "en": "At Tata Suzanne, you don’t need to be a professional to become a proper cook. Good recipes are handed down, tried out, sometimes go wrong, often turn out beautifully… and are shared.",
+    "fr": "Chez Tata Suzanne, on n'a pas besoin d'être un pro pour devenir un vrai cuistot. Les bonnes recettes se transmettent, se testent, se ratent parfois, se réussissent souvent… et se partagent."
+  },
+  "story:text_f4b35d7700": {
+    "en": "Because eating well is the first step towards good health. And because those happy moments around the table, with family, children and friends, are what bring us together.",
+    "fr": "Parce que bien manger, c'est le début de la bonne santé. Et parce que ces bons moments à table, en famille, avec les enfants, entre amis, c'est ce qui nous rassemble."
+  },
+  "story:text_f748617e15": {
+    "en": "And what’s next?",
+    "fr": "Et demain ?"
+  },
+  "terms:fullText": {
+    "en": "# Terms of use\n## La Popote de Tata Suzanne\n\nVersion 1.0, effective from 4 November 2026\n\n### 1. Purpose\n\nLa Popote de Tata Suzanne (hereinafter ‘La Popote’) is an app for sharing recipes, planning menus and creating shopping lists. It is published on a private, non-commercial basis by the Martin family, Lausanne, Switzerland (hereinafter ‘the publisher’).\n\nThese terms govern your use of La Popote. By creating an account, you accept them without reservation.\n\n### 2. Strictly private, non-commercial use\n\nLa Popote is a pilot project reserved for a circle of family and friends. It is free, has no advertising and is not for profit.\n\nYou agree to use it solely for your own personal and family purposes. You must not:\n- resell, republish or distribute other users’ recipes, photos or comments outside La Popote without their consent;\n- use La Popote for commercial or advertising purposes;\n- extract its content in bulk, whether manually or by automated means.\n\n### 3. Account and household\n\nYou must be at least 16 years old to create an account, or have a parent’s consent.\n\nYou are responsible for keeping your login details confidential and for activity on your account. Members of the same household share the weekly menu and shopping list: only invite people you trust.\n\n### 4. The content you share\n\nWhen you add a recipe, photo, rating or comment, you agree to ensure that:\n- photos of dishes are your own, or that you have the photographer’s permission;\n- instructions are written in your own words, or come from family recipes or a source whose text you have the right to share;\n- you acknowledge the source whenever a recipe is inspired by a book, magazine, blog or chef;\n- your content is not unlawful, abusive or discriminatory, and does not infringe anyone’s privacy or rights.\n\nYou retain ownership of your content. You grant the publisher a free, non-exclusive licence, limited to La Popote and the period during which it operates, to host your content, display it to other users and make technical adaptations to it (resizing images, calculating quantities, etc.).\n\n### 5. Copyright: what you need to know\n\nA list of ingredients and the idea for a recipe are generally not protected by copyright. However, the text of a book or magazine, its layout and its photographs are protected.\n\nFor this reason:\n- any photos of book or magazine pages you upload are used solely for automated recipe analysis. They remain private and are never shown to other users;\n- you are responsible for checking and rewording the extracted text before saving it;\n- do not share photos of dishes you have found on the internet.\n\nYou are solely responsible for the content you publish. You indemnify the publisher against any third-party claim relating to content you have shared in breach of these terms.\n\n### 6. Reporting and removal\n\nIf you believe that content infringes your rights or is inappropriate, use the ‘Report’ button or write to [[CONTACT]].\n\nThe publisher reviews each report as promptly as possible. It may remove or modify any content, and suspend or delete an account that does not comply with these terms, without prior notice.\n\n### 7. Ratings and comments\n\nRatings and comments reflect the personal views of their authors. Be kind: critique the recipe, never the person.\n\n### 8. Cooking, health and allergies\n\nRecipes are shared by amateur cooks. The publisher does not guarantee their accuracy, results or nutritional values.\n\nAutomatically adjusted quantities and information extracted using artificial intelligence may contain errors: check them before cooking.\n\nIf you have an allergy, intolerance or specific dietary requirements, always check the ingredients in the products you use. Follow food hygiene and cooking guidelines, particularly for meat, fish, eggs and raw foods.\n\n### 9. Artificial intelligence\n\nPhotos of recipes are analysed by an artificial intelligence model supplied by a third-party provider, solely to extract the recipe and categorise the ingredients. Do not include personal data in them (names, addresses or private documents).\n\n### 10. Personal data\n\nThe publisher processes only the minimum data necessary to operate La Popote: email address, first name, household composition, recipes, ratings, comments, favourites, menus and shopping lists.\n\nThis data is neither sold nor used for advertising purposes. It is hosted by technical service providers (hosting, database and artificial intelligence services) that may be located outside Switzerland, with appropriate safeguards in place.\n\nUnder the Federal Act on Data Protection (FADP), you may access, correct or delete your data at any time, or delete your account, through your Profile or by writing to [[CONTACT]].\n\nWhen your account is deleted, your personal data is erased. The recipes you have shared are deleted unless you choose to leave them with the community anonymously.\n\n### 11. Availability\n\nLa Popote is a pilot project, provided ‘as is’. The publisher does not guarantee uninterrupted availability and may modify, suspend or discontinue it at any time. Remember to keep a copy of your treasured recipes.\n\n### 12. Liability\n\nTo the extent permitted by law, the publisher accepts no liability for damage arising from the use of La Popote, content published by users or the unavailability of the service.\n\n### 13. Changes to these terms\n\nThe publisher may amend these terms. The new version will be presented to you the next time you log in, and you must accept it to continue using La Popote.\n\n### 14. Governing law and jurisdiction\n\nThese terms are governed by Swiss law. Any dispute falls within the jurisdiction of the competent courts of the canton of Vaud.\n\n### 15. Contact\n\n[[CONTACT]]\n\nThank you for sharing your table with us. Bon appétit !\n",
+    "fr": "# Conditions générales d'utilisation\n## La Popote de Tata Suzanne\n\nVersion 1.0, en vigueur depuis le 4 novembre 2026\n\n### 1. Objet\n\nLa Popote de Tata Suzanne (ci-après « la Popote ») est une application de partage de recettes, de planification de menus et de listes de courses. Elle est éditée à titre privé et non commercial par La famille Martin, Lausanne, Suisse (ci-après « l'éditeur »).\n\nLes présentes conditions régissent l'utilisation de la Popote. En créant un compte, tu les acceptes sans réserve.\n\n### 2. Un usage strictement privé et non commercial\n\nLa Popote est un projet pilote réservé à un cercle de famille et d'amis. Elle est gratuite, sans publicité et sans but lucratif.\n\nTu t'engages à l'utiliser uniquement pour ton usage personnel et familial. Il est interdit :\n- de revendre, republier ou diffuser à l'extérieur de la Popote les recettes, photos ou commentaires d'autres utilisateurs sans leur accord ;\n- d'utiliser la Popote à des fins commerciales ou publicitaires ;\n- d'extraire massivement son contenu, manuellement ou par des moyens automatisés.\n\n### 3. Compte et foyer\n\nTu dois avoir au moins 16 ans pour créer un compte, ou disposer de l'accord d'un parent.\n\nTu es responsable de la confidentialité de tes identifiants et de l'activité de ton compte. Les membres d'un même foyer partagent le menu de la semaine et la liste de courses : n'invite que des personnes de confiance.\n\n### 4. Les contenus que tu partages\n\nEn ajoutant une recette, une photo, une note ou un commentaire, tu t'engages à ce que :\n- les photos de plats soient les tiennes, ou que tu aies l'autorisation de leur auteur ;\n- les instructions soient rédigées avec tes propres mots, ou proviennent de recettes familiales ou d'une source dont tu as le droit de partager le texte ;\n- tu indiques la source quand une recette est inspirée d'un livre, d'un magazine, d'un blog ou d'un chef ;\n- tes contenus ne soient ni illicites, ni injurieux, ni discriminatoires, et ne portent pas atteinte à la vie privée ou aux droits de quiconque.\n\nTu restes propriétaire de tes contenus. Tu accordes à l'éditeur une licence gratuite, non exclusive, limitée à la Popote et à sa durée de fonctionnement, pour les héberger, les afficher aux autres utilisateurs et les adapter techniquement (redimensionnement des images, calcul des quantités, etc.).\n\n### 5. Droits d'auteur : ce qu'il faut savoir\n\nUne liste d'ingrédients et une idée de recette ne sont en principe pas protégées. En revanche, le texte d'un livre ou d'un magazine, sa mise en page et ses photos le sont.\n\nC'est pourquoi :\n- les photos de pages de livres ou de magazines que tu téléverses servent uniquement à l'analyse automatique de la recette. Elles restent privées et ne sont jamais montrées aux autres utilisateurs ;\n- il t'appartient de vérifier et reformuler le texte extrait avant de l'enregistrer ;\n- ne partage pas des photos de plats trouvées sur internet.\n\nTu es seul responsable des contenus que tu publies. Tu garantis l'éditeur contre toute réclamation d'un tiers liée à un contenu que tu as partagé en violation des présentes conditions.\n\n### 6. Signalement et retrait\n\nSi tu estimes qu'un contenu porte atteinte à tes droits ou est inapproprié, utilise le bouton « Signaler » ou écris à [[CONTACT]].\n\nL'éditeur examine chaque signalement dans les meilleurs délais. Il peut retirer ou modifier tout contenu, et suspendre ou supprimer un compte qui ne respecte pas ces conditions, sans préavis.\n\n### 7. Notes et commentaires\n\nLes notes et commentaires reflètent l'avis personnel de leurs auteurs. Reste bienveillant : on critique une recette, jamais une personne.\n\n### 8. Cuisine, santé et allergies\n\nLes recettes sont partagées par des cuisiniers amateurs. L'éditeur ne garantit ni leur exactitude, ni leur résultat, ni leurs valeurs nutritionnelles.\n\nLes quantités ajustées automatiquement et les informations extraites par intelligence artificielle peuvent contenir des erreurs : vérifie-les avant de cuisiner.\n\nEn cas d'allergie, d'intolérance ou de régime particulier, vérifie toujours la composition des produits. Respecte les règles d'hygiène et de cuisson, en particulier pour les viandes, poissons, œufs et produits crus.\n\n### 9. Intelligence artificielle\n\nLes photos de recettes sont analysées par un modèle d'intelligence artificielle fourni par un prestataire tiers, uniquement pour extraire la recette et catégoriser les ingrédients. N'y fais pas figurer de données personnelles (noms, adresses, documents privés).\n\n### 10. Données personnelles\n\nL'éditeur traite le minimum de données nécessaires au fonctionnement de la Popote : adresse e-mail, prénom, composition du foyer, recettes, notes, commentaires, favoris, menus et listes de courses.\n\nCes données ne sont ni vendues, ni utilisées à des fins publicitaires. Elles sont hébergées par des prestataires techniques (hébergement, base de données, intelligence artificielle) qui peuvent être situés hors de Suisse, avec des garanties appropriées.\n\nConformément à la loi fédérale sur la protection des données (LPD), tu peux à tout moment consulter, corriger ou supprimer tes données, ou supprimer ton compte depuis ton Profil ou en écrivant à [[CONTACT]].\n\nÀ la suppression de ton compte, tes données personnelles sont effacées. Les recettes que tu as partagées sont supprimées, sauf si tu choisis de les laisser à la communauté de façon anonyme.\n\n### 11. Disponibilité\n\nLa Popote est un projet pilote, fourni « en l'état ». L'éditeur ne garantit pas sa disponibilité permanente et peut la modifier, la suspendre ou y mettre fin à tout moment. Pense à garder une copie de tes recettes précieuses.\n\n### 12. Responsabilité\n\nDans les limites autorisées par la loi, l'éditeur décline toute responsabilité pour les dommages résultant de l'utilisation de la Popote, des contenus publiés par les utilisateurs ou d'une indisponibilité du service.\n\n### 13. Modification des conditions\n\nL'éditeur peut modifier ces conditions. La nouvelle version te sera présentée à ta prochaine connexion et devra être acceptée pour continuer à utiliser la Popote.\n\n### 14. Droit applicable et for\n\nLes présentes conditions sont soumises au droit suisse. Tout litige relève des tribunaux compétents du canton de Vaud.\n\n### 15. Contact\n\n[[CONTACT]]\n\nMerci de partager ta tablée avec nous. Et bon appétit !\n"
+  },
+  "terms:precedence": {
+    "en": "This English version is provided for convenience. The French version prevails.",
+    "fr": ""
+  },
+  "terms:text_01cba1dfba": {
+    "en": "Loading…",
+    "fr": "Chargement…"
+  },
+  "terms:text_03e124a00c": {
+    "en": "Terms of use, recipe sharing and protecting your data. Version 1.0 of 4 November 2026.",
+    "fr": "Conditions d’utilisation, partage des recettes et protection de tes données. Version 1.0 du 4 novembre 2026."
+  },
+  "terms:text_05b9b0d7ee": {
+    "en": "Could not check your acceptance. Try again.",
+    "fr": "Impossible de vérifier ton acceptation. Réessaie."
+  },
+  "terms:text_07e579db50": {
+    "en": "Your acceptance could not be saved",
+    "fr": "L'acceptation n'a pas pu être enregistrée"
+  },
+  "terms:text_2553f22ada": {
+    "en": "Read the terms of use",
+    "fr": "Lire les conditions générales d'utilisation"
+  },
+  "terms:text_7593a9e798": {
+    "en": "I have read and accept the terms of use",
+    "fr": "J'ai lu et j'accepte les conditions générales d'utilisation"
+  },
+  "terms:text_9e2b20a374": {
+    "en": "The table’s terms",
+    "fr": "Les conditions de la tablée"
+  },
+  "terms:text_ad2b581430": {
+    "en": "Contents",
+    "fr": "Sommaire"
+  },
+  "terms:text_c189c30935": {
+    "en": "to continue using La Popote.",
+    "fr": "pour continuer à utiliser la Popote."
+  },
+  "terms:text_dd146c1d39": {
+    "en": "Version 1.0, effective from 4 November 2026",
+    "fr": "Version 1.0, en vigueur depuis le 4 novembre 2026"
+  },
+  "terms:text_ea36fa177a": {
+    "en": "Sign out",
+    "fr": "Se déconnecter"
+  },
+  "terms:text_f0c0e072c7": {
+    "en": "Accept and continue",
+    "fr": "Accepter et continuer"
+  },
+  "terms:text_f8537ed8fb": {
+    "en": "Accept version",
+    "fr": "Accepte la version"
+  },
+  "terms:text_ff0955ecce": {
+    "en": "Terms of use — La Popote de Tata Suzanne",
+    "fr": "Conditions générales d’utilisation — La Popote de Tata Suzanne"
+  },
+  "terms:text_ffd485a4ae": {
+    "en": "Back to Profile",
+    "fr": "Retour au Profil"
+  }
+}

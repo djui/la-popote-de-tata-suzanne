@@ -23,6 +23,14 @@ For _fastlane_ installation instructions, see [Installing _fastlane_](https://do
 
 Register the bundle IDs and app group in the developer portal
 
+### ios signing
+
+```sh
+[bundle exec] fastlane ios signing
+```
+
+Create/refresh the distribution certificate and App Store provisioning profiles
+
 ### ios beta
 
 ```sh

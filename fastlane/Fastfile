@@ -39,9 +39,19 @@ platform :ios do
     end
   end
 
+  desc "Create/refresh the distribution certificate and App Store provisioning profiles"
+  lane :signing do
+    api_key
+    cert(development: false, generate_apple_certs: true, output_path: "build/certs")
+    { "net.dauernheim.popote" => "La Popote AppStore", "net.dauernheim.popote.widgets" => "La Popote Widgets AppStore" }.each do |id, name|
+      sigh(app_identifier: id, provisioning_name: name, force: true, output_path: "build/profiles", skip_install: false)
+    end
+  end
+
   desc "Build and upload a TestFlight build (internal testers)"
   lane :beta do
     key = api_key
+    signing
     sh("cd .. && xcodegen generate --quiet")
     build_number = sh("git rev-list --count HEAD").strip.to_i + 100
     increment_build_number(xcodeproj: "Popote.xcodeproj", build_number: build_number)
@@ -52,8 +62,14 @@ platform :ios do
       export_method: "app-store",
       output_directory: "build/release",
       clean: true,
-      xcargs: "-allowProvisioningUpdates -authenticationKeyPath #{asc_key_path} -authenticationKeyID #{asc_key_id} -authenticationKeyIssuerID #{asc_issuer_id}",
-      export_options: { signingStyle: "automatic", manageAppVersionAndBuildNumber: false, testFlightInternalTestingOnly: false }
+      export_options: {
+        signingStyle: "manual",
+        manageAppVersionAndBuildNumber: false,
+        provisioningProfiles: {
+          "net.dauernheim.popote" => "La Popote AppStore",
+          "net.dauernheim.popote.widgets" => "La Popote Widgets AppStore"
+        }
+      }
     )
     upload_to_testflight(
       api_key: key,

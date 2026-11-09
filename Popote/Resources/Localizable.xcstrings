@@ -4,7 +4,16 @@
     "": {
       "shouldTranslate": false
     },
-    " (facultatif)": {},
+    " (facultatif)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " (optional)"
+          }
+        }
+      }
+    },
     " · modifié": {
       "localizations": {
         "en": {
@@ -18,44 +27,287 @@
     "%@": {
       "shouldTranslate": false
     },
-    "%@ (moi)": {},
+    "%@ (moi)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ (me)"
+          }
+        }
+      }
+    },
     "%@ / 15 000": {
       "shouldTranslate": false
     },
     "%@ : %@": {
       "shouldTranslate": false
     },
-    "%@ MIDI": {},
-    "%@ SOIR": {},
-    "%@ acheté": {},
-    "%@ remis dans la liste": {},
+    "%@ MIDI": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ LUNCH"
+          }
+        }
+      }
+    },
+    "%@ SOIR": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ DINNER"
+          }
+        }
+      }
+    },
+    "%@ acheté": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ bought"
+          }
+        }
+      }
+    },
+    "%@ remis dans la liste": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ back on the list"
+          }
+        }
+      }
+    },
     "%@ · %@": {
       "shouldTranslate": false
     },
-    "%@ · %lld article(s)": {},
-    "%@ · changer": {},
-    "%@ — le menu et la liste de courses sont partagés entre tous les membres.": {},
-    "%@, %@, %lld personnes": {},
+    "%@ · %lld article(s)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %lld item(s)"
+          }
+        }
+      }
+    },
+    "%@ · changer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · change"
+          }
+        }
+      }
+    },
+    "%@ — le menu et la liste de courses sont partagés entre tous les membres.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ — the menu and shopping list are shared between all members."
+          }
+        }
+      }
+    },
+    "%@, %@, %lld personnes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %@, %lld servings"
+          }
+        }
+      }
+    },
     "%lld": {},
-    "%lld min": {},
-    "%lld modification(s) pas encore synchronisée(s) seront perdues.": {},
-    "%lld modification(s) seront envoyées dès le retour du réseau.": {},
-    "%lld pers.": {},
-    "%lld personnes": {},
-    "%lld rappel(s) ajouté(s) dans « %@ »": {},
-    "%lld recettes": {},
-    "%lld repas copiés": {},
+    "%lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        }
+      }
+    },
+    "%lld modification(s) pas encore synchronisée(s) seront perdues.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld change(s) not yet synced will be lost."
+          }
+        }
+      }
+    },
+    "%lld modification(s) seront envoyées dès le retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld change(s) will be sent as soon as you're back online."
+          }
+        }
+      }
+    },
+    "%lld pers.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld serv."
+          }
+        }
+      }
+    },
+    "%lld personnes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld servings"
+          }
+        }
+      }
+    },
+    "%lld rappel(s) ajouté(s) dans « %@ »": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld reminder(s) added to “%@”"
+          }
+        }
+      }
+    },
+    "%lld recettes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld recipes"
+          }
+        }
+      }
+    },
+    "%lld repas copiés": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld meals copied"
+          }
+        }
+      }
+    },
     "%lld · %@": {},
-    "%lld étoiles": {},
-    "%lld★ et +": {},
-    "**%@** t'invite à rejoindre **« %@ »** pour partager le menu et la liste de courses.": {},
-    "**%@** t'invite à rejoindre « %@ »": {},
-    "+ %lld autre(s) plat(s)": {},
-    "+ Ajouter": {},
-    "+ Ajouter une recette": {},
-    "1 recette": {},
-    "1 étoile": {},
-    "4,5★ et +": {},
+    "%lld étoiles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld stars"
+          }
+        }
+      }
+    },
+    "%lld★ et +": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld★ and up"
+          }
+        }
+      }
+    },
+    "**%@** t'invite à rejoindre **« %@ »** pour partager le menu et la liste de courses.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**%@** invites you to join **“%@”** to share the menu and shopping list."
+          }
+        }
+      }
+    },
+    "**%@** t'invite à rejoindre « %@ »": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "**%@** invites you to join “%@”"
+          }
+        }
+      }
+    },
+    "+ %lld autre(s) plat(s)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ %lld more dish(es)"
+          }
+        }
+      }
+    },
+    "+ Ajouter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Add"
+          }
+        }
+      }
+    },
+    "+ Ajouter une recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "+ Add a recipe"
+          }
+        }
+      }
+    },
+    "1 recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 recipe"
+          }
+        }
+      }
+    },
+    "1 étoile": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "1 star"
+          }
+        }
+      }
+    },
+    "4,5★ et +": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "4.5★ and up"
+          }
+        }
+      }
+    },
     "A → Z": {
       "localizations": {
         "en": {
@@ -76,11 +328,56 @@
         }
       }
     },
-    "Accès aux Rappels refusé": {},
-    "Acheté": {},
-    "Acheté récemment · %lld": {},
-    "Administration": {},
-    "Affiché sur les recettes que tu partages : « Ajoutée par %@ ».": {},
+    "Accès aux Rappels refusé": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reminders access denied"
+          }
+        }
+      }
+    },
+    "Acheté": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bought"
+          }
+        }
+      }
+    },
+    "Acheté récemment · %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently bought · %lld"
+          }
+        }
+      }
+    },
+    "Administration": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Administration"
+          }
+        }
+      }
+    },
+    "Affiché sur les recettes que tu partages : « Ajoutée par %@ ».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shown on the recipes you share: “Added by %@”."
+          }
+        }
+      }
+    },
     "Ajouter": {
       "localizations": {
         "en": {
@@ -121,9 +418,36 @@
         }
       }
     },
-    "Ajouter un plat : %@": {},
-    "Ajouter un plat ici": {},
-    "Ajouter une minute": {},
+    "Ajouter un plat : %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a dish: %@"
+          }
+        }
+      }
+    },
+    "Ajouter un plat ici": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a dish here"
+          }
+        }
+      }
+    },
+    "Ajouter une minute": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add one minute"
+          }
+        }
+      }
+    },
     "Ajouter une photo de mon plat": {
       "localizations": {
         "en": {
@@ -134,9 +458,36 @@
         }
       }
     },
-    "Ajouter une recette au menu": {},
-    "Ajouter « %@ »": {},
-    "Ajouté au %@ du %@": {},
+    "Ajouter une recette au menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a recipe to the menu"
+          }
+        }
+      }
+    },
+    "Ajouter « %@ »": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add “%@”"
+          }
+        }
+      }
+    },
+    "Ajouté au %@ du %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added to %@ on %@"
+          }
+        }
+      }
+    },
     "Ajouté à la main": {
       "localizations": {
         "en": {
@@ -147,8 +498,26 @@
         }
       }
     },
-    "Ajoutée aux favoris par **%@**": {},
-    "Ajoutée par %@": {},
+    "Ajoutée aux favoris par **%@**": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added to favourites by **%@**"
+          }
+        }
+      }
+    },
+    "Ajoutée par %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added by %@"
+          }
+        }
+      }
+    },
     "Ajoutée à tes favoris ❤️": {
       "localizations": {
         "en": {
@@ -189,8 +558,26 @@
         }
       }
     },
-    "Analyser la photo": {},
-    "Analyser les %lld photos": {},
+    "Analyser la photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse the photo"
+          }
+        }
+      }
+    },
+    "Analyser les %lld photos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Analyse the %lld photos"
+          }
+        }
+      }
+    },
     "Annuler": {
       "localizations": {
         "en": {
@@ -251,7 +638,16 @@
         }
       }
     },
-    "Au menu": {},
+    "Au menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "On the menu"
+          }
+        }
+      }
+    },
     "Aucun commentaire pour l'instant. Soyez le premier !": {
       "localizations": {
         "en": {
@@ -262,7 +658,16 @@
         }
       }
     },
-    "Aucun compte Rappels disponible.": {},
+    "Aucun compte Rappels disponible.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Reminders account available."
+          }
+        }
+      }
+    },
     "Aucun ingrédient.": {
       "localizations": {
         "en": {
@@ -273,7 +678,16 @@
         }
       }
     },
-    "Aucun rayon": {},
+    "Aucun rayon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No aisle"
+          }
+        }
+      }
+    },
     "Aucune photo de plat n'a été repérée sur tes pages.": {
       "localizations": {
         "en": {
@@ -324,7 +738,16 @@
         }
       }
     },
-    "Aujourd'hui": {},
+    "Aujourd'hui": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today"
+          }
+        }
+      }
+    },
     "Auteur de la recette": {
       "localizations": {
         "en": {
@@ -335,11 +758,56 @@
         }
       }
     },
-    "Automne": {},
-    "Autorise La Popote à accéder à tes rappels dans les Réglages pour y exporter ta liste.": {},
-    "Autre": {},
-    "Avant de continuer": {},
-    "Bienvenue dans « %@ » !": {},
+    "Automne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Autumn"
+          }
+        }
+      }
+    },
+    "Autorise La Popote à accéder à tes rappels dans les Réglages pour y exporter ta liste.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Allow La Popote to access your reminders in Settings to export your list there."
+          }
+        }
+      }
+    },
+    "Autre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other"
+          }
+        }
+      }
+    },
+    "Avant de continuer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Before you continue"
+          }
+        }
+      }
+    },
+    "Bienvenue dans « %@ » !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to “%@”!"
+          }
+        }
+      }
+    },
     "Boisson": {
       "localizations": {
         "en": {
@@ -350,9 +818,36 @@
         }
       }
     },
-    "Bon appétit !": {},
-    "CE MIDI": {},
-    "CE SOIR": {},
+    "Bon appétit !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enjoy your meal!"
+          }
+        }
+      }
+    },
+    "CE MIDI": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "THIS LUNCH"
+          }
+        }
+      }
+    },
+    "CE SOIR": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TONIGHT"
+          }
+        }
+      }
+    },
     "Carré": {
       "localizations": {
         "en": {
@@ -363,7 +858,16 @@
         }
       }
     },
-    "Catégorie": {},
+    "Catégorie": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Category"
+          }
+        }
+      }
+    },
     "Catégories": {
       "localizations": {
         "en": {
@@ -374,7 +878,16 @@
         }
       }
     },
-    "Catégories (une ou plusieurs)": {},
+    "Catégories (une ou plusieurs)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Categories (one or more)"
+          }
+        }
+      }
+    },
     "Ce code d'invitation n'est pas valide": {
       "localizations": {
         "en": {
@@ -435,8 +948,26 @@
         }
       }
     },
-    "Cette fonction du site a changé. Mets l'app à jour.": {},
-    "Cette invitation a expiré. Demandes-en une nouvelle à %@.": {},
+    "Cette fonction du site a changé. Mets l'app à jour.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This website feature has changed. Please update the app."
+          }
+        }
+      }
+    },
+    "Cette invitation a expiré. Demandes-en une nouvelle à %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This invitation has expired. Ask %@ for a new one."
+          }
+        }
+      }
+    },
     "Cette invitation n'existe pas.": {
       "localizations": {
         "en": {
@@ -447,7 +978,16 @@
         }
       }
     },
-    "Cette recette a déjà été importée : « %@ ».": {},
+    "Cette recette a déjà été importée : « %@ ».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This recipe has already been imported: “%@”."
+          }
+        }
+      }
+    },
     "Cette recette existe peut-être déjà": {
       "localizations": {
         "en": {
@@ -488,7 +1028,16 @@
         }
       }
     },
-    "Changer de rayon : %@": {},
+    "Changer de rayon : %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change aisle: %@"
+          }
+        }
+      }
+    },
     "Chargement…": {
       "localizations": {
         "en": {
@@ -509,7 +1058,16 @@
         }
       }
     },
-    "Coché": {},
+    "Coché": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Checked"
+          }
+        }
+      }
+    },
     "Code d'invitation": {
       "localizations": {
         "en": {
@@ -590,7 +1148,16 @@
         }
       }
     },
-    "Coller une liste": {},
+    "Coller une liste": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste a list"
+          }
+        }
+      }
+    },
     "Coller à la main": {
       "localizations": {
         "en": {
@@ -611,8 +1178,26 @@
         }
       }
     },
-    "Commentaires (%lld)": {},
-    "Conditions": {},
+    "Commentaires (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comments (%lld)"
+          }
+        }
+      }
+    },
+    "Conditions": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms"
+          }
+        }
+      }
+    },
     "Conditions générales d'utilisation": {
       "localizations": {
         "en": {
@@ -623,7 +1208,16 @@
         }
       }
     },
-    "Connecté en tant que %@": {},
+    "Connecté en tant que %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signed in as %@"
+          }
+        }
+      }
+    },
     "Contents": {},
     "Contenu inapproprié": {
       "localizations": {
@@ -645,7 +1239,16 @@
         }
       }
     },
-    "Continuer": {},
+    "Continuer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Continue"
+          }
+        }
+      }
+    },
     "Copier": {
       "localizations": {
         "en": {
@@ -686,7 +1289,16 @@
         }
       }
     },
-    "Courses du %@ au %@": {},
+    "Courses du %@ au %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shopping from %@ to %@"
+          }
+        }
+      }
+    },
     "Créer mon compte": {
       "localizations": {
         "en": {
@@ -697,17 +1309,16 @@
         }
       }
     },
-    "Cuisson": {
+    "Cuisson %lld min": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Cooking"
+            "value": "Cooking %lld min"
           }
         }
       }
     },
-    "Cuisson %lld min": {},
     "Cuisson (min)": {
       "localizations": {
         "en": {
@@ -718,7 +1329,16 @@
         }
       }
     },
-    "Curry": {},
+    "Curry": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Curry"
+          }
+        }
+      }
+    },
     "D'où vient ta recette ?": {
       "localizations": {
         "en": {
@@ -729,9 +1349,36 @@
         }
       }
     },
-    "DEMAIN MIDI": {},
-    "DEMAIN SOIR": {},
-    "Dernière synchronisation": {},
+    "DEMAIN MIDI": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TOMORROW LUNCH"
+          }
+        }
+      }
+    },
+    "DEMAIN SOIR": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TOMORROW DINNER"
+          }
+        }
+      }
+    },
+    "Dernière synchronisation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last sync"
+          }
+        }
+      }
+    },
     "Descendre": {
       "localizations": {
         "en": {
@@ -742,9 +1389,36 @@
         }
       }
     },
-    "Dessert": {},
-    "Disponible uniquement en ligne.": {},
-    "Dit ce qui est prévu au prochain repas.": {},
+    "Dessert": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dessert"
+          }
+        }
+      }
+    },
+    "Disponible uniquement en ligne.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only available online."
+          }
+        }
+      }
+    },
+    "Dit ce qui est prévu au prochain repas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tells you what's planned for the next meal."
+          }
+        }
+      }
+    },
     "Droits d'auteur": {
       "localizations": {
         "en": {
@@ -765,9 +1439,36 @@
         }
       }
     },
-    "Du %@ au %@": {},
-    "Dupliquer": {},
-    "Déjeuner": {},
+    "Du %@ au %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From %@ to %@"
+          }
+        }
+      }
+    },
+    "Dupliquer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate"
+          }
+        }
+      }
+    },
+    "Déjeuner": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lunch"
+          }
+        }
+      }
+    },
     "Déjà dans la Popote !": {
       "localizations": {
         "en": {
@@ -778,8 +1479,26 @@
         }
       }
     },
-    "Déjà en stock": {},
-    "Déjà en stock (%lld)": {},
+    "Déjà en stock": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Already in stock"
+          }
+        }
+      }
+    },
+    "Déjà en stock (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Already in stock (%lld)"
+          }
+        }
+      }
+    },
     "Déjà en stock (exclu de la liste)": {
       "localizations": {
         "en": {
@@ -800,7 +1519,16 @@
         }
       }
     },
-    "Déplacer vers": {},
+    "Déplacer vers": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move to"
+          }
+        }
+      }
+    },
     "Détails": {
       "localizations": {
         "en": {
@@ -811,10 +1539,46 @@
         }
       }
     },
-    "Détails %@": {},
-    "Dîner": {},
-    "Elle a peut-être été supprimée.": {},
-    "Elle cherche la photo du plat…": {},
+    "Détails %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details %@"
+          }
+        }
+      }
+    },
+    "Dîner": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dinner"
+          }
+        }
+      }
+    },
+    "Elle a peut-être été supprimée.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It may have been deleted."
+          }
+        }
+      }
+    },
+    "Elle cherche la photo du plat…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "She's looking for the dish photo…"
+          }
+        }
+      }
+    },
     "Elle disparaîtra de la base commune pour tout le monde.": {
       "localizations": {
         "en": {
@@ -825,8 +1589,26 @@
         }
       }
     },
-    "Elle déchiffre la liste des ingrédients…": {},
-    "Elle remet les étapes dans l'ordre…": {},
+    "Elle déchiffre la liste des ingrédients…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "She's deciphering the ingredient list…"
+          }
+        }
+      }
+    },
+    "Elle remet les étapes dans l'ordre…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "She's putting the steps in order…"
+          }
+        }
+      }
+    },
     "Email": {
       "localizations": {
         "en": {
@@ -837,9 +1619,36 @@
         }
       }
     },
-    "En pause": {},
-    "En stock": {},
-    "Encore un petit instant, ça mijote…": {},
+    "En pause": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paused"
+          }
+        }
+      }
+    },
+    "En stock": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "In stock"
+          }
+        }
+      }
+    },
+    "Encore un petit instant, ça mijote…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Just a moment longer, it's simmering…"
+          }
+        }
+      }
+    },
     "Enregistrement impossible": {
       "localizations": {
         "en": {
@@ -890,7 +1699,16 @@
         }
       }
     },
-    "Ensuite, %@ : %@.": {},
+    "Ensuite, %@ : %@.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Then, %@: %@."
+          }
+        }
+      }
+    },
     "Entrée": {
       "localizations": {
         "en": {
@@ -971,7 +1789,16 @@
         }
       }
     },
-    "Exporter vers Rappels": {},
+    "Exporter vers Rappels": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export to Reminders"
+          }
+        }
+      }
+    },
     "Facultatif": {
       "localizations": {
         "en": {
@@ -1012,13 +1839,12 @@
         }
       }
     },
-    "Filtres (%lld)": {},
-    "Four": {
+    "Filtres (%lld)": {
       "localizations": {
         "en": {
           "stringUnit": {
             "state": "translated",
-            "value": "Oven"
+            "value": "Filters (%lld)"
           }
         }
       }
@@ -1073,7 +1899,16 @@
         }
       }
     },
-    "Glisse un plat d'une case à l'autre pour le déplacer, ou balaie-le pour le retirer.": {},
+    "Glisse un plat d'une case à l'autre pour le déplacer, ou balaie-le pour le retirer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drag a dish from one slot to another to move it, or swipe it to remove it."
+          }
+        }
+      }
+    },
     "Goûter": {
       "localizations": {
         "en": {
@@ -1104,14 +1939,86 @@
         }
       }
     },
-    "Hiver": {},
-    "Hors ligne": {},
-    "Hors ligne : cette action sera possible au retour du réseau.": {},
-    "Hors ligne : l'enregistrement sera possible dès le retour du réseau.": {},
-    "Hors ligne : la suppression sera possible au retour du réseau.": {},
-    "Hors ligne : les commentaires affichés peuvent ne pas être à jour.": {},
-    "Hors ligne : modifier, signaler et supprimer reviendront avec le réseau.": {},
-    "Hors ligne : tu pourras commenter au retour du réseau.": {},
+    "Hiver": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Winter"
+          }
+        }
+      }
+    },
+    "Hors ligne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline"
+          }
+        }
+      }
+    },
+    "Hors ligne : cette action sera possible au retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline: this will be possible once you're back online."
+          }
+        }
+      }
+    },
+    "Hors ligne : l'enregistrement sera possible dès le retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline: saving will be possible once you're back online."
+          }
+        }
+      }
+    },
+    "Hors ligne : la suppression sera possible au retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline: deleting will be possible once you're back online."
+          }
+        }
+      }
+    },
+    "Hors ligne : les commentaires affichés peuvent ne pas être à jour.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline: the comments shown may be out of date."
+          }
+        }
+      }
+    },
+    "Hors ligne : modifier, signaler et supprimer reviendront avec le réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline: edit, report and delete will be back once you're online."
+          }
+        }
+      }
+    },
+    "Hors ligne : tu pourras commenter au retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Offline: you can comment once you're back online."
+          }
+        }
+      }
+    },
     "Importer la recette": {
       "localizations": {
         "en": {
@@ -1172,7 +2079,16 @@
         }
       }
     },
-    "Impossible de charger les commentaires.": {},
+    "Impossible de charger les commentaires.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't load the comments."
+          }
+        }
+      }
+    },
     "Ingrédient": {
       "localizations": {
         "en": {
@@ -1213,8 +2129,26 @@
         }
       }
     },
-    "Invitation": {},
-    "Invitation créée pour %@. Lien copié : envoyez-le-lui.": {},
+    "Invitation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invitation"
+          }
+        }
+      }
+    },
+    "Invitation créée pour %@. Lien copié : envoyez-le-lui.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invitation created for %@. Link copied: send it to them."
+          }
+        }
+      }
+    },
     "Invitation impossible": {
       "localizations": {
         "en": {
@@ -1245,9 +2179,36 @@
         }
       }
     },
-    "J'accepte les": {},
-    "J'accepte les conditions générales d'utilisation": {},
-    "Jamais": {},
+    "J'accepte les": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I accept the"
+          }
+        }
+      }
+    },
+    "J'accepte les conditions générales d'utilisation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I accept the terms of use"
+          }
+        }
+      }
+    },
+    "Jamais": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Never"
+          }
+        }
+      }
+    },
     "Je certifie avoir le droit de partager ce contenu : la photo du plat est la mienne et le texte est rédigé avec mes propres mots ou appartient au domaine familial. J'indique la source si la recette est inspirée d'un livre, d'un magazine ou d'un site.": {
       "localizations": {
         "en": {
@@ -1278,7 +2239,16 @@
         }
       }
     },
-    "L'export vers Rappels a échoué": {},
+    "L'export vers Rappels a échoué": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export to Reminders failed"
+          }
+        }
+      }
+    },
     "L'histoire de Tata Suzanne": {
       "localizations": {
         "en": {
@@ -1289,7 +2259,16 @@
         }
       }
     },
-    "La Popote de Tata Suzanne": {},
+    "La Popote de Tata Suzanne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La Popote de Tata Suzanne"
+          }
+        }
+      }
+    },
     "La base commune contient une recette au titre très proche :": {
       "localizations": {
         "en": {
@@ -1310,7 +2289,16 @@
         }
       }
     },
-    "La photo pourra être ajoutée dès le retour du réseau.": {},
+    "La photo pourra être ajoutée dès le retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The photo can be added once you're back online."
+          }
+        }
+      }
+    },
     "La semaine précédente est vide": {
       "localizations": {
         "en": {
@@ -1321,7 +2309,16 @@
         }
       }
     },
-    "La source ne doit pas dépasser 1000 caractères.": {},
+    "La source ne doit pas dépasser 1000 caractères.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The source must not exceed 1000 characters."
+          }
+        }
+      }
+    },
     "La suppression n’a pas pu être terminée. Réessaie.": {
       "localizations": {
         "en": {
@@ -1362,8 +2359,26 @@
         }
       }
     },
-    "Le prochain repas prévu au menu.": {},
-    "Le serveur ne répond pas.": {},
+    "Le prochain repas prévu au menu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The next meal on the menu."
+          }
+        }
+      }
+    },
+    "Le serveur ne répond pas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The server isn't responding."
+          }
+        }
+      }
+    },
     "Le titre est obligatoire": {
       "localizations": {
         "en": {
@@ -1414,7 +2429,16 @@
         }
       }
     },
-    "Les commentaires s'afficheront au retour du réseau.": {},
+    "Les commentaires s'afficheront au retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comments will appear once you're back online."
+          }
+        }
+      }
+    },
     "Les laisser à la communauté de façon anonyme": {
       "localizations": {
         "en": {
@@ -1425,8 +2449,26 @@
         }
       }
     },
-    "Les rayons apparaîtront après la synchronisation.": {},
-    "Les recettes de famille,\npartagées entre tous.": {},
+    "Les rayons apparaîtront après la synchronisation.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aisles will appear after syncing."
+          }
+        }
+      }
+    },
+    "Les recettes de famille,\npartagées entre tous.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Family recipes,\nshared with everyone."
+          }
+        }
+      }
+    },
     "Lien copié": {
       "localizations": {
         "en": {
@@ -1477,8 +2519,26 @@
         }
       }
     },
-    "Lire les conditions générales": {},
-    "Liste générée : %lld articles": {},
+    "Lire les conditions générales": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read the terms of use"
+          }
+        }
+      }
+    },
+    "Liste générée : %lld articles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "List generated: %lld items"
+          }
+        }
+      }
+    },
     "Livre, carnet, magazine": {
       "localizations": {
         "en": {
@@ -1499,7 +2559,16 @@
         }
       }
     },
-    "MENU": {},
+    "MENU": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MENU"
+          }
+        }
+      }
+    },
     "Ma famille": {
       "localizations": {
         "en": {
@@ -1540,7 +2609,6 @@
         }
       }
     },
-    "Marinade": {},
     "Membre": {
       "localizations": {
         "en": {
@@ -1561,7 +2629,16 @@
         }
       }
     },
-    "Menu du jour": {},
+    "Menu du jour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Today's menu"
+          }
+        }
+      }
+    },
     "Merci pour ta note !": {
       "localizations": {
         "en": {
@@ -1592,7 +2669,16 @@
         }
       }
     },
-    "Mes favoris (%lld)": {},
+    "Mes favoris (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My favourites (%lld)"
+          }
+        }
+      }
+    },
     "Mes favoris ❤️": {
       "localizations": {
         "en": {
@@ -1603,7 +2689,16 @@
         }
       }
     },
-    "Mes recettes (%lld)": {},
+    "Mes recettes (%lld)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My recipes (%lld)"
+          }
+        }
+      }
+    },
     "Mieux notées": {
       "localizations": {
         "en": {
@@ -1614,7 +2709,16 @@
         }
       }
     },
-    "Minuteur": {},
+    "Minuteur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Timer"
+          }
+        }
+      }
+    },
     "Modification impossible": {
       "localizations": {
         "en": {
@@ -1625,7 +2729,16 @@
         }
       }
     },
-    "Modifications en attente": {},
+    "Modifications en attente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pending changes"
+          }
+        }
+      }
+    },
     "Modifier": {
       "localizations": {
         "en": {
@@ -1706,7 +2819,16 @@
         }
       }
     },
-    "Non coché": {},
+    "Non coché": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not checked"
+          }
+        }
+      }
+    },
     "Non connecté": {
       "localizations": {
         "en": {
@@ -1747,8 +2869,26 @@
         }
       }
     },
-    "OK": {},
-    "Options de la semaine": {},
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "Options de la semaine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week options"
+          }
+        }
+      }
+    },
     "Options du commentaire": {
       "localizations": {
         "en": {
@@ -1819,8 +2959,26 @@
         }
       }
     },
-    "Ouvre une recette dans La Popote.": {},
-    "Ouvrir ${recipe}": {},
+    "Ouvre une recette dans La Popote.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens a recipe in La Popote."
+          }
+        }
+      }
+    },
+    "Ouvrir ${recipe}": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open ${recipe}"
+          }
+        }
+      }
+    },
     "Ouvrir la recette": {
       "localizations": {
         "en": {
@@ -1831,9 +2989,36 @@
         }
       }
     },
-    "Ouvrir les Réglages": {},
-    "Ouvrir une recette": {},
-    "Page %lld": {},
+    "Ouvrir les Réglages": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        }
+      }
+    },
+    "Ouvrir une recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open a recipe"
+          }
+        }
+      }
+    },
+    "Page %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Page %lld"
+          }
+        }
+      }
+    },
     "Pain & brioche": {
       "localizations": {
         "en": {
@@ -1864,7 +3049,16 @@
         }
       }
     },
-    "Partager": {},
+    "Partager": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share"
+          }
+        }
+      }
+    },
     "Partager la liste": {
       "localizations": {
         "en": {
@@ -1875,9 +3069,36 @@
         }
       }
     },
-    "Partager le lien": {},
-    "Pas de connexion : la recette sera enregistrable dès le retour du réseau.": {},
-    "Pas de connexion internet.": {},
+    "Partager le lien": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share the link"
+          }
+        }
+      }
+    },
+    "Pas de connexion : la recette sera enregistrable dès le retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No connection: the recipe can be saved once you're back online."
+          }
+        }
+      }
+    },
+    "Pas de connexion internet.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No internet connection."
+          }
+        }
+      }
+    },
     "Pas encore de compte ? S'inscrire": {
       "localizations": {
         "en": {
@@ -1988,7 +3209,16 @@
         }
       }
     },
-    "Photos": {},
+    "Photos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos"
+          }
+        }
+      }
+    },
     "Photos repérées sur tes pages": {
       "localizations": {
         "en": {
@@ -2039,8 +3269,26 @@
         }
       }
     },
-    "Plus d'actions": {},
-    "Plus d'options": {},
+    "Plus d'actions": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More actions"
+          }
+        }
+      }
+    },
+    "Plus d'options": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More options"
+          }
+        }
+      }
+    },
     "Plus de personnes": {
       "localizations": {
         "en": {
@@ -2111,8 +3359,26 @@
         }
       }
     },
-    "Pour utiliser La Popote, accepte les conditions générales d'utilisation.": {},
-    "Prendre une recette en photo": {},
+    "Pour utiliser La Popote, accepte les conditions générales d'utilisation.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To use La Popote, please accept the terms of use."
+          }
+        }
+      }
+    },
+    "Prendre une recette en photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take a photo of a recipe"
+          }
+        }
+      }
+    },
     "Prends une recette en photo, on s'occupe du reste.": {
       "localizations": {
         "en": {
@@ -2123,8 +3389,26 @@
         }
       }
     },
-    "Presque prêt !": {},
-    "Printemps": {},
+    "Presque prêt !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Almost ready!"
+          }
+        }
+      }
+    },
+    "Printemps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spring"
+          }
+        }
+      }
+    },
     "Profil": {
       "localizations": {
         "en": {
@@ -2135,7 +3419,16 @@
         }
       }
     },
-    "Progression": {},
+    "Progression": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Progress"
+          }
+        }
+      }
+    },
     "Propriétaire": {
       "localizations": {
         "en": {
@@ -2196,7 +3489,16 @@
         }
       }
     },
-    "Préparation %lld min": {},
+    "Préparation %lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prep %lld min"
+          }
+        }
+      }
+    },
     "Préparation (min)": {
       "localizations": {
         "en": {
@@ -2337,7 +3639,16 @@
         }
       }
     },
-    "Quitter « %@ » ?": {},
+    "Quitter « %@ » ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave “%@”?"
+          }
+        }
+      }
+    },
     "Rayon": {
       "localizations": {
         "en": {
@@ -2378,8 +3689,26 @@
         }
       }
     },
-    "Recette %lld": {},
-    "Recette introuvable": {},
+    "Recette %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe %lld"
+          }
+        }
+      }
+    },
+    "Recette introuvable": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe not found"
+          }
+        }
+      }
+    },
     "Recette supprimée": {
       "localizations": {
         "en": {
@@ -2400,7 +3729,16 @@
         }
       }
     },
-    "Recettes disponibles hors ligne": {},
+    "Recettes disponibles hors ligne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipes available offline"
+          }
+        }
+      }
+    },
     "Recommencer": {
       "localizations": {
         "en": {
@@ -2441,8 +3779,26 @@
         }
       }
     },
-    "Rejoins mon foyer sur La Popote de Tata Suzanne": {},
-    "Remettre dans la liste": {},
+    "Rejoins mon foyer sur La Popote de Tata Suzanne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Join my household on La Popote de Tata Suzanne"
+          }
+        }
+      }
+    },
+    "Remettre dans la liste": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Put back on the list"
+          }
+        }
+      }
+    },
     "Repas": {
       "localizations": {
         "en": {
@@ -2459,16 +3815,6 @@
           "stringUnit": {
             "state": "translated",
             "value": "Festive meal"
-          }
-        }
-      }
-    },
-    "Repos": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Rest"
           }
         }
       }
@@ -2503,8 +3849,26 @@
         }
       }
     },
-    "Retirer %@": {},
-    "Retirer %@ ?": {},
+    "Retirer %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@"
+          }
+        }
+      }
+    },
+    "Retirer %@ ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove %@?"
+          }
+        }
+      }
+    },
     "Retirer des favoris": {
       "localizations": {
         "en": {
@@ -2525,7 +3889,16 @@
         }
       }
     },
-    "Retirer la photo": {},
+    "Retirer la photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove the photo"
+          }
+        }
+      }
+    },
     "Retirer ma note": {
       "localizations": {
         "en": {
@@ -2576,8 +3949,26 @@
         }
       }
     },
-    "Rien de prévu": {},
-    "Rien n'est prévu au menu pour l'instant.": {},
+    "Rien de prévu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing planned"
+          }
+        }
+      }
+    },
+    "Rien n'est prévu au menu pour l'instant.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing is on the menu yet."
+          }
+        }
+      }
+    },
     "Rien ne correspond… pour l'instant !": {
       "localizations": {
         "en": {
@@ -2618,9 +4009,36 @@
         }
       }
     },
-    "Répondre à %@…": {},
-    "Réponse inattendue du serveur.": {},
-    "S'ouvre sur le site web.": {},
+    "Répondre à %@…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reply to %@…"
+          }
+        }
+      }
+    },
+    "Réponse inattendue du serveur.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unexpected response from the server."
+          }
+        }
+      }
+    },
+    "S'ouvre sur le site web.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opens on the website."
+          }
+        }
+      }
+    },
     "Saisir à la main": {
       "localizations": {
         "en": {
@@ -2671,7 +4089,16 @@
         }
       }
     },
-    "Sauce": {},
+    "Sauce": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sauce"
+          }
+        }
+      }
+    },
     "Se connecter": {
       "localizations": {
         "en": {
@@ -2692,7 +4119,16 @@
         }
       }
     },
-    "Se déconnecter ?": {},
+    "Se déconnecter ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out?"
+          }
+        }
+      }
+    },
     "Semaine précédente": {
       "localizations": {
         "en": {
@@ -2753,7 +4189,16 @@
         }
       }
     },
-    "Signaler": {},
+    "Signaler": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report"
+          }
+        }
+      }
+    },
     "Signaler un contenu": {
       "localizations": {
         "en": {
@@ -2904,10 +4349,46 @@
         }
       }
     },
-    "Supprimer « %@ » ?": {},
-    "Synchronisation en attente": {},
-    "Synchronisation en cours": {},
-    "Synchroniser maintenant": {},
+    "Supprimer « %@ » ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete “%@”?"
+          }
+        }
+      }
+    },
+    "Synchronisation en attente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync pending"
+          }
+        }
+      }
+    },
+    "Synchronisation en cours": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Syncing"
+          }
+        }
+      }
+    },
+    "Synchroniser maintenant": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sync now"
+          }
+        }
+      }
+    },
     "Tags": {
       "localizations": {
         "en": {
@@ -2928,8 +4409,26 @@
         }
       }
     },
-    "Tata Suzanne": {},
-    "Tata Suzanne chausse ses lunettes…": {},
+    "Tata Suzanne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tata Suzanne"
+          }
+        }
+      }
+    },
+    "Tata Suzanne chausse ses lunettes…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tata Suzanne is putting on her glasses…"
+          }
+        }
+      }
+    },
     "Tata Suzanne n'arrive pas à lire cette page. Copie le texte de la recette et utilise « Coller un texte ».": {
       "localizations": {
         "en": {
@@ -2991,7 +4490,16 @@
         }
       }
     },
-    "Tes recettes, le menu et la liste de courses restent disponibles sans réseau.": {},
+    "Tes recettes, le menu et la liste de courses restent disponibles sans réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your recipes, menu and shopping list stay available without a connection."
+          }
+        }
+      }
+    },
     "Texte de la recette": {
       "localizations": {
         "en": {
@@ -3032,10 +4540,46 @@
         }
       }
     },
-    "Touche deux fois pour cocher ou décocher": {},
-    "Touche longuement une ligne pour la monter, la descendre ou la supprimer.": {},
-    "Touche pour remplir le menu.": {},
-    "Tous les repas du %@ seront retirés du menu (les recettes restent dans ton livre de cuisine).": {},
+    "Touche deux fois pour cocher ou décocher": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Double-tap to check or uncheck"
+          }
+        }
+      }
+    },
+    "Touche longuement une ligne pour la monter, la descendre ou la supprimer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Touch and hold a row to move it up, down or delete it."
+          }
+        }
+      }
+    },
+    "Touche pour remplir le menu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tap to fill in the menu."
+          }
+        }
+      }
+    },
+    "Tous les repas du %@ seront retirés du menu (les recettes restent dans ton livre de cuisine).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All meals on %@ will be removed from the menu (the recipes stay in your cookbook)."
+          }
+        }
+      }
+    },
     "Tout décocher": {
       "localizations": {
         "en": {
@@ -3056,7 +4600,16 @@
         }
       }
     },
-    "Toute l'année": {},
+    "Toute l'année": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All year"
+          }
+        }
+      }
+    },
     "Toutes les étapes": {
       "localizations": {
         "en": {
@@ -3067,7 +4620,16 @@
         }
       }
     },
-    "Toutes tes recettes restent disponibles.": {},
+    "Toutes tes recettes restent disponibles.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All your recipes stay available."
+          }
+        }
+      }
+    },
     "Trier": {
       "localizations": {
         "en": {
@@ -3088,11 +4650,56 @@
         }
       }
     },
-    "Tu es hors ligne": {},
-    "Tu es hors ligne : l'import automatique et l'enregistrement d'une recette demandent une connexion.": {},
-    "Tu es hors ligne. Reviens quand le réseau est disponible.": {},
-    "Tu es hors ligne. Tes modifications seront envoyées dès le retour du réseau.": {},
-    "Tu fais déjà partie de « %@ ».": {},
+    "Tu es hors ligne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're offline"
+          }
+        }
+      }
+    },
+    "Tu es hors ligne : l'import automatique et l'enregistrement d'une recette demandent une connexion.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're offline: automatic import and saving a recipe need a connection."
+          }
+        }
+      }
+    },
+    "Tu es hors ligne. Reviens quand le réseau est disponible.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're offline. Come back when you have a connection."
+          }
+        }
+      }
+    },
+    "Tu es hors ligne. Tes modifications seront envoyées dès le retour du réseau.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're offline. Your changes will be sent once you're back online."
+          }
+        }
+      }
+    },
+    "Tu fais déjà partie de « %@ ».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You're already part of “%@”."
+          }
+        }
+      }
+    },
     "Tu quitteras ton foyer actuel : son menu et sa liste de courses ne te seront plus visibles.": {
       "localizations": {
         "en": {
@@ -3113,9 +4720,36 @@
         }
       }
     },
-    "Tu t'étais arrêté·e à l'étape %lld.": {},
-    "Type": {},
-    "Téléchargement des photos…": {},
+    "Tu t'étais arrêté·e à l'étape %lld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You stopped at step %lld."
+          }
+        }
+      }
+    },
+    "Type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type"
+          }
+        }
+      }
+    },
+    "Téléchargement des photos…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading photos…"
+          }
+        }
+      }
+    },
     "Un plat sans recette": {
       "localizations": {
         "en": {
@@ -3126,7 +4760,16 @@
         }
       }
     },
-    "Une erreur est survenue.": {},
+    "Une erreur est survenue.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Something went wrong."
+          }
+        }
+      }
+    },
     "Une ou plusieurs pages (jusqu'à 6). Les ingrédients et étapes seront lus automatiquement.": {
       "localizations": {
         "en": {
@@ -3217,8 +4860,26 @@
         }
       }
     },
-    "Vider les articles achetés": {},
-    "Vidéo de présentation de Tata Suzanne": {},
+    "Vider les articles achetés": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear bought items"
+          }
+        }
+      }
+    },
+    "Vidéo de présentation de Tata Suzanne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tata Suzanne's introduction video"
+          }
+        }
+      }
+    },
     "Vient de": {
       "localizations": {
         "en": {
@@ -3299,7 +4960,16 @@
         }
       }
     },
-    "WhatsApp, e-mail, SMS…": {},
+    "WhatsApp, e-mail, SMS…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WhatsApp, email, text…"
+          }
+        }
+      }
+    },
     "Zoom": {
       "localizations": {
         "en": {
@@ -3340,7 +5010,16 @@
         }
       }
     },
-    "et": {},
+    "et": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "and"
+          }
+        }
+      }
+    },
     "ex. champignon": {
       "localizations": {
         "en": {
@@ -3395,8 +5074,26 @@
     "« %@ »": {
       "shouldTranslate": false
     },
-    "· %lld avis": {},
-    "· %lld pers.": {},
+    "· %lld avis": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "· %lld reviews"
+          }
+        }
+      }
+    },
+    "· %lld pers.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "· %lld serv."
+          }
+        }
+      }
+    },
     "À acheter": {
       "localizations": {
         "en": {
@@ -3407,7 +5104,16 @@
         }
       }
     },
-    "À acheter · %lld article(s) restant(s)": {},
+    "À acheter · %lld article(s) restant(s)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To buy · %lld item(s) left"
+          }
+        }
+      }
+    },
     "Ça t'a plu ?": {
       "localizations": {
         "en": {
@@ -3438,10 +5144,46 @@
         }
       }
     },
-    "Étape %lld": {},
-    "Étape %lld / %lld": {},
-    "Étape %lld / %lld · %@": {},
-    "Étape %lld : %@": {},
+    "Étape %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld"
+          }
+        }
+      }
+    },
+    "Étape %lld / %lld": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld / %lld"
+          }
+        }
+      }
+    },
+    "Étape %lld / %lld · %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld / %lld · %@"
+          }
+        }
+      }
+    },
+    "Étape %lld : %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Step %lld: %@"
+          }
+        }
+      }
+    },
     "Étapes": {
       "localizations": {
         "en": {
@@ -3452,7 +5194,16 @@
         }
       }
     },
-    "Été": {},
+    "Été": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Summer"
+          }
+        }
+      }
+    },
     "à l'instant": {
       "localizations": {
         "en": {
@@ -3466,7 +5217,16 @@
     "—": {
       "shouldTranslate": false
     },
-    "≤ %lld min": {},
+    "≤ %lld min": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "≤ %lld min"
+          }
+        }
+      }
+    },
     "⏰ Minuteur terminé": {
       "localizations": {
         "en": {

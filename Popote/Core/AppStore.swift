@@ -65,6 +65,12 @@ final class AppStore {
 
     func start() {
         guard authTask == nil else { return }
+        #if DEBUG
+        // UI testing helper: sign in from a refresh token passed by the developer at launch.
+        if let token = ProcessInfo.processInfo.environment["POPOTE_DEBUG_REFRESH_TOKEN"], !token.isEmpty {
+            Task { _ = try? await client.auth.refreshSession(refreshToken: token) }
+        }
+        #endif
         authTask = Task { [weak self] in
             guard let self else { return }
             for await (event, session) in client.auth.authStateChanges {
@@ -171,7 +177,7 @@ final class AppStore {
             .select("id,name,display_name,plural_name,aliases,category_id,seasons,verified,source,pending_ai")
             .order("name").execute().value
         async let aislesReq: [IngredientCategory] = db.from("ingredient_categories")
-            .select("id,name,color,icon,sort_order").execute().value
+            .select("id,name,name_en,color,icon,sort_order").execute().value
         async let householdReq: [Household] = db.from("households")
             .select("id,name,default_servings").limit(1).execute().value
         async let membersReq: [HouseholdMember] = db.from("household_members")
@@ -190,7 +196,7 @@ final class AppStore {
         async let ratingsReq: [RatingRow] = db.from("recipe_ratings")
             .select("recipe_id,stars").eq("user_id", value: uid).execute().value
         async let profileReq: [Profile] = db.from("profiles")
-            .select("id,first_name").eq("id", value: uid).limit(1).execute().value
+            .select("id,first_name,preferred_language").eq("id", value: uid).limit(1).execute().value
         async let rolesReq: [RoleRow] = db.from("user_roles")
             .select("role").eq("user_id", value: uid).execute().value
         async let termsReq: [TermsRow] = db.from("terms_acceptances")
@@ -218,6 +224,7 @@ final class AppStore {
         favorites = Dictionary(try await favoritesReq.map { ($0.recipe_id, $0.created_at ?? .distantPast) }, uniquingKeysWith: { a, _ in a })
         myRatings = Dictionary(try await ratingsReq.map { ($0.recipe_id, $0.stars) }, uniquingKeysWith: { a, _ in a })
         profile = try await profileReq.first
+        adoptProfileLanguage()
         isAdmin = try await rolesReq.contains { $0.role == "admin" }
         termsAccepted = !(try await termsReq).isEmpty
 
@@ -226,6 +233,21 @@ final class AppStore {
             let names: [Profile] = try await db.from("profiles").select("id,first_name")
                 .in("id", values: memberIds.map(\.uuidString)).execute().value
             memberNames = Dictionary(names.compactMap { p in p.id.flatMap { id in p.firstName.map { (id, $0) } } }, uniquingKeysWith: { a, _ in a })
+        }
+    }
+
+    /// Like the website: a language picked on this device wins and is pushed to the profile;
+    /// otherwise the language saved on the profile (e.g. chosen on the website) is applied.
+    private func adoptProfileLanguage() {
+        guard let saved = profile?.preferredLanguage.flatMap(AppLanguage.init(rawValue:)) else {
+            if AppLanguage.hasExplicitChoice { Task { await setLanguage(AppLanguage.current) } }
+            return
+        }
+        if AppLanguage.hasExplicitChoice, saved != AppLanguage.current {
+            Task { await setLanguage(AppLanguage.current) }
+        } else if !AppLanguage.hasExplicitChoice, saved != AppLanguage.current {
+            UserDefaults.standard.set(saved.rawValue, forKey: AppLanguage.storageKey)
+            NotificationCenter.default.post(name: .popoteLanguageChanged, object: saved)
         }
     }
 

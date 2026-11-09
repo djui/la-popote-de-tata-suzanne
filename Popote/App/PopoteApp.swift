@@ -4,10 +4,12 @@ import SwiftUI
 struct PopoteApp: App {
     @State private var store = AppStore()
     @State private var router = Router()
+    @State private var language = AppLanguage.current
     @Environment(\.scenePhase) private var scenePhase
 
     init() {
         Appearance.configure()
+        AppLanguage.applyToBundle(AppLanguage.current)
     }
 
     var body: some Scene {
@@ -15,7 +17,13 @@ struct PopoteApp: App {
             RootView()
                 .environment(store)
                 .environment(router)
+                .environment(\.locale, language.locale)
+                .id(language)
                 .tint(Palette.primary)
+                .onReceive(NotificationCenter.default.publisher(for: .popoteLanguageChanged)) { _ in
+                    AppLanguage.applyToBundle(AppLanguage.current)
+                    language = AppLanguage.current
+                }
                 .onAppear { store.start() }
                 .onOpenURL { router.handle(url: $0) }
                 .onContinueUserActivity(SpotlightIndexer.activityType) { router.handle(activity: $0) }

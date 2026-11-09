@@ -1,0 +1,3542 @@
+{
+  "sourceLanguage": "fr",
+  "strings": {
+    "": {
+      "shouldTranslate": false
+    },
+    " (facultatif)": {},
+    " · modifié": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": " · edited"
+          }
+        }
+      }
+    },
+    "%@": {
+      "shouldTranslate": false
+    },
+    "%@ (moi)": {},
+    "%@ / 15 000": {
+      "shouldTranslate": false
+    },
+    "%@ : %@": {
+      "shouldTranslate": false
+    },
+    "%@ MIDI": {},
+    "%@ SOIR": {},
+    "%@ acheté": {},
+    "%@ remis dans la liste": {},
+    "%@ · %@": {
+      "shouldTranslate": false
+    },
+    "%@ · %lld article(s)": {},
+    "%@ · changer": {},
+    "%@ — le menu et la liste de courses sont partagés entre tous les membres.": {},
+    "%@, %@, %lld personnes": {},
+    "%lld": {},
+    "%lld min": {},
+    "%lld modification(s) pas encore synchronisée(s) seront perdues.": {},
+    "%lld modification(s) seront envoyées dès le retour du réseau.": {},
+    "%lld pers.": {},
+    "%lld personnes": {},
+    "%lld rappel(s) ajouté(s) dans « %@ »": {},
+    "%lld recettes": {},
+    "%lld repas copiés": {},
+    "%lld · %@": {},
+    "%lld étoiles": {},
+    "%lld★ et +": {},
+    "**%@** t'invite à rejoindre **« %@ »** pour partager le menu et la liste de courses.": {},
+    "**%@** t'invite à rejoindre « %@ »": {},
+    "+ %lld autre(s) plat(s)": {},
+    "+ Ajouter": {},
+    "+ Ajouter une recette": {},
+    "1 recette": {},
+    "1 étoile": {},
+    "4,5★ et +": {},
+    "A → Z": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A → Z"
+          }
+        }
+      }
+    },
+    "Accepte les conditions générales pour créer ton compte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Accept the terms of use to create your account"
+          }
+        }
+      }
+    },
+    "Accès aux Rappels refusé": {},
+    "Acheté": {},
+    "Acheté récemment · %lld": {},
+    "Administration": {},
+    "Affiché sur les recettes que tu partages : « Ajoutée par %@ ».": {},
+    "Ajouter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        }
+      }
+    },
+    "Ajouter au menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to menu"
+          }
+        }
+      }
+    },
+    "Ajouter aux favoris": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add to favourites"
+          }
+        }
+      }
+    },
+    "Ajouter ma propre photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add my own photo"
+          }
+        }
+      }
+    },
+    "Ajouter un plat : %@": {},
+    "Ajouter un plat ici": {},
+    "Ajouter une minute": {},
+    "Ajouter une photo de mon plat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add a photo of my dish"
+          }
+        }
+      }
+    },
+    "Ajouter une recette au menu": {},
+    "Ajouter « %@ »": {},
+    "Ajouté au %@ du %@": {},
+    "Ajouté à la main": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added by hand"
+          }
+        }
+      }
+    },
+    "Ajoutée aux favoris par **%@**": {},
+    "Ajoutée par %@": {},
+    "Ajoutée à tes favoris ❤️": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Added to your favourites ❤️"
+          }
+        }
+      }
+    },
+    "Ajoutées récemment aux favoris": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently favourited"
+          }
+        }
+      }
+    },
+    "Ajuster le cadrage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adjust the crop"
+          }
+        }
+      }
+    },
+    "Analyse impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not analyse"
+          }
+        }
+      }
+    },
+    "Analyser la photo": {},
+    "Analyser les %lld photos": {},
+    "Annuler": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Annuler l'invitation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel invitation"
+          }
+        }
+      }
+    },
+    "Annuler le minuteur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel timer"
+          }
+        }
+      }
+    },
+    "Appareil photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera"
+          }
+        }
+      }
+    },
+    "Apéro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nibbles & drinks"
+          }
+        }
+      }
+    },
+    "Arrêter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop"
+          }
+        }
+      }
+    },
+    "Au menu": {},
+    "Aucun commentaire pour l'instant. Soyez le premier !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No comments yet. Be the first!"
+          }
+        }
+      }
+    },
+    "Aucun compte Rappels disponible.": {},
+    "Aucun ingrédient.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No ingredients."
+          }
+        }
+      }
+    },
+    "Aucun rayon": {},
+    "Aucune photo de plat n'a été repérée sur tes pages.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No dish photo was found on your pages."
+          }
+        }
+      }
+    },
+    "Aucune recette au menu sur ces jours": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No recipes planned for these dates"
+          }
+        }
+      }
+    },
+    "Aucune recette ne correspond.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No matching recipes."
+          }
+        }
+      }
+    },
+    "Aucune recette.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No recipes."
+          }
+        }
+      }
+    },
+    "Aucune étape.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No steps."
+          }
+        }
+      }
+    },
+    "Aujourd'hui": {},
+    "Auteur de la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe author"
+          }
+        }
+      }
+    },
+    "Automne": {},
+    "Autorise La Popote à accéder à tes rappels dans les Réglages pour y exporter ta liste.": {},
+    "Autre": {},
+    "Avant de continuer": {},
+    "Bienvenue dans « %@ » !": {},
+    "Boisson": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Drinks"
+          }
+        }
+      }
+    },
+    "Bon appétit !": {},
+    "CE MIDI": {},
+    "CE SOIR": {},
+    "Carré": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Square"
+          }
+        }
+      }
+    },
+    "Catégorie": {},
+    "Catégories": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Categories"
+          }
+        }
+      }
+    },
+    "Catégories (une ou plusieurs)": {},
+    "Ce code d'invitation n'est pas valide": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This invitation code is not valid"
+          }
+        }
+      }
+    },
+    "Ce lien ne semble pas valide. Vérifie qu'il commence par https://": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This link does not look valid. Check that it starts with https://"
+          }
+        }
+      }
+    },
+    "Celles que tu as ajoutées, avec leurs notes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The ones you added, with their ratings."
+          }
+        }
+      }
+    },
+    "Certifie tes droits avant de partager la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm your rights before sharing the recipe"
+          }
+        }
+      }
+    },
+    "Cette action est définitive.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This cannot be undone."
+          }
+        }
+      }
+    },
+    "Cette action est définitive. Tes données personnelles et tes photos privées seront effacées.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This cannot be undone. Your personal data and private photos will be erased."
+          }
+        }
+      }
+    },
+    "Cette fonction du site a changé. Mets l'app à jour.": {},
+    "Cette invitation a expiré. Demandes-en une nouvelle à %@.": {},
+    "Cette invitation n'existe pas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This invitation does not exist."
+          }
+        }
+      }
+    },
+    "Cette recette a déjà été importée : « %@ ».": {},
+    "Cette recette existe peut-être déjà": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This recipe may already exist"
+          }
+        }
+      }
+    },
+    "Cette recette n'a pas encore d'étapes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This recipe has no steps yet."
+          }
+        }
+      }
+    },
+    "Cette semaine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This week"
+          }
+        }
+      }
+    },
+    "Changer de rayon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change aisle"
+          }
+        }
+      }
+    },
+    "Changer de rayon : %@": {},
+    "Chargement…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading…"
+          }
+        }
+      }
+    },
+    "Choisir une autre photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose another photo"
+          }
+        }
+      }
+    },
+    "Coché": {},
+    "Code d'invitation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invitation code"
+          }
+        }
+      }
+    },
+    "Colle le lien dans le champ": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste the link in the field"
+          }
+        }
+      }
+    },
+    "Colle le lien de la recette (site de cuisine, blog…).": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste the recipe link (cooking website, blog…)."
+          }
+        }
+      }
+    },
+    "Colle ta recette dans la zone ci-dessous": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste your recipe in the box below"
+          }
+        }
+      }
+    },
+    "Colle ta recette ici": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste your recipe here"
+          }
+        }
+      }
+    },
+    "Coller": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste"
+          }
+        }
+      }
+    },
+    "Coller depuis le presse-papiers": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste from clipboard"
+          }
+        }
+      }
+    },
+    "Coller un texte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste text"
+          }
+        }
+      }
+    },
+    "Coller une liste": {},
+    "Coller à la main": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste by hand"
+          }
+        }
+      }
+    },
+    "Commentaire supprimé": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment deleted"
+          }
+        }
+      }
+    },
+    "Commentaires (%lld)": {},
+    "Conditions": {},
+    "Conditions générales d'utilisation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terms of use"
+          }
+        }
+      }
+    },
+    "Connecté en tant que %@": {},
+    "Contents": {},
+    "Contenu inapproprié": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inappropriate content"
+          }
+        }
+      }
+    },
+    "Contient": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contains"
+          }
+        }
+      }
+    },
+    "Continuer": {},
+    "Copier": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        }
+      }
+    },
+    "Copier la semaine précédente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy previous week"
+          }
+        }
+      }
+    },
+    "Copier un lien d'invitation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy an invitation link"
+          }
+        }
+      }
+    },
+    "Courses": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Shopping"
+          }
+        }
+      }
+    },
+    "Courses du %@ au %@": {},
+    "Créer mon compte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create my account"
+          }
+        }
+      }
+    },
+    "Cuisson": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cooking"
+          }
+        }
+      }
+    },
+    "Cuisson %lld min": {},
+    "Cuisson (min)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cooking time (min)"
+          }
+        }
+      }
+    },
+    "Curry": {},
+    "D'où vient ta recette ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where is your recipe from?"
+          }
+        }
+      }
+    },
+    "DEMAIN MIDI": {},
+    "DEMAIN SOIR": {},
+    "Dernière synchronisation": {},
+    "Descendre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move down"
+          }
+        }
+      }
+    },
+    "Dessert": {},
+    "Disponible uniquement en ligne.": {},
+    "Dit ce qui est prévu au prochain repas.": {},
+    "Droits d'auteur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copyright"
+          }
+        }
+      }
+    },
+    "Du": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From"
+          }
+        }
+      }
+    },
+    "Du %@ au %@": {},
+    "Dupliquer": {},
+    "Déjeuner": {},
+    "Déjà dans la Popote !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Already in La Popote!"
+          }
+        }
+      }
+    },
+    "Déjà en stock": {},
+    "Déjà en stock (%lld)": {},
+    "Déjà en stock (exclu de la liste)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Already in stock (excluded from the list)"
+          }
+        }
+      }
+    },
+    "Déjà un compte ? Se connecter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Already have an account? Sign in"
+          }
+        }
+      }
+    },
+    "Déplacer vers": {},
+    "Détails": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details"
+          }
+        }
+      }
+    },
+    "Détails %@": {},
+    "Dîner": {},
+    "Elle a peut-être été supprimée.": {},
+    "Elle cherche la photo du plat…": {},
+    "Elle disparaîtra de la base commune pour tout le monde.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "It will be removed from the shared collection for everyone."
+          }
+        }
+      }
+    },
+    "Elle déchiffre la liste des ingrédients…": {},
+    "Elle remet les étapes dans l'ordre…": {},
+    "Email": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Email"
+          }
+        }
+      }
+    },
+    "En pause": {},
+    "En stock": {},
+    "Encore un petit instant, ça mijote…": {},
+    "Enregistrement impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save"
+          }
+        }
+      }
+    },
+    "Enregistrer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save"
+          }
+        }
+      }
+    },
+    "Enregistrer la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save recipe"
+          }
+        }
+      }
+    },
+    "Enregistrer les modifications": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save changes"
+          }
+        }
+      }
+    },
+    "Enregistrer quand même": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Save anyway"
+          }
+        }
+      }
+    },
+    "Ensuite, %@ : %@.": {},
+    "Entrée": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Starter"
+          }
+        }
+      }
+    },
+    "Envoyer le signalement": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Send report"
+          }
+        }
+      }
+    },
+    "Erreur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "Essaie d'enlever un filtre, ou ajoute cette recette à ton livre de cuisine.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try removing a filter, or add this recipe to your cookbook."
+          }
+        }
+      }
+    },
+    "Est-ce bien la photo du plat ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Is this the dish photo?"
+          }
+        }
+      }
+    },
+    "Ex. Gratin dauphinois": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. Potato gratin"
+          }
+        }
+      }
+    },
+    "Export impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not export your recipes"
+          }
+        }
+      }
+    },
+    "Exporter mes recettes (JSON)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Export my recipes (JSON)"
+          }
+        }
+      }
+    },
+    "Exporter vers Rappels": {},
+    "Facultatif": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optional"
+          }
+        }
+      }
+    },
+    "Favoris": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Favourites"
+          }
+        }
+      }
+    },
+    "Fermer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close"
+          }
+        }
+      }
+    },
+    "Filtres": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filters"
+          }
+        }
+      }
+    },
+    "Filtres (%lld)": {},
+    "Four": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oven"
+          }
+        }
+      }
+    },
+    "Galerie": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gallery"
+          }
+        }
+      }
+    },
+    "Garde au moins une catégorie": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep at least one category"
+          }
+        }
+      }
+    },
+    "Garder telle quelle": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep as it is"
+          }
+        }
+      }
+    },
+    "Gaufre / Tartines": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Waffles & toast"
+          }
+        }
+      }
+    },
+    "Glisse les rayons dans l'ordre de ton supermarché, le panier suivra.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arrange the aisles in your supermarket’s order; your shopping list will follow."
+          }
+        }
+      }
+    },
+    "Glisse un plat d'une case à l'autre pour le déplacer, ou balaie-le pour le retirer.": {},
+    "Goûter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Afternoon snack"
+          }
+        }
+      }
+    },
+    "Gâteau": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cake"
+          }
+        }
+      }
+    },
+    "Générer depuis le menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generate from menu"
+          }
+        }
+      }
+    },
+    "Hiver": {},
+    "Hors ligne": {},
+    "Hors ligne : cette action sera possible au retour du réseau.": {},
+    "Hors ligne : l'enregistrement sera possible dès le retour du réseau.": {},
+    "Hors ligne : la suppression sera possible au retour du réseau.": {},
+    "Hors ligne : les commentaires affichés peuvent ne pas être à jour.": {},
+    "Hors ligne : modifier, signaler et supprimer reviendront avec le réseau.": {},
+    "Hors ligne : tu pourras commenter au retour du réseau.": {},
+    "Importer la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import recipe"
+          }
+        }
+      }
+    },
+    "Importer quand même": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import anyway"
+          }
+        }
+      }
+    },
+    "Impossible d'enregistrer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save"
+          }
+        }
+      }
+    },
+    "Impossible d'enregistrer l'ordre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save the order"
+          }
+        }
+      }
+    },
+    "Impossible d'enregistrer la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save the recipe"
+          }
+        }
+      }
+    },
+    "Impossible de changer le rayon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not change the aisle"
+          }
+        }
+      }
+    },
+    "Impossible de charger les commentaires.": {},
+    "Ingrédient": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingredient"
+          }
+        }
+      }
+    },
+    "Ingrédients": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingredients"
+          }
+        }
+      }
+    },
+    "Ingrédients à vérifier": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ingredients to review"
+          }
+        }
+      }
+    },
+    "Inspiré de Saveurs, déc. 2025": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inspired by Saveurs, Dec 2025"
+          }
+        }
+      }
+    },
+    "Invitation": {},
+    "Invitation créée pour %@. Lien copié : envoyez-le-lui.": {},
+    "Invitation impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not create the invitation"
+          }
+        }
+      }
+    },
+    "Inviter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invite"
+          }
+        }
+      }
+    },
+    "Inviter un membre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invite a member"
+          }
+        }
+      }
+    },
+    "J'accepte les": {},
+    "J'accepte les conditions générales d'utilisation": {},
+    "Jamais": {},
+    "Je certifie avoir le droit de partager ce contenu : la photo du plat est la mienne et le texte est rédigé avec mes propres mots ou appartient au domaine familial. J'indique la source si la recette est inspirée d'un livre, d'un magazine ou d'un site.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "I confirm I have the right to share this content: the dish photo is mine and the text is written in my own words or comes from family recipes. I acknowledge the source if the recipe is inspired by a book, magazine or website."
+          }
+        }
+      }
+    },
+    "Jette un œil à ta boîte mail pour confirmer ton compte, puis reviens te connecter.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check your inbox to confirm your account, then come back to sign in."
+          }
+        }
+      }
+    },
+    "Jour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Day"
+          }
+        }
+      }
+    },
+    "L'export vers Rappels a échoué": {},
+    "L'histoire de Tata Suzanne": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The story of Tata Suzanne"
+          }
+        }
+      }
+    },
+    "La Popote de Tata Suzanne": {},
+    "La base commune contient une recette au titre très proche :": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The shared collection contains a recipe with a very similar title:"
+          }
+        }
+      }
+    },
+    "La base de recettes est encore vide": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The recipe collection is still empty"
+          }
+        }
+      }
+    },
+    "La photo pourra être ajoutée dès le retour du réseau.": {},
+    "La semaine précédente est vide": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The previous week is empty"
+          }
+        }
+      }
+    },
+    "La source ne doit pas dépasser 1000 caractères.": {},
+    "La suppression n’a pas pu être terminée. Réessaie.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deletion could not be completed. Try again."
+          }
+        }
+      }
+    },
+    "Laisser un commentaire": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave a comment"
+          }
+        }
+      }
+    },
+    "Laquelle veux-tu importer ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Which one would you like to import?"
+          }
+        }
+      }
+    },
+    "Le panier est vide, Tata Suzanne serait fière de toi !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The basket is empty, Tata Suzanne would be proud!"
+          }
+        }
+      }
+    },
+    "Le prochain repas prévu au menu.": {},
+    "Le serveur ne répond pas.": {},
+    "Le titre est obligatoire": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A title is required"
+          }
+        }
+      }
+    },
+    "Lecture de la page…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading the page…"
+          }
+        }
+      }
+    },
+    "Lecture de la recette…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reading the recipe…"
+          }
+        }
+      }
+    },
+    "Lecture impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not read the recipe"
+          }
+        }
+      }
+    },
+    "Lecture impossible, réessaie dans un instant.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not read it, try again in a moment."
+          }
+        }
+      }
+    },
+    "Les commentaires s'afficheront au retour du réseau.": {},
+    "Les laisser à la communauté de façon anonyme": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave them with the community anonymously"
+          }
+        }
+      }
+    },
+    "Les rayons apparaîtront après la synchronisation.": {},
+    "Les recettes de famille,\npartagées entre tous.": {},
+    "Lien copié": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link copied"
+          }
+        }
+      }
+    },
+    "Lien d'invitation copié": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invitation link copied"
+          }
+        }
+      }
+    },
+    "Lien de la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe link"
+          }
+        }
+      }
+    },
+    "Lien web": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Web link"
+          }
+        }
+      }
+    },
+    "Lire la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Read recipe"
+          }
+        }
+      }
+    },
+    "Lire les conditions générales": {},
+    "Liste générée : %lld articles": {},
+    "Livre, carnet, magazine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cookbook, notebook, magazine"
+          }
+        }
+      }
+    },
+    "Légumes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vegetables"
+          }
+        }
+      }
+    },
+    "MENU": {},
+    "Ma famille": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My household"
+          }
+        }
+      }
+    },
+    "Ma note": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My rating"
+          }
+        }
+      }
+    },
+    "Mais qui est Tata Suzanne ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "So who is Tata Suzanne?"
+          }
+        }
+      }
+    },
+    "Mais qui se cache derrière la Popote ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Who’s behind La Popote?"
+          }
+        }
+      }
+    },
+    "Marinade": {},
+    "Membre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Member"
+          }
+        }
+      }
+    },
+    "Menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Menu"
+          }
+        }
+      }
+    },
+    "Menu du jour": {},
+    "Merci pour ta note !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Thanks for your rating!"
+          }
+        }
+      }
+    },
+    "Mes données": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My data"
+          }
+        }
+      }
+    },
+    "Mes favoris": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My favourites"
+          }
+        }
+      }
+    },
+    "Mes favoris (%lld)": {},
+    "Mes favoris ❤️": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My favourites ❤️"
+          }
+        }
+      }
+    },
+    "Mes recettes (%lld)": {},
+    "Mieux notées": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Highest rated"
+          }
+        }
+      }
+    },
+    "Minuteur": {},
+    "Modification impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not save the changes"
+          }
+        }
+      }
+    },
+    "Modifications en attente": {},
+    "Modifier": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        }
+      }
+    },
+    "Moins": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Decrease"
+          }
+        }
+      }
+    },
+    "Moins de personnes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fewer servings"
+          }
+        }
+      }
+    },
+    "Mon livre de cuisine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My cookbook"
+          }
+        }
+      }
+    },
+    "Mon magasin": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My store layout"
+          }
+        }
+      }
+    },
+    "Monter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Move up"
+          }
+        }
+      }
+    },
+    "Mot de passe": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        }
+      }
+    },
+    "Motif": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reason"
+          }
+        }
+      }
+    },
+    "Non coché": {},
+    "Non connecté": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not signed in"
+          }
+        }
+      }
+    },
+    "Note minimum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimum rating"
+          }
+        }
+      }
+    },
+    "Notes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notes"
+          }
+        }
+      }
+    },
+    "Nouvelle recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New recipe"
+          }
+        }
+      }
+    },
+    "OK": {},
+    "Options de la semaine": {},
+    "Options du commentaire": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comment options"
+          }
+        }
+      }
+    },
+    "Ordre par défaut rétabli": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default order restored"
+          }
+        }
+      }
+    },
+    "Ou trace une zone à la main sur une page": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Or select an area on a page by hand"
+          }
+        }
+      }
+    },
+    "Oups, cette photo n'a pas pu être lue": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oops, this photo could not be read"
+          }
+        }
+      }
+    },
+    "Oups, email ou mot de passe incorrect": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oops, incorrect email or password"
+          }
+        }
+      }
+    },
+    "Oups, la photo n'a pas pu être envoyée": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oops, the photo could not be uploaded"
+          }
+        }
+      }
+    },
+    "Oups, le recadrage a échoué": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oops, cropping failed"
+          }
+        }
+      }
+    },
+    "Ouvre une recette dans La Popote.": {},
+    "Ouvrir ${recipe}": {},
+    "Ouvrir la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open recipe"
+          }
+        }
+      }
+    },
+    "Ouvrir les Réglages": {},
+    "Ouvrir une recette": {},
+    "Page %lld": {},
+    "Pain & brioche": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bread & brioche"
+          }
+        }
+      }
+    },
+    "Par défaut": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default"
+          }
+        }
+      }
+    },
+    "Partage ton avis, une astuce, une variante…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share your thoughts, a tip or a variation…"
+          }
+        }
+      }
+    },
+    "Partager": {},
+    "Partager la liste": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Share list"
+          }
+        }
+      }
+    },
+    "Partager le lien": {},
+    "Pas de connexion : la recette sera enregistrable dès le retour du réseau.": {},
+    "Pas de connexion internet.": {},
+    "Pas encore de compte ? S'inscrire": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No account yet? Sign up"
+          }
+        }
+      }
+    },
+    "Pas encore de favoris. Tape sur le cœur d'une recette pour la retrouver ici !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No favourites yet. Tap a recipe’s heart to find it here!"
+          }
+        }
+      }
+    },
+    "Pas encore notée": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Not rated yet"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pause"
+          }
+        }
+      }
+    },
+    "Paysage": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Landscape"
+          }
+        }
+      }
+    },
+    "Personnes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Servings"
+          }
+        }
+      }
+    },
+    "Personnes par défaut": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default servings"
+          }
+        }
+      }
+    },
+    "Petit-déjeuner": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Breakfast"
+          }
+        }
+      }
+    },
+    "Photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photo"
+          }
+        }
+      }
+    },
+    "Photo du plat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dish photo"
+          }
+        }
+      }
+    },
+    "Photographie la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photograph the recipe"
+          }
+        }
+      }
+    },
+    "Photos": {},
+    "Photos repérées sur tes pages": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photos found on your pages"
+          }
+        }
+      }
+    },
+    "Plat": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Main course"
+          }
+        }
+      }
+    },
+    "Plat libre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Free-form meal"
+          }
+        }
+      }
+    },
+    "Plus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Increase"
+          }
+        }
+      }
+    },
+    "Plus anciens": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oldest first"
+          }
+        }
+      }
+    },
+    "Plus d'actions": {},
+    "Plus d'options": {},
+    "Plus de personnes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "More servings"
+          }
+        }
+      }
+    },
+    "Plus rapides": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quickest first"
+          }
+        }
+      }
+    },
+    "Plus récentes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Newest first"
+          }
+        }
+      }
+    },
+    "Plus récents": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Newest first"
+          }
+        }
+      }
+    },
+    "Plusieurs recettes trouvées": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Several recipes found"
+          }
+        }
+      }
+    },
+    "Portrait": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Portrait"
+          }
+        }
+      }
+    },
+    "Pour cette étape": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For this step"
+          }
+        }
+      }
+    },
+    "Pour utiliser La Popote, accepte les conditions générales d'utilisation.": {},
+    "Prendre une recette en photo": {},
+    "Prends une recette en photo, on s'occupe du reste.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Take a photo of a recipe; we’ll take care of the rest."
+          }
+        }
+      }
+    },
+    "Presque prêt !": {},
+    "Printemps": {},
+    "Profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profile"
+          }
+        }
+      }
+    },
+    "Progression": {},
+    "Propriétaire": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Owner"
+          }
+        }
+      }
+    },
+    "Précisions (facultatif)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Details (optional)"
+          }
+        }
+      }
+    },
+    "Précédente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous"
+          }
+        }
+      }
+    },
+    "Prénom": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First name"
+          }
+        }
+      }
+    },
+    "Prénom enregistré": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First name saved"
+          }
+        }
+      }
+    },
+    "Préparation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prep time"
+          }
+        }
+      }
+    },
+    "Préparation %lld min": {},
+    "Préparation (min)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prep time (min)"
+          }
+        }
+      }
+    },
+    "Préparation des photos…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparing photos…"
+          }
+        }
+      }
+    },
+    "Publication impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not publish"
+          }
+        }
+      }
+    },
+    "Publier": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Post"
+          }
+        }
+      }
+    },
+    "Pâtes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasta"
+          }
+        }
+      }
+    },
+    "Qté": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qty"
+          }
+        }
+      }
+    },
+    "Qu'est-ce que tu as prévu ? ex. Haricots verts et poulet": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What have you planned? e.g. Green beans and chicken"
+          }
+        }
+      }
+    },
+    "Quantité": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quantity"
+          }
+        }
+      }
+    },
+    "Que veux-tu acheter ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What do you need?"
+          }
+        }
+      }
+    },
+    "Quel type de recette ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What type of recipe?"
+          }
+        }
+      }
+    },
+    "Quiche / Tarte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Quiches & tarts"
+          }
+        }
+      }
+    },
+    "Quitter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave"
+          }
+        }
+      }
+    },
+    "Quitter le foyer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leave household"
+          }
+        }
+      }
+    },
+    "Quitter le mode cuisine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exit cooking mode"
+          }
+        }
+      }
+    },
+    "Quitter « %@ » ?": {},
+    "Rayon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aisle"
+          }
+        }
+      }
+    },
+    "Rayon mis à jour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aisle updated"
+          }
+        }
+      }
+    },
+    "Recadre ta photo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crop your photo"
+          }
+        }
+      }
+    },
+    "Recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe"
+          }
+        }
+      }
+    },
+    "Recette %lld": {},
+    "Recette introuvable": {},
+    "Recette supprimée": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe deleted"
+          }
+        }
+      }
+    },
+    "Recettes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipes"
+          }
+        }
+      }
+    },
+    "Recettes disponibles hors ligne": {},
+    "Recommencer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start again"
+          }
+        }
+      }
+    },
+    "Rejoindre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Join"
+          }
+        }
+      }
+    },
+    "Rejoindre ce foyer ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Join this household?"
+          }
+        }
+      }
+    },
+    "Rejoindre le foyer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Join household"
+          }
+        }
+      }
+    },
+    "Rejoins mon foyer sur La Popote de Tata Suzanne": {},
+    "Remettre dans la liste": {},
+    "Repas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meal"
+          }
+        }
+      }
+    },
+    "Repas de fête": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Festive meal"
+          }
+        }
+      }
+    },
+    "Repos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rest"
+          }
+        }
+      }
+    },
+    "Reprendre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resume"
+          }
+        }
+      }
+    },
+    "Reprendre où tu en étais ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pick up where you left off?"
+          }
+        }
+      }
+    },
+    "Retirer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove"
+          }
+        }
+      }
+    },
+    "Retirer %@": {},
+    "Retirer %@ ?": {},
+    "Retirer des favoris": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from favourites"
+          }
+        }
+      }
+    },
+    "Retirer du menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove from menu"
+          }
+        }
+      }
+    },
+    "Retirer la photo": {},
+    "Retirer ma note": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Remove my rating"
+          }
+        }
+      }
+    },
+    "Retirée de tes favoris": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Removed from your favourites"
+          }
+        }
+      }
+    },
+    "Retour au profil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to profile"
+          }
+        }
+      }
+    },
+    "Revenir à ma recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Back to my recipe"
+          }
+        }
+      }
+    },
+    "Revoir la dernière étape": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review the last step"
+          }
+        }
+      }
+    },
+    "Rien de prévu": {},
+    "Rien n'est prévu au menu pour l'instant.": {},
+    "Rien ne correspond… pour l'instant !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nothing matches… yet!"
+          }
+        }
+      }
+    },
+    "Réessayer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "Réglage du foyer, utilisé quand on ajoute une recette au menu.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A household setting, used when adding a recipe to the menu."
+          }
+        }
+      }
+    },
+    "Répondre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reply"
+          }
+        }
+      }
+    },
+    "Répondre à %@…": {},
+    "Réponse inattendue du serveur.": {},
+    "S'ouvre sur le site web.": {},
+    "Saisir à la main": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter by hand"
+          }
+        }
+      }
+    },
+    "Saison": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Season"
+          }
+        }
+      }
+    },
+    "Saisons": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seasons"
+          }
+        }
+      }
+    },
+    "Salade": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Salad"
+          }
+        }
+      }
+    },
+    "Sans": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Without"
+          }
+        }
+      }
+    },
+    "Sauce": {},
+    "Se connecter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in"
+          }
+        }
+      }
+    },
+    "Se déconnecter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out"
+          }
+        }
+      }
+    },
+    "Se déconnecter ?": {},
+    "Semaine précédente": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Previous week"
+          }
+        }
+      }
+    },
+    "Semaine suivante": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next week"
+          }
+        }
+      }
+    },
+    "Semaine vidée": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Week cleared"
+          }
+        }
+      }
+    },
+    "Signalement envoyé": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report sent"
+          }
+        }
+      }
+    },
+    "Signalement impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not send the report"
+          }
+        }
+      }
+    },
+    "Signalements de contenus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Content reports"
+          }
+        }
+      }
+    },
+    "Signaler": {},
+    "Signaler un contenu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Report content"
+          }
+        }
+      }
+    },
+    "Site de recettes, blog": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe website, blog"
+          }
+        }
+      }
+    },
+    "Sommaire": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Contents"
+          }
+        }
+      }
+    },
+    "Soupe": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soup"
+          }
+        }
+      }
+    },
+    "Source / inspiration": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source / inspiration"
+          }
+        }
+      }
+    },
+    "Source / inspiration (facultatif)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source / inspiration (optional)"
+          }
+        }
+      }
+    },
+    "Suivante": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Next"
+          }
+        }
+      }
+    },
+    "Suppression impossible": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not delete"
+          }
+        }
+      }
+    },
+    "Suppression…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deleting…"
+          }
+        }
+      }
+    },
+    "Supprimer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "Supprimer aussi mes recettes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete my recipes too"
+          }
+        }
+      }
+    },
+    "Supprimer ce commentaire ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this comment?"
+          }
+        }
+      }
+    },
+    "Supprimer cette recette ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this recipe?"
+          }
+        }
+      }
+    },
+    "Supprimer définitivement": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete permanently"
+          }
+        }
+      }
+    },
+    "Supprimer mon compte": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete my account"
+          }
+        }
+      }
+    },
+    "Supprimer « %@ » ?": {},
+    "Synchronisation en attente": {},
+    "Synchronisation en cours": {},
+    "Synchroniser maintenant": {},
+    "Tags": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags"
+          }
+        }
+      }
+    },
+    "Tags (séparés par des virgules)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tags (separated by commas)"
+          }
+        }
+      }
+    },
+    "Tata Suzanne": {},
+    "Tata Suzanne chausse ses lunettes…": {},
+    "Tata Suzanne n'arrive pas à lire cette page. Copie le texte de la recette et utilise « Coller un texte ».": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tata Suzanne can’t read this page. Copy the recipe text and use ‘Paste text’."
+          }
+        }
+      }
+    },
+    "Temps total max": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Maximum total time"
+          }
+        }
+      }
+    },
+    "Terminer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finish"
+          }
+        }
+      }
+    },
+    "Terminé !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Finished!"
+          }
+        }
+      }
+    },
+    "Terms": {},
+    "Tes recettes partagées": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your shared recipes"
+          }
+        }
+      }
+    },
+    "Tes recettes sont exportées": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your recipes have been exported"
+          }
+        }
+      }
+    },
+    "Tes recettes, le menu et la liste de courses restent disponibles sans réseau.": {},
+    "Texte de la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recipe text"
+          }
+        }
+      }
+    },
+    "Titre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title"
+          }
+        }
+      }
+    },
+    "Titre ou ingrédient…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Title or ingredient…"
+          }
+        }
+      }
+    },
+    "Ton livre de cuisine est encore tout neuf. Ajoute ta première recette !": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your cookbook is still brand new. Add your first recipe!"
+          }
+        }
+      }
+    },
+    "Touche deux fois pour cocher ou décocher": {},
+    "Touche longuement une ligne pour la monter, la descendre ou la supprimer.": {},
+    "Touche pour remplir le menu.": {},
+    "Tous les repas du %@ seront retirés du menu (les recettes restent dans ton livre de cuisine).": {},
+    "Tout décocher": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uncheck all"
+          }
+        }
+      }
+    },
+    "Tout effacer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear all"
+          }
+        }
+      }
+    },
+    "Toute l'année": {},
+    "Toutes les étapes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All steps"
+          }
+        }
+      }
+    },
+    "Toutes tes recettes restent disponibles.": {},
+    "Trier": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort"
+          }
+        }
+      }
+    },
+    "Trier les commentaires": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort comments"
+          }
+        }
+      }
+    },
+    "Tu es hors ligne": {},
+    "Tu es hors ligne : l'import automatique et l'enregistrement d'une recette demandent une connexion.": {},
+    "Tu es hors ligne. Reviens quand le réseau est disponible.": {},
+    "Tu es hors ligne. Tes modifications seront envoyées dès le retour du réseau.": {},
+    "Tu fais déjà partie de « %@ ».": {},
+    "Tu quitteras ton foyer actuel : son menu et sa liste de courses ne te seront plus visibles.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You will leave your current household: its menu and shopping list will no longer be visible to you."
+          }
+        }
+      }
+    },
+    "Tu retrouveras un foyer personnel vide. Le menu et la liste partagés restent aux autres membres.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You will have an empty personal household. The shared menu and list stay with the other members."
+          }
+        }
+      }
+    },
+    "Tu t'étais arrêté·e à l'étape %lld.": {},
+    "Type": {},
+    "Téléchargement des photos…": {},
+    "Un plat sans recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A meal without a recipe"
+          }
+        }
+      }
+    },
+    "Une erreur est survenue.": {},
+    "Une ou plusieurs pages (jusqu'à 6). Les ingrédients et étapes seront lus automatiquement.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "One or more pages (up to 6). Ingredients and steps will be read automatically."
+          }
+        }
+      }
+    },
+    "Une recette reçue par message ou par e-mail ? Copie-la puis colle-la ici, Tata Suzanne fait le tri.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Received a recipe by message or email? Copy and paste it here; Tata Suzanne will sort it out."
+          }
+        }
+      }
+    },
+    "Unité": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unit"
+          }
+        }
+      }
+    },
+    "Valable 7 jours. La personne invitée par email verra aussi l'invitation dans son Profil.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valid for 7 days. Anyone invited by email will also see the invitation in their Profile."
+          }
+        }
+      }
+    },
+    "Valider": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confirm"
+          }
+        }
+      }
+    },
+    "Valider ce que l'IA a rangé, fusionner les doublons.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Review what AI has sorted and merge duplicates."
+          }
+        }
+      }
+    },
+    "Vider": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear"
+          }
+        }
+      }
+    },
+    "Vider la semaine": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear the week"
+          }
+        }
+      }
+    },
+    "Vider la semaine ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear the week?"
+          }
+        }
+      }
+    },
+    "Vider les articles achetés": {},
+    "Vidéo de présentation de Tata Suzanne": {},
+    "Vient de": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "From"
+          }
+        }
+      }
+    },
+    "Visible seulement par toi et les membres de ton foyer.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Only visible to you and members of your household."
+          }
+        }
+      }
+    },
+    "Voir la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View recipe"
+          }
+        }
+      }
+    },
+    "Voir la recette d'origine ↗": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View the original recipe ↗"
+          }
+        }
+      }
+    },
+    "Voir plus": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show more"
+          }
+        }
+      }
+    },
+    "Voir qui l'a en favori": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See who favourited it"
+          }
+        }
+      }
+    },
+    "Vérifie la recette": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check the recipe"
+          }
+        }
+      }
+    },
+    "Vérifie les champs surlignés : ils sont vides ou n'ont pas pu être lus sur la photo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check the highlighted fields: they are empty or could not be read from the photo."
+          }
+        }
+      }
+    },
+    "WhatsApp, e-mail, SMS…": {},
+    "Zoom": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom"
+          }
+        }
+      }
+    },
+    "au": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "to"
+          }
+        }
+      }
+    },
+    "conditions générales d'utilisation": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "terms of use"
+          }
+        }
+      }
+    },
+    "email@exemple.fr": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "email@example.com"
+          }
+        }
+      }
+    },
+    "et": {},
+    "ex. champignon": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. mushroom"
+          }
+        }
+      }
+    },
+    "ex. tomate": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. tomato"
+          }
+        }
+      }
+    },
+    "https://…": {},
+    "lien": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "link"
+          }
+        }
+      }
+    },
+    "souvent acheté": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "often bought"
+          }
+        }
+      }
+    },
+    "un membre": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a member"
+          }
+        }
+      }
+    },
+    "« %@ »": {
+      "shouldTranslate": false
+    },
+    "· %lld avis": {},
+    "· %lld pers.": {},
+    "À acheter": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "To buy"
+          }
+        }
+      }
+    },
+    "À acheter · %lld article(s) restant(s)": {},
+    "Ça t'a plu ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Did you enjoy it?"
+          }
+        }
+      }
+    },
+    "Échec de l'envoi des photos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Could not upload the photos"
+          }
+        }
+      }
+    },
+    "Écris SUPPRIMER pour confirmer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type SUPPRIMER to confirm"
+          }
+        }
+      }
+    },
+    "Étape %lld": {},
+    "Étape %lld / %lld": {},
+    "Étape %lld / %lld · %@": {},
+    "Étape %lld : %@": {},
+    "Étapes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps"
+          }
+        }
+      }
+    },
+    "Été": {},
+    "à l'instant": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "just now"
+          }
+        }
+      }
+    },
+    "—": {
+      "shouldTranslate": false
+    },
+    "≤ %lld min": {},
+    "⏰ Minuteur terminé": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⏰ Timer finished"
+          }
+        }
+      }
+    },
+    "🌿 De saison": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "🌿 In season"
+          }
+        }
+      }
+    },
+    "👤 Ajoutées par moi": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "👤 Added by me"
+          }
+        }
+      }
+    },
+    "👩‍🍳 Cuisiner": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "👩‍🍳 Cooking mode"
+          }
+        }
+      }
+    },
+    "🔆 Écran maintenu allumé": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "🔆 Screen kept awake"
+          }
+        }
+      }
+    },
+    "🔒 Recette privée": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "🔒 Private recipe"
+          }
+        }
+      }
+    },
+    "🔒 Recette privée : visible seulement par le foyer de l'auteur": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "🔒 Private recipe: only visible to the author’s household"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

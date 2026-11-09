@@ -110,13 +110,22 @@ struct Ingredient: Codable, Identifiable, Hashable, Sendable {
 struct IngredientCategory: Codable, Identifiable, Hashable, Sendable {
     var id: UUID
     var name: String
+    /// English label (website column `name_en`); falls back to `name`.
+    var nameEn: String?
     var color: String?
     var icon: String?
     var sortOrder: Int?
 
     enum CodingKeys: String, CodingKey {
         case id, name, color, icon
+        case nameEn = "name_en"
         case sortOrder = "sort_order"
+    }
+
+    /// Label in the app's current language.
+    var displayName: String {
+        if AppLanguage.current == .en, let nameEn, !nameEn.isEmpty { return nameEn }
+        return name
     }
 }
 
@@ -290,10 +299,12 @@ struct RecipeComment: Codable, Identifiable, Hashable, Sendable {
 struct Profile: Codable, Hashable, Sendable {
     var id: UUID?
     var firstName: String?
+    var preferredLanguage: String?
 
     enum CodingKeys: String, CodingKey {
         case id
         case firstName = "first_name"
+        case preferredLanguage = "preferred_language"
     }
 }
 

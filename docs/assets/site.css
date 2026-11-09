@@ -1,0 +1,39 @@
+/* La Popote — companion site. Same palette and type as the app. */
+:root {
+  --bg: #F7F1E6; --card: #FDFAF3; --ink: #3B2E25; --muted: #7A6A5C; --line: #E6DBC8;
+  --primary: #1F3157; --on-primary: #FDFAF3; --chip: #EFE6D6; --lemon: #E8CF6E;
+  --display: "Fraunces", Georgia, serif; --body: "Nunito", ui-sans-serif, system-ui, sans-serif; --script: "Dancing Script", cursive;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #11162A; --card: #1A2137; --ink: #F2EBDD; --muted: #A99F90; --line: #283150;
+          --primary: #E8CF6E; --on-primary: #1A2036; --chip: #222A43; color-scheme: dark; }
+  .lemon { filter: invert(1) sepia(.4) saturate(2.5) hue-rotate(8deg) brightness(1.05); }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 var(--body);
+  padding-left: max(20px, env(safe-area-inset-left)); padding-right: max(20px, env(safe-area-inset-right)); }
+main, header, footer { max-width: 720px; margin: 0 auto; }
+header { padding: 56px 0 8px; text-align: center; }
+.lemon { width: 64px; height: auto; }
+.wordmark { font: 700 clamp(40px, 9vw, 60px)/1 var(--script); color: var(--primary); transform: rotate(-5deg); margin: 18px 0 22px; }
+.tagline { color: var(--muted); font-size: 19px; margin: 0 auto 28px; max-width: 32ch; }
+h1, h2, h3 { font-family: var(--display); font-weight: 800; line-height: 1.15; text-wrap: balance; }
+h1 { font-size: clamp(30px, 6vw, 40px); margin: 40px 0 12px; }
+h2 { font-size: 24px; margin: 40px 0 10px; }
+h3 { font-size: 18px; margin: 24px 0 6px; }
+p, li { max-width: 65ch; }
+a { color: var(--primary); text-underline-offset: 3px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 22px; border-radius: 999px;
+  background: var(--primary); color: var(--on-primary); font-weight: 800; text-decoration: none; }
+.btn.secondary { background: var(--chip); color: var(--ink); }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; margin: 36px 0; }
+.feature { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px 18px; min-width: 0; }
+.feature b { display: block; font-family: var(--display); font-size: 17px; margin-bottom: 4px; }
+.feature span { color: var(--muted); font-size: 15px; }
+.lang { text-align: right; padding-top: 18px; font-size: 14px; }
+.lang a { margin-left: 8px; }
+footer { color: var(--muted); font-size: 14px; padding: 48px 0 40px; border-top: 1px solid var(--line); margin-top: 56px;
+  display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+code { background: var(--chip); padding: 1px 6px; border-radius: 6px; font-size: .9em; }

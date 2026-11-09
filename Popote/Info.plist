@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>net.dauernheim.popote.refresh</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>fr</string>
+	<key>CFBundleDisplayName</key>
+	<string>La Popote</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>fr</string>
+		<string>en</string>
+	</array>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>net.dauernheim.popote</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>popote</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.food-and-drink</string>
+	<key>NSCameraUsageDescription</key>
+	<string>La Popote utilise l'appareil photo pour photographier une recette ou un plat.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>La Popote accède à tes photos pour ajouter une recette ou la photo d'un plat.</string>
+	<key>NSRemindersFullAccessUsageDescription</key>
+	<string>La Popote ajoute ta liste de courses dans Rappels.</string>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>NSUserActivityTypes</key>
+	<array>
+		<string>net.dauernheim.popote.recipe</string>
+	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>DancingScript-Bold.ttf</string>
+		<string>Fraunces-SemiBold.ttf</string>
+		<string>Fraunces-ExtraBold.ttf</string>
+		<string>Nunito-Regular.ttf</string>
+		<string>Nunito-SemiBold.ttf</string>
+		<string>Nunito-Bold.ttf</string>
+		<string>Nunito-ExtraBold.ttf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+		<key>UIImageName</key>
+		<string>LaunchLemon</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

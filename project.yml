@@ -1,0 +1,119 @@
+name: Popote
+options:
+  bundleIdPrefix: net.dauernheim
+  deploymentTarget:
+    iOS: "26.0"
+  developmentLanguage: fr
+  createIntermediateGroups: true
+  groupSortPosition: top
+settings:
+  base:
+    DEVELOPMENT_TEAM: 8DR8DB9W22
+    CODE_SIGN_STYLE: Automatic
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+    SWIFT_EMIT_LOC_STRINGS: YES
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+packages:
+  Supabase:
+    url: https://github.com/supabase/supabase-swift
+    from: "2.55.0"
+targets:
+  Popote:
+    type: application
+    platform: iOS
+    sources:
+      - path: Popote
+      - path: Shared
+    dependencies:
+      - package: Supabase
+        product: Supabase
+      - target: PopoteWidgets
+        embed: true
+    entitlements:
+      path: Popote/Popote.entitlements
+      properties:
+        com.apple.security.application-groups: [group.net.dauernheim.popote]
+    info:
+      path: Popote/Info.plist
+      properties:
+        CFBundleDisplayName: La Popote
+        CFBundleDevelopmentRegion: fr
+        CFBundleLocalizations: [fr, en]
+        ITSAppUsesNonExemptEncryption: false
+        LSApplicationCategoryType: public.app-category.food-and-drink
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+          UIImageName: LaunchLemon
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UIAppFonts:
+          - DancingScript-Bold.ttf
+          - Fraunces-SemiBold.ttf
+          - Fraunces-ExtraBold.ttf
+          - Nunito-Regular.ttf
+          - Nunito-SemiBold.ttf
+          - Nunito-Bold.ttf
+          - Nunito-ExtraBold.ttf
+        NSSupportsLiveActivities: true
+        NSCameraUsageDescription: "La Popote utilise l'appareil photo pour photographier une recette ou un plat."
+        NSPhotoLibraryUsageDescription: "La Popote accède à tes photos pour ajouter une recette ou la photo d'un plat."
+        NSRemindersFullAccessUsageDescription: "La Popote ajoute ta liste de courses dans Rappels."
+        CFBundleURLTypes:
+          - CFBundleURLName: net.dauernheim.popote
+            CFBundleURLSchemes: [popote]
+        NSUserActivityTypes: [net.dauernheim.popote.recipe]
+        UIBackgroundModes: [fetch]
+        BGTaskSchedulerPermittedIdentifiers: [net.dauernheim.popote.refresh]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.dauernheim.popote
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        TARGETED_DEVICE_FAMILY: "1,2"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+  PopoteWidgets:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Widgets
+      - path: Shared
+    entitlements:
+      path: Widgets/Widgets.entitlements
+      properties:
+        com.apple.security.application-groups: [group.net.dauernheim.popote]
+    info:
+      path: Widgets/Info.plist
+      properties:
+        CFBundleDisplayName: La Popote
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.dauernheim.popote.widgets
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SKIP_INSTALL: YES
+  PopoteTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [PopoteTests]
+    dependencies:
+      - target: Popote
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: net.dauernheim.popote.tests
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  Popote:
+    build:
+      targets:
+        Popote: all
+        PopoteTests: [test]
+    test:
+      targets: [PopoteTests]
+      gatherCoverageData: false

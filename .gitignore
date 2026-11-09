@@ -1,0 +1,13 @@
+*.xcodeproj/
+build/
+DerivedData/
+.DS_Store
+*.xcuserstate
+xcuserdata/
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+*.ipa
+*.dSYM.zip
+.env
